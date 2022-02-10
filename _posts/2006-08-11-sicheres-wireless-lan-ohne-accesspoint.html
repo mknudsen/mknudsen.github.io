@@ -1,0 +1,85 @@
+---
+layout: post
+title: Sicheres Wireless-LAN ohne Accesspoint
+date: 2006-08-11 10:03:37.000000000 +02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags:
+- technik
+- tutorials
+meta:
+  _edit_last: '232009'
+author: martin
+---
+<p>Habe mir am 04.08.2006 "auf gut Glück" eine ziemlich billige Wireless-LAN PCI-Karte gekauft, was soviel heisst wie: Ich habe vorher nicht darauf geachtet ob mein Linux sie nativ unterstützt.</p>
+<p>Es kam was kommen musste, die Karte wird nicht nativ von <a href="http://www.ubuntulinux.org" title="Die offizielle Ubuntu-Seite">Ubuntu</a> 6.06.1 unterstützt und für mich viel das Emulieren eines Access-Points mit WPA2 via <a href="http://hostap.epitest.fi/hostapd/" title="IEEE 802.11 AP, IEEE 802.1X/WPA/WPA2/EAP/RADIUS Authenticator">Hostapd</a> leider flach.</p>
+<p>Trotzdem liess sich mit Hilfe vom <a href="http://ndiswrapper.sourceforge.net/" title="Die Homepage des NdisWrapper-Projekts">NdisWrapper</a> und <a href="http://openvpn.net/" title="Die Seite von OpenVPN">OpenVPN</a> ein funktionstüchtiges und sicheres WLAN zusammenschustern. Hier beschreibe ich kurz mein Vorgehen, falls jemand anders etwas ähnliches vorhat.</p>
+<p><!--more--><b>Ausgangssituation:</b></p>
+<ul>
+<li>Mein Laptop
+<ul>
+<li>Ubuntu 6.06.1 LTS</li>
+<li>Intel Corporation PRO/Wireless 2200BG (eth1)</li>
+</ul>
+</li>
+<li>Mein Server
+<ul>
+<li>Ubuntu 6.06.1 LTS</li>
+</ul>
+<ul>
+<li>Marvell Technology Group Ltd. 88w8335 [Libertas] 802.11b/g Wireless (wlan0)</li>
+<li>DSL an ppp0/eth0</li>
+<li>LAN an eth1</li>
+</ul>
+</li>
+</ul>
+<p><b>1. Installation der Windows-Treiber</b></p>
+<p>Nach der hier vorhandenen Anleitung habe ich ohne weitere Probleme die Treiber für die Marwell-Karte installieren können. Nach einem Neustart meldete mir <i>iwconfig </i>endlich, das eine WLAN-Karte vorhanden ist.</p>
+<p><b>2. Konfiguration der Karten</b></p>
+<p>Die schnöde Layer-2-Verbindung zwischen den Karten habe ich mit dem Ad-Hoc-Modus realisiert. Das ganze habe ich dann noch in die jeweiligen <i>/etc/network/interfaces</i> eingetragen. Hier der entsprechende Abschnitt aus der Netzwerkkonfiguration des Servers:</p>
+<blockquote><p><i>auto wlan0<br />
+iface wlan0 inet static<br />
+address 192.168.59.1<br />
+netmask 255.255.255.0<br />
+pre-up /sbin/iwconfig wlan0 mode ad-hoc channel 3 essid meinnetz<br />
+#Dies initialisiert das Ad-Hoc Netz auf Kanal 3 mit der essid "meinnetz"<br />
+#bevor das Interface hochgefahren wird ...<br />
+post-down /sbin/iwconfig wlan0 mode managed essid off<br />
+#... und dies "deaktivert" es wenn das Interface herunterfährt </i></p></blockquote>
+<p>Auf dem Laptop das selbe, nur mit anderem Interface, anderer Adresse und Weglassen der "auto"-Zeile (Weil ich das WLAN hier gerne von Hand aktivieren will).</p>
+<p><b>3. Einrichten von OpenVPN</b></p>
+<p>Ich habe mich hierbei größtenteils an das Tutorial von OpenVPN gehalten. Der generieren der Zertifikate kann etwas frickelig werden, ist aber mit den Scripten unter <i>/usr/share/doc/openvpn/examples/<a href="http://openvpn.net/easyrsa.html" title="A Guide to basic RSA Key Management">easy-rsa</a></i> nur halb so schlimm.</p>
+<p>Hier mal meine <i>/etc/openvpn/server.conf</i></p>
+<blockquote><p><i>port 443<br />
+proto tcp<br />
+#Diese Einstellungen erlauben uns nachher noch ein paar Tricks ;)<br />
+dev tun<br />
+ca ca.crt<br />
+cert server.crt<br />
+key server.key<br />
+dh dh1024.pem<br />
+server 10.8.0.0 255.255.255.192<br />
+ifconfig-pool-persist ipp.txt<br />
+keepalive 10 120<br />
+comp lzo<br />
+max-clients 1<br />
+#muss natürlich höher bei mehreren Clients!<br />
+persist-key<br />
+persis-tun<br />
+status openvpn-status-log<br />
+verb 3</i></p></blockquote>
+<p>Die Konfiguration des Laptops ist um einiges kleiner und simpler, daher führe ich die hier nicht nochmal auf. Wichtig ist hier vor allem die <i>redirect-gateway</i>-Option einzufügen, damit das Default-Gateway auf den Endpunkt des VPN umgeschaltet wird.</p>
+<p><b>4. Das Firewalling</b></p>
+<p>Hierfür benutze ich das IP-Tables Frontend <a href="http://shorewall.net/" title="Die Homepage von Shorewall">Shorewall</a>. Es erlaubt relativ kompfortables Aufsetzen komplexer Regelsätze und erfordert nur relativ wenig Einarbeitungszeit. Auf der Homepage des Projekts gibt es an sehr gute Tutorials.</p>
+<p>Persönlich habe ich in der <i>/etc/shorewall/zones</i> und der <i>/etc/shorewall/interfaces</i> zwei Zonen, eine für das WLAN und eine für das VPN definiert. Danach wird alles aus den beiden Zonen in der <i>/etc/shorewall/policy</i> pauschal verboten. Nun könnt ihr in der <i>/etc/shorewall/rules</i> Punkt für Punkt erlauben, was die Clients dürfen und was nicht.</p>
+<p>In meinem Fall habe ich aus dem WLAN lediglich ICMP/Ping und TCP/443 (unser OpenVPN-Port) auf den Server erlaubt. Ersteres hilft nur bei der Diagnose, kann aber eigentlich auch deaktiviert werden. Nun wollt ihr warscheinlich noch jedwege Verbindungen vom VPN in das Internet erlauben und eventuell noch den ein oder anderen Service auf eurem Server freischalten.</p>
+<p>Nach einem Neustart der Shorewall solltet ihr euch ohne Probleme via OpenVPN bei eurem Server anmelden und unbehelligt im Internet surfen können.</p>
+<p><b>5. VPN aus dem Internet</b></p>
+<p>Jetzt wo ihr schonmal OpenVPN eingerichtet habt, könnt ihr das ganze auch nutzen um in so gut wie jedem Netzwerk sicher zu kommunizieren. Setzt euch hierzu nur z.B. einen <a href="http://de.wikipedia.org/wiki/DynDNS#DynDNS_Services" title="Ein paar Anbieter dynamischen DNS">DynDNS</a>-Daemon auf und tragt die Adresse als sekundären Server in eure <i>client.conf</i> ein. Danach erlaubt in eurer /etc/shorewall/rules Verbindungen aus dem Internet auf TCP-Port 443 eurer Firewall.</p>
+<p>Da OpenVPN über SSL funktioniert und auchnoch auf den Standard-SSL Port geeicht ist, kommt ihr so an (fast) jedem Proxy* mühelos vorbei und bekommt eine direkte IP-Verbindung in das Internet.</p>
+<blockquote><p>* Diesen müsst ihr natürlich vorher auch in der <i>client.conf</i> via <i>http-proxy</i> setzen!</p></blockquote>
+
