@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 GOODREADS_FEED=$1
 gem install jekyll-import
