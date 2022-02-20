@@ -13,10 +13,10 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the site in the jekyll/builder container
       run: |
-        docker run \
+        echo docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash ./import-letterboxd.sh
     - name: Commit new content
       run: |
-        echo "hi, this is a test" >> ./test.md && git commit -am "new letterboxd content" && git push
+        echo "hi, this is a test" >> ./test.md && git config --global user.email "martin.knudsen@gmail.com" && git config --global user.name "Martin Knudsen" && git commit -am "new letterboxd content" && git push
 
