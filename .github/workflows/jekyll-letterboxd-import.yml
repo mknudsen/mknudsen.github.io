@@ -3,6 +3,8 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '30 23 * * *'
+    
+name: jekyll-letterbox-import
 
 jobs:
   build:
@@ -18,5 +20,5 @@ jobs:
         jekyll/builder:latest /bin/bash ./import-letterboxd.sh
     - name: Commit new content
       run: |
-        echo "hi, this is a test" >> ./test.md && git config --global user.email "martin.knudsen@gmail.com" && git config --global user.name "Martin Knudsen" && git commit -am "new letterboxd content" && git push
+        echo "hi, this is a test" >> ./test.md && git config --global user.email "martin.knudsen@gmail.com" && git config --global user.name "Martin Knudsen" && git add ./test.md && git commit -am "new letterboxd content" && git push
 
