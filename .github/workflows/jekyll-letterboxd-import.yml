@@ -18,5 +18,5 @@ jobs:
         jekyll/builder:latest /bin/bash ./import-letterboxd.sh
     - name: Commit new content
       run: |
-        git status -s
+        git commit -am "new letterboxd content" && git push
 
