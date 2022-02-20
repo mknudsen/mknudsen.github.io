@@ -16,4 +16,7 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash ./import-letterboxd.sh
+    - name: Commit new content
+      run: |
         git status -s
+
