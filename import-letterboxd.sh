@@ -1,5 +1,8 @@
 #!/bin/sh
 
+pwd
+ls
+
 gem install jekyll-import
 gem install safe_yaml
 ruby -r rubygems -e 'require "jekyll-import";
