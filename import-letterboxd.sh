@@ -7,9 +7,8 @@ set -euo pipefail
 #sed 's#open(source)#URI.open(source)#' "$(bundle show jekyll-import)"/lib/jekyll-import/importers/rss.rb
 #cat "$(bundle show jekyll-import)"/lib/jekyll-import/importers/rss.rb
 
-uname -a
 
-apt -y install curl
+apk add curl
 
 curl -v "https://letterboxd.com/kndsn/rss/" 
 
