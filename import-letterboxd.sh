@@ -10,12 +10,14 @@ set -euo pipefail
 
 apk add curl
 
-curl -v "https://letterboxd.com/kndsn/rss/" 
-
-exit 0
+curl -o my_file.xml "https://letterboxd.com/kndsn/rss/" 
 
 ruby -w -r rubygems -e 'require "jekyll-import";
     JekyllImport::Importers::RSS.run({
-      "source" => "https://letterboxd.com/kndsn/rss/",
-      "tag" => "movies"
+      "source" => "my_file.xml"
     })'
+    
+#ruby -w -r rubygems -e 'require "jekyll-import";
+#    JekyllImport::Importers::RSS.run({
+#      "source" => "https://letterboxd.com/kndsn/rss/"
+#    })'
