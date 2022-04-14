@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-# bundle install
+bundle install
 
 #sed 's#open(source)#URI.open(source)#' "$(bundle show jekyll-import)"/lib/jekyll-import/importers/rss.rb
 #cat "$(bundle show jekyll-import)"/lib/jekyll-import/importers/rss.rb
