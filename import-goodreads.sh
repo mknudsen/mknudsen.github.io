@@ -1,10 +1,20 @@
 #!/bin/bash
 
+#!/bin/bash
+
+set -euo pipefail
+
+bundle install
+
+# for some reason setting "source" => '$GOODREADS_FEED' fails at retrieving in
+# github actions although it works locally so I download the feed manually
+apk add curl
 GOODREADS_FEED=$1
-gem install jekyll-import
-gem install safe_yaml
+curl -o goodreads.xml "$GOODREADS_FEED"
+
 ruby -r rubygems -e 'require "jekyll-import";
     JekyllImport::Importers::RSS.run({
-      "source" => "'${GOODREADS_FEED}'",
+      "source" => "goodreads.xml",
       "tag" => "books"
     })'
+
