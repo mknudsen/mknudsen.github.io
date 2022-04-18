@@ -23,7 +23,7 @@ twitter_username: theknudsen
 github_username: mknudsen
 linkedin_username: dermartinknudsen
 youtube_username: jerryfletcher
-google_analytics: UA-12320242-1
+#google_analytics: UA-12320242-1
 # Build settings
 markdown: kramdown
 theme: minima
