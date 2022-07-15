@@ -29,21 +29,6 @@ markdown: kramdown
 theme: minima
 #plugins:
 #  - jekyll-feed
-gems:
-  - jekyll-paginate-v2
-
-pagination:
-  enabled: true
-  per_page: 100 
-  offset: 2
-  permalink: '/page/:num/'
-  title: ':title - page :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
- 
-permalink: /:year/:month/:title.html
- 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
