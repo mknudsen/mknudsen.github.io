@@ -27,7 +27,7 @@ youtube_username: jerryfletcher
 # Build settings
 markdown: kramdown
 theme: minima
-#plugins:
+plugins:
   - jekyll-paginate-v2
 #  - jekyll-feed
 
