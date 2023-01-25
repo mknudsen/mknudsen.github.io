@@ -16,11 +16,6 @@
             document.location.reload();
         });
 
-        $('#makeAccurate').live('click', function() {
-            getAccurateMaxSizePerDomain();
-            return false;
-        });
-
         $('#executeCount').click(function() {
             var number = Number($('#repeat').val());
             var c = $('#character').val();
