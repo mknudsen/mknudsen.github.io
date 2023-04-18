@@ -48,7 +48,9 @@ output_feed = RSS::Maker.make('2.0') do |maker|
       item.title = "achievements on #{day.strftime('%d.%m.%Y')}"
       item.content_encoded = "<ul>"
       calendar_days_to_items[day].each do |achievement|
-        item.content_encoded += "<li><a href='#{achievement.guid.content}'>#{achievement.title}</a></li>"
+        # see https://www.trueachievements.com/forum/viewthread.aspx?tid=1463482 if fixed
+        fixed_title = achievement.title.sub('StudentLangustestarted', 'StudentLanguste started')
+        item.content_encoded += "<li><a href='#{achievement.guid.content}'>#{fixed_title}</a></li>"
       end
       item.content_encoded += "</ul>"
       item.pubDate = day.to_s
