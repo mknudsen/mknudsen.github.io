@@ -1,0 +1,60 @@
+---
+layout: page
+title: Xbox Backwards Compatible Games
+date: 2010-01-22 16:51:58.000000000 +01:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+author: martin
+---
+
+<table>
+  <tr>
+    <th>
+      Game
+    </th>
+    <th>
+      Format
+    </th>
+    <th>
+      Medimops
+    </th>
+    <th>
+      eBay
+    </th>
+  </tr>
+  {% for game in site.data.xbox360 %}
+  {% assign search_term = game.Title | downcase | append: ' xbox' %}
+  <tr>
+    <td>
+      {{ game.Title }} 
+    </td>
+    <td>
+      {{ game.Format }} 
+    </td>
+    <td>
+      <a 
+      href="https://www.medimops.de/produkte-C0/?fcIsSearch=1&searchparam={{ search_term | url_encode }}" 
+      hreflang="de">
+        Buy on medimops
+      </a>
+    </td>
+    <td>
+      <a 
+      href="https://www.ebay.de/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw={{ search_term | url_encode }}&_sacat=0&LH_TitleDesc=0&_odkw={{ search_term | url_encode }}&_osacat=0" 
+      hreflang="de">
+        Buy on eBay
+      </a>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+<p>Based on <a href="https://en.wikipedia.org/wiki/List_of_backward-compatible_games_for_Xbox_One_and_Series_X/S">List of backward-compatible games for Xbox One and Series X/S</a> in Wikipedia</p>
+
+<p>Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+    additional terms may apply. </p>
