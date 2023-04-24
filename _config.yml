@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: linkhal.de
-email: martin.knudsen@linkhal.de
 description: >- # this means to ignore newlines until "baseurl:"
  a collection of links, a linkhalde.
 #baseurl: "" # the subpath of your site, e.g. /blog
@@ -23,10 +22,17 @@ twitter_username: theknudsen
 github_username: mknudsen
 linkedin_username: dermartinknudsen
 youtube_username: jerryfletcher
+author:
+ name: Martin Knudsen
+ email: author@linkhal.de
+
 #google_analytics: UA-12320242-1
 # Build settings
 markdown: kramdown
 theme: minima
+minima:
+   skin: dark
+   date_format: "%b %-d, %Y"
 plugins:
   - jekyll-paginate
 
