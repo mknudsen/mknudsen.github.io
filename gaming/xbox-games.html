@@ -1,21 +1,22 @@
 ---
 layout: page
 title: Xbox Backwards Compatible Games
-date: 2010-01-22 16:51:58.000000000 +01:00
 type: page
-parent_id: '0'
 published: true
-password: ''
-status: publish
-categories: []
-tags: []
 author: martin
 ---
 
-<p>This is basically the list from Wikipedia, with a few helpful links to look for the games on various secondhand gaming sites.
-</p>
+<p>This is basically the list from Wikipedia, with a few helpful links to look for the games on various secondhand gaming sites. I am not affiliated with any of the linked websites and earn no money from purchases.</p>
 
 <script type="text/javascript">
+    /*
+    TODOs:
+
+    - navigating back to this page keeps filter term but does not apply it
+    - translate roman numerals to arabic ones and vice versa for eBay or-search
+    - every other line being gray looks weird
+    - add rebuy
+    */
     function updateTable(){
         let term = document.querySelector("#titleSearch").value;
 
@@ -46,31 +47,25 @@ author: martin
 <div>
 <table class="games">
     <tr>
-        <th>
-            Game
-        </th>
-        <th>
-            Format
-        </th>
-        <th>
-            Medimops
-        </th>
-        <th>
-            eBay
-        </th>
+        <th>Game</th>
+        <th>Medimops</th>
+        <th>eBay</th>
+        <th>Format</th>
     </tr>
     {% for game in site.data.xbox360 %}
     {% assign search_term = game.Title | downcase | append: ' xbox' %}
     <tr>
         <td class="game-title">{{ game.Title }}</td>
-        <td>{{ game.Format }}</td>
-        <td><a href="https://www.medimops.de/produkte-C0/?fcIsSearch=1&amp;searchparam={{ search_term | url_encode }}" hreflang="de">Buy on medimops</a></td>
+        <td>
+            <a href="https://www.medimops.de/produkte-C0/?fcIsSearch=1&amp;searchparam={{ search_term | url_encode }}" hreflang="de">Buy on medimops</a>
+        </td>
         <td>
             <a href="https://www.ebay.de/sch/i.html?_nkw={{ search_term | url_encode }}&amp;_sacat=0&amp;LH_TitleDesc=0&amp;_odkw={{ search_term | url_encode }}&amp;_osacat=0"
-                hreflang="de">
-            Buy on eBay
-            </a>
+                hreflang="de">eBay.de</a><br/>
+            <a href="https://www.ebay.co.uk/sch/i.html?_nkw={{ search_term | url_encode }}&amp;_sacat=0&amp;LH_TitleDesc=0&amp;_odkw={{ search_term | url_encode }}&amp;_osacat=0"
+               hreflang="de">eBay.uk</a>
         </td>
+        <td>{{ game.Format }}</td>
     </tr>
     {% endfor %}
 </table>
