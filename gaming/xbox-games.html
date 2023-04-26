@@ -1,0 +1,82 @@
+---
+layout: page
+title: Xbox Backwards Compatible Games
+date: 2010-01-22 16:51:58.000000000 +01:00
+type: page
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+author: martin
+---
+
+<p>This is basically the list from Wikipedia, with a few helpful links to look for the games on various secondhand gaming sites.
+</p>
+
+<script type="text/javascript">
+    function updateTable(){
+        let term = document.querySelector("#titleSearch").value;
+
+        document.querySelectorAll("table.games tr")
+            .forEach(function(row){
+                let title = row.querySelector('.game-title')
+
+                if (title){
+                    if (title && title.textContent.toUpperCase().includes(term.toUpperCase())){
+                        console.log("matches " + title.textContent);
+                        row.style.display = 'table-row';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                }
+        });
+        return false;
+    }
+</script>
+
+<div>
+    <form onsubmit="return updateTable()">
+        <label for="titleSearch">Filter title</label>
+        <input id="titleSearch" type="text" onkeyup="updateTable()">
+    </form>
+</div>
+
+<div>
+<table class="games">
+    <tr>
+        <th>
+            Game
+        </th>
+        <th>
+            Format
+        </th>
+        <th>
+            Medimops
+        </th>
+        <th>
+            eBay
+        </th>
+    </tr>
+    {% for game in site.data.xbox360 %}
+    {% assign search_term = game.Title | downcase | append: ' xbox' %}
+    <tr>
+        <td class="game-title">{{ game.Title }}</td>
+        <td>{{ game.Format }}</td>
+        <td><a href="https://www.medimops.de/produkte-C0/?fcIsSearch=1&amp;searchparam={{ search_term | url_encode }}" hreflang="de">Buy on medimops</a></td>
+        <td>
+            <a href="https://www.ebay.de/sch/i.html?_nkw={{ search_term | url_encode }}&amp;_sacat=0&amp;LH_TitleDesc=0&amp;_odkw={{ search_term | url_encode }}&amp;_osacat=0"
+                hreflang="de">
+            Buy on eBay
+            </a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+</div>
+
+<p>Based on <a href="https://en.wikipedia.org/wiki/List_of_backward-compatible_games_for_Xbox_One_and_Series_X/S">List of backward-compatible games for Xbox One and Series X/S</a> in Wikipedia</p>
+
+<p>Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+    additional terms may apply. </p>
