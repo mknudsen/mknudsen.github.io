@@ -8,35 +8,6 @@ author: martin
 
 <p>This is basically the list from Wikipedia, with a few helpful links to look for the games on various secondhand gaming sites. I am not affiliated with any of the linked websites and earn no money from purchases.</p>
 
-<script type="text/javascript">
-    /*
-    TODOs:
-
-    - navigating back to this page keeps filter term but does not apply it
-    - translate roman numerals to arabic ones and vice versa for eBay or-search
-    - every other line being gray looks weird
-    - add rebuy
-    */
-    function updateTable(){
-        let term = document.querySelector("#titleSearch").value;
-
-        document.querySelectorAll("table.games tr")
-            .forEach(function(row){
-                let title = row.querySelector('.game-title')
-
-                if (title){
-                    if (title && title.textContent.toUpperCase().includes(term.toUpperCase())){
-                        console.log("matches " + title.textContent);
-                        row.style.display = 'table-row';
-                    } else {
-                        row.style.display = 'none';
-                    }
-                }
-        });
-        return false;
-    }
-</script>
-
 <div>
     <form onsubmit="return updateTable()">
         <label for="titleSearch">Filter title</label>
@@ -79,3 +50,37 @@ author: martin
 
 <p>Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
     additional terms may apply. </p>
+
+<script defer>
+    /*
+    TODOs:
+
+    - navigating back to this page keeps filter term but does not apply it
+    - translate roman numerals to arabic ones and vice versa for eBay or-search
+    - every other line being gray looks weird
+    - add rebuy
+    */
+
+    const games = new Map();
+
+    document.querySelectorAll("table.games tr .game-title").forEach(function(td){
+        let term = td.textContent.toLowerCase();
+        games.set(term, td.parentElement);
+    });
+
+    function updateTable(){
+        let term = document.querySelector("#titleSearch").value;
+        let lower = term.toLowerCase();
+
+        for(const key of games.keys()){
+            let row = games.get(key);
+            if (key.includes(lower)){
+                row.style.display = 'table-row';
+            } else {
+                row.style.display = 'none';
+            }
+        }
+
+        return false;
+    }
+</script>
