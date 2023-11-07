@@ -6,4 +6,4 @@ published: true
 ---
 
 
-https://www.whatismybrowser.com/detect/what-is-my-referrer
+[What is my referrer?](https://www.whatismybrowser.com/detect/what-is-my-referrer)
