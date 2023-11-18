@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## A Coder Considers the Waning Days of the Craft
 
