@@ -8,14 +8,11 @@ author: martin
 
 <p>This is basically the list from Wikipedia, with a few helpful links to look for the games on various secondhand gaming sites. I am not affiliated with any of the linked websites and earn no money from purchases.</p>
 
-<div>
-    <form onsubmit="return updateTable()">
-        <label for="titleSearch">Filter title</label>
-        <input id="titleSearch" type="text" onkeyup="updateTable()">
-    </form>
-</div>
+<form onsubmit="return updateTable()">
+    <label for="titleSearch">Filter title</label>
+    <input id="titleSearch" type="text" onkeyup="updateTable()">
+</form>
 
-<div>
 <table class="games">
     <tr>
         <th>Game</th>
@@ -23,13 +20,14 @@ author: martin
         <th>Medimops</th>
         <th>eBay</th>
         <th>Format</th>
+        <th>Platform</th>
     </tr>
     {% for game in site.data.xbox360 %}
     {% assign search_term = game.Title | downcase | append: ' xbox' %}
     <tr>
         <td class="game-title">{{ game.Title }}</td>
         <td>
-            <a href="https://www.youtube.com/results?search_query={{ search_term | append: " backwards (compatibility OR compatible)" | url_encode }}">YouTube</a>
+            <a href='https://www.youtube.com/results?search_query={{ search_term | append: " backwards (compatibility OR compatible)" | url_encode }}'>YouTube</a>
         </td>
         <td>
             <a href="https://www.medimops.de/produkte-C0/?fcIsSearch=1&amp;searchparam={{ search_term | url_encode }}" hreflang="de">Buy on medimops</a>
@@ -41,10 +39,31 @@ author: martin
                hreflang="en">eBay.uk</a>
         </td>
         <td>{{ game.Format }}</td>
+        <td>Xbox 360</td>
+    </tr>
+    {% endfor %}
+    
+    {% for game in site.data.xbox %}
+    {% assign search_term = game.Title | downcase | append: ' xbox' %}
+    <tr>
+        <td class="game-title">{{ game.Title }}</td>
+        <td>
+            <a href='https://www.youtube.com/results?search_query={{ search_term | append: " backwards (compatibility OR compatible)" | url_encode }}'>YouTube</a>
+        </td>
+        <td>
+            <a href="https://www.medimops.de/produkte-C0/?fcIsSearch=1&amp;searchparam={{ search_term | url_encode }}" hreflang="de">Buy on medimops</a>
+        </td>
+        <td>
+            <a href="https://www.ebay.de/sch/i.html?_nkw={{ search_term | url_encode }}&amp;_sacat=0&amp;LH_TitleDesc=0&amp;_odkw={{ search_term | url_encode }}&amp;_osacat=0"
+                hreflang="de">eBay.de</a><br/>
+            <a href="https://www.ebay.co.uk/sch/i.html?_nkw={{ search_term | url_encode }}&amp;_sacat=0&amp;LH_TitleDesc=0&amp;_odkw={{ search_term | url_encode }}&amp;_osacat=0"
+               hreflang="en">eBay.uk</a>
+        </td>
+        <td>{{ game.Format }}</td>
+        <td>Xbox</td>
     </tr>
     {% endfor %}
 </table>
-</div>
 
 <p>Based on <a href="https://en.wikipedia.org/wiki/List_of_backward-compatible_games_for_Xbox_One_and_Series_X/S">List of backward-compatible games for Xbox One and Series X/S</a> in Wikipedia</p>
 
