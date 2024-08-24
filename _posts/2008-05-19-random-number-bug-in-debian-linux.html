@@ -1,0 +1,23 @@
+---
+layout: post
+title: Random Number Bug in Debian Linux
+date: 2008-05-19 12:07:59.000000000 +02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags:
+- greader-import
+meta: {}
+author: martin
+---
+<blockquote>
+<p>This is a big deal: On May 13th, 2008 the Debian project announced that Luciano Bello found an interesting vulnerability in the OpenSSL package they were distributing. The bug in question was caused by the removal of the following line of code from md_rand.c<br />
+	MD_Update(&#038;m,buf,j);<br />
+	[ .. ]<br />
+	MD_Update(&#038;m,buf,j); /* purify complains */<br />
+ These lines were removed because they caused the Valgrind and Purify tools to produce warnings about the use of uninitialized data in any code that was linked to Op[...]</p>
+</blockquote>
+<p> via <a href="https://www.schneier.com/blog/archives/2008/05/random_number_b.html">Random Number Bug in Debian Linux</a></p>
