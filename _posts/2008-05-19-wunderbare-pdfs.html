@@ -1,0 +1,68 @@
+---
+layout: post
+title: Wunderbare PDFs ...
+date: 2008-05-19 06:50:10.000000000 +02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags:
+- gscan2pdf
+- linux
+- ocr
+- oss
+- tesseract
+- tesseract-ocr
+- ubuntu
+meta:
+  _edit_last: '1'
+author: martin
+---
+<p>... stellt <a href="http://gscan2pdf.sourceforge.net">gscan2pdf</a> unter Linux her. Das Frontend vereint viele vorhandene Funktionen rund um das Digitalisieren von Dokumenten unter einer einfach zu bedienenden Oberfläche. Unter <a href="https://ubuntu.com/download/desktop">Ubuntu Hardy Heron</a> lässt sich das ganze mit dem Befehl <code>sudo aptitude -r install gscan2pdf</code> mit allen Featueres installieren. Nun lassen sich die Seiten via <a href="https://github.com/tesseract-ocr/">tesseract</a>-<a href="http://de.wikipedia.org/wiki/Texterkennung">ocr</a> in Text umwandeln. Das funktioniert zwar nicht fehlerfrei, reicht aber zum wiederfinden der Dateien mit Desktopsuchmaschinen wie Tracker.</p>
+<p>*update*</p>
+<p>Hier mal ein Beispiel um sich ein Bild von der Erkennungsqualität von Tesseract zu machen.</p>
+<p>Quelle:<br />
+<img class="alignnone size-medium wp-image-177" title="beispielscan" src="{{ site.baseurl }}/assets/beispielscan.jpg?w=212" alt="beispielscan" width="212" height="300" /></p>
+<p><!--more--></p>
+<p>Erkannter Text:</p>
+<blockquote><p>Close Window<br />
+Print Stog<br />
+O<br />
+java Feature — Inheritance<br />
+O O I<br />
+H1erarch1es 1n JPA<br />
+The persistence model introduced in EJB 3.0 as a replacement for entity<br />
+beans is known as the Java Persistence API (JPA). The JPA borrows from both<br />
+proprietary and open source models, such as Oracle TopLink, Hibernate,<br />
+Spring, and other frameworks, which have gained traction as popular<br />
+alternatives to the often heavyweight and cumbersome persistence directives<br />
+required by earlier EJB revisions. Among the new features introduced in EJB<br />
+3.0 through theJPA is support for entity inheritance. In this article, we will<br />
+examine inheritance strategies supported by theJPA and apply these<br />
+strategies to a simple entity hierarchy, exploring the strengths and<br />
+weaknesses of each approach. This comparison is intended to help you<br />
+understand how to set up entity hierarchies, and to decide which mapping<br />
+approach to take for the entity hierarchies in your own application.<br />
+Mapping ]PA Entity Inheritance    , ., . .     , ....<br />
+Hierarchies _ _ __ _ [_ _<br />
+java has supported single-class inheritance - in W I    Q *<br />
+which a non—interface class can extend a single Vty  _ . — ¢<br />
+other class - since its inception. While it's been  . `<br />
+common practice to exploit the code reuse and<br />
+polymorphism benefits of inheritance in many 2 ¤<br />
+areas of the business domain, data inheritance<br />
+hasn't been well handled in the EJB persistence domain until now. This has<br />
+been a major shortcoming, since in the real world, data is often hierarchical,<br />
+and the lack of standard, built-in support for the inheritance of data objects<br />
+has required countless workarounds and headaches. Leveraging the ease of<br />
+use of Java SE annotations, JPA delivers declarative support for defining and<br />
+mapping entity inheritance hierarchies, including abstract entities and<br />
+polymorphic relationships and queries.<br />
+]PA Entity Inheritance Mapping Strategies<br />
+JPA provides declarative support for three main implementation strategies<br />
+that dictate how the entities in a hierarchy map to underlying tables. To<br />
+illustrate how these three strategies are manifested in code, Figure 1 shows a<br />
+sample entity hierarchy that demonstrates both inheritance and polymorphic<br />
+5 26.05.2OOS</p></blockquote>
