@@ -8,8 +8,9 @@ author: martin
 permalink: /sharing/
 ---
 
-<input type="button" value="share link" onclick="navigator.share({'url':'https://linkhal.de/sharing?linkonly'})">
-<input type="button" value="share text" onclick="navigator.share({'text':'linkhalde textonly'})">
-<input type="button" value="share link and text" onclick="navigator.share({'url':'https://linkhal.de/sharing?linkonly', text:'linkhalde link and text'})">
-<input type="button" value="share link and title" onclick="navigator.share({'url':'https://linkhal.de/sharing?linkonly', title:'linkhalde link and title'})">
+<p>Demo for <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share">Navigator: share() method</a></p>
 
+<input type="button" value="share {'url':'https://linkhal.de/sharing?linkonly'}" onclick="navigator.share({'url':'https://linkhal.de/sharing?linkonly'})">
+<input type="button" value="share {'text':'linkhalde textonly'}" onclick="navigator.share({'text':'linkhalde textonly'})">
+<input type="button" value="share {'url':'https://linkhal.de/sharing?linkandtext', text:'linkhalde link and text'}" onclick="navigator.share({'url':'https://linkhal.de/sharing?linkandtext', text:'linkhalde link and text'})">
+<input type="button" value="share {'url':'https://linkhal.de/sharing?linkandtitle', title:'linkhalde link and title'}" onclick="navigator.share({'url':'https://linkhal.de/sharing?linkandtitle', title:'linkhalde link and title'})">
