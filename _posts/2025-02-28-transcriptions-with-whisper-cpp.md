@@ -1,4 +1,9 @@
-If you want to do audio transcriptions on your machine, here is a bunch of scripts that show how to do it.
+---
+layout: post
+title: "Local audio transcriptions with whisper-cpp"
+--
+
+If you want to do audio transcriptions on your machine, here is a bunch of scripts that show how to do it with [whisper-cpp](https://github.com/ggerganov/whisper.cpp).
 
 I found the transcription results to be better than what youtube et al generate automatically. On my M1 MacBook Air the transcription is mostly faster than real time.
 
