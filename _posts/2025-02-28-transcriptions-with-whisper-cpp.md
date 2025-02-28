@@ -36,10 +36,10 @@ base_name="$(basename "$input_file" | sed -E 's/[^a-zA-Z0-9]//g')"
 output_file="${base_name}.wav"
 
 # Run FFmpeg command
-ffmpeg -i "$input_file" -ac 1 -ar 16000 "$output_file"whisper-
+ffmpeg -i "$input_file" -ac 1 -ar 16000 "$output_file"
 ```
 
-transcribe.sh:
+whisper-transcribe.sh:
 ```bash
 #!/bin/bash
 
