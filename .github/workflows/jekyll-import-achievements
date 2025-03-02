@@ -1,0 +1,29 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 22 * * *'
+
+name: jekyll-achievements-import
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.4.1'
+          bundler-cache: true
+          cache-version: 0
+      - name: Run Import Script
+        run: |
+          chmod +x ./import-achievements.sh
+          ./import-achievements.sh
+      - name: Commit new content
+        run: |
+          git config --global user.email "martin.knudsen@gmail.com"
+          git config --global user.name "Martin Knudsen"
+          git add ./_posts/*
+          git commit -am "new achievement content" && git push || echo "Nothing to import."
