@@ -8,30 +8,28 @@ feed_urls = [
   'https://www.truetrophies.com/friendfeedrss.aspx?gamerid=767394'
 ]
 
-url = 'https://httpbin.io/headers'
-response = URI.open(url).read
-
-puts response
-
-calendar_days_to_items = Hash.new
+calendar_days_to_items = Hash.new { |hash, key| hash[key] = [] }
 
 feed_urls.each do |url|
-  # Use curl to fetch the feed
-  system("curl -s -A 'mknudsen.github.io' -o feed.xml #{url}")
+  begin
+    URI.open(url, "User-Agent" => "mknudsen.github.io") do |rss|
+      content = rss.read
+      feed = RSS::Parser.parse(content, false)
 
-  # Parse the downloaded feed
-  feed = RSS::Parser.parse(File.open('feed.xml'))
+      if feed.nil? || feed.items.nil?
+        puts "Failed to parse feed from #{url}: Response is not a valid RSS feed."
+        next
+      end
 
-  File.delete('feed.xml')
-
-  # map all the items to their calendar day
-  feed.items.each do |item|
-    day = item.pubDate.to_date
-    if calendar_days_to_items[day]
-      calendar_days_to_items[day] = calendar_days_to_items[day] + [item] 
-    else
-      calendar_days_to_items[day] = [item]
+      feed.items.each do |item|
+        day = item.pubDate.to_date
+        calendar_days_to_items[day] << item
+      end
     end
+  rescue OpenURI::HTTPError => e
+    puts "HTTP error fetching feed from #{url}: #{e.message}"
+  rescue => e
+    puts "Failed to fetch or parse feed from #{url}: #{e.message}"
   end
 end
 

@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: '30 22 * * *'
 
+name: jekyll-achievements-import
+
 permissions:
   contents: write
 
@@ -22,6 +24,7 @@ jobs:
         run: |
           curl -v "https://httpbin.io/headers"
           bundle exec ruby ./aggregate_achievements_feeds.rb
+          cat achievements.xml
       - name: Commit new content
         run: |
           git config --global user.email "martin.knudsen@gmail.com"
