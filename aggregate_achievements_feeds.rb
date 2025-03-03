@@ -3,7 +3,6 @@ require 'date'
 require 'open-uri'
 
 feed_urls = [
-  'https://linkhal.de/feed',
   'https://www.trueachievements.com/friendfeedrss.aspx?gamerid=1108778',
   'https://truesteamachievements.com/friendfeedrss.aspx?gamerid=109330',
   'https://www.truetrophies.com/friendfeedrss.aspx?gamerid=767394'
