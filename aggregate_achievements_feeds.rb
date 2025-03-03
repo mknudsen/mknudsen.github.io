@@ -8,6 +8,11 @@ feed_urls = [
   'https://www.truetrophies.com/friendfeedrss.aspx?gamerid=767394'
 ]
 
+url = 'https://httpbin.io/headers'
+response = URI.open(url).read
+
+puts response
+
 calendar_days_to_items = Hash.new
 
 feed_urls.each do |url|

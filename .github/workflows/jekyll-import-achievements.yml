@@ -20,6 +20,7 @@ jobs:
           cache-version: 0
       - name: Run Import Script
         run: |
+          curl -v "https://httpbin.io/headers"
           bundle exec ruby ./aggregate_achievements_feeds.rb
       - name: Commit new content
         run: |
