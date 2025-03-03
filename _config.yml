@@ -23,6 +23,7 @@ url: "https://linkhal.de/" # the base hostname & protocol for your site, e.g. ht
 github_username: mknudsen
 linkedin_username: dermartinknudsen
 youtube_username: jerryfletcher
+instagram_username: martin.kndsn
 #google_analytics: UA-12320242-1
 # Build settings
 markdown: kramdown
