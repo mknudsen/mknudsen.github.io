@@ -25,6 +25,7 @@ jobs:
           curl -v "https://httpbin.io/headers"
           bundle exec ruby ./aggregate_achievements_feeds.rb
           cat achievements.xml
+          bundle exec jekyll-import rss --source ./achievements.xml --tag achievements
       - name: Commit new content
         run: |
           git config --global user.email "martin.knudsen@gmail.com"

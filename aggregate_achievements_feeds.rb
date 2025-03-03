@@ -27,9 +27,9 @@ feed_urls.each do |url|
       end
     end
   rescue OpenURI::HTTPError => e
-    puts "HTTP error fetching feed from #{url}: #{e.message}"
+    puts "HTTP error fetching feed from #{url} : #{e.message}"
   rescue => e
-    puts "Failed to fetch or parse feed from #{url}: #{e.message}"
+    puts "Failed to fetch or parse feed from #{url} : #{e.message}"
   end
 end
 
