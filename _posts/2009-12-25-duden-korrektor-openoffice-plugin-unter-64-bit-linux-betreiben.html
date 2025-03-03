@@ -1,0 +1,33 @@
+---
+layout: post
+title: Duden Korrektor Openoffice-Plugin unter 64 Bit Linux betreiben - nicht.
+date: 2009-12-25 10:39:38.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags:
+- 64-bit
+- duden
+- karmic
+- korrektor
+- linux
+- openoffice
+- rechtschreibprüfung
+- technik
+- tutorials
+- ubuntu
+meta:
+  _edit_last: '1'
+author: martin
+redirect_from:
+  - /blog/tag/duden/
+---
+<p><strong><span style="color: #ff0000;">Korrektur: <span style="font-weight: normal;">Die unten angegebene Methode ist leider doch nicht das gelbe vom Ei. Zwar installiert das Plugin ohne Fehler, die Symbolleiste wird in OpenOffice angezeigt, jedoch ist die Rechtschreibprüfung immernoch die von Openoffice. Grammatikprüfung findet ebenfalls nicht statt. Wenn irgendjemand einen guten Tipp hat, immer her damit. Soweit ich sehe, ist die Software komplett in Java geschrieben und </span></span></strong><em><span style="color: #ff0000;">sollte</span></em><span style="color: #ff0000;"> laufen, tut es aber nicht. Zu schade.</span></p>
+<p>Der <a href="http://www.duden.de/deutsche_sprache/detail.php?nid=113&amp;isbn=978-3-411-06789-3">Duden Korrektor für Openoffice und Staroffice</a> läuft, auch in der aktuellen Version 6.0, nicht ohne weiters unter 64 Bit-Versionen von Linux.</p>
+<p>Um der Openoffice-Erweiterung von Duden 64-Bit "beizubringen" muss, wie unter <a href="http://www.amazon.de/review/R32OMZPWUIXPXD">diesem Kommentar</a> beschrieben, lediglich das Installationarchiv leicht angepasst werden. Mit einem ZIP-fähigem Archivmanager muss die Datei <code>description.xml</code> im Wurzelverzeichnis der Datei <code>duden-korrektor-openoffice.oxt</code> angepasst werden.</p>
+<p>Das Attribut <code>value</code> des Elements <code>platform</code> muss angepasst werden. Aus dem dortigen <code>&lt;platform value="linux_x86" /&gt;</code> macht man einfach ein <code>&lt;platform value="all" /&gt;</code>. Damit lässt sich die Erweiterung auch unter 64-Bit Systemen installieren.</p>
+<p>Einen weiteres Problem hatte ich, als Openoffice bei der Installation der Erweiterung das fehlen einer Java-Bibliothek namens <code>LuceneHelpWrapper.jar</code> bemängelte. Unter Ubuntu Karmic hilft, so <a href="http://lodahl.blogspot.com/2009/09/export-to-freemind-part-iii.html?showComment=1253277902486#c5299196304814716050">dieser Kommentar</a>, das Installieren des Paketes <code>openoffice-java-common</code>.</p>
+<p>Soweit ich sagen kann läuft der Duden Korrektor für Openoffice mit etwas Hilfe auch unter 64 Bit-Systemen fehlerfrei. Ob dies auch unter Windows ein Problem ist bzw. der Lösungsansatz dort auch funktioniert kann ich, mangels Testsystem, nicht sagen.</p>
