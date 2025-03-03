@@ -115,6 +115,8 @@ GEM
       nokogiri
     rexml (3.4.1)
     rouge (4.5.1)
+    rss (0.3.1)
+      rexml
     safe_yaml (1.0.5)
     sass-embedded (1.85.1-aarch64-linux-gnu)
       google-protobuf (~> 4.29)
@@ -157,6 +159,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-sitemap
   minima
+  rss
 
 BUNDLED WITH
    2.5.22
