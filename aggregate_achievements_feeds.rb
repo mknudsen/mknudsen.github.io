@@ -1,5 +1,6 @@
 require 'rss'
 require 'date'
+require 'open-uri'
 
 feed_urls = [
   'https://www.trueachievements.com/friendfeedrss.aspx?gamerid=1108778',
@@ -11,7 +12,7 @@ calendar_days_to_items = Hash.new
 
 feed_urls.each do |url|
 
-  feed = RSS::Parser.parse(url)
+  feed = RSS::Parser.parse(URI.open(url, "User-Agent" => "mknudsen.github.io"))
 
   # map all the items to their calendar day
   feed.items.each do |item|
