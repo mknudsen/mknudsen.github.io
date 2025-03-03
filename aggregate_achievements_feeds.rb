@@ -11,8 +11,13 @@ feed_urls = [
 calendar_days_to_items = Hash.new
 
 feed_urls.each do |url|
+  # Use curl to fetch the feed
+  system("curl -s -A 'mknudsen.github.io' -o feed.xml #{url}")
 
-  feed = RSS::Parser.parse(URI.open(url, "User-Agent" => "mknudsen.github.io"))
+  # Parse the downloaded feed
+  feed = RSS::Parser.parse(File.open('feed.xml'))
+
+  File.delete('feed.xml')
 
   # map all the items to their calendar day
   feed.items.each do |item|
