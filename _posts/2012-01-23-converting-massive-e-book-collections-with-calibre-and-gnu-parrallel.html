@@ -1,0 +1,29 @@
+---
+layout: post
+title: Converting massive e-book-collections with Calibre and GNU Parrallel
+date: 2012-01-23 12:21:20.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags:
+- calibre
+- conversion
+- e-books
+- gnu parallel
+- parallel
+- spotlight
+meta:
+  _edit_last: '1'
+author: martin
+redirect_from:
+ - /blog/2012/01/converting-massive-e-book-collections-with-calibre-and-gnu-parrallel/ 
+---
+<p><a title="Calibre homepage" href="http://calibre-ebook.com/">Calibre</a> deals well with massive e-book collections, but it does not offer full text search (as far as I know). If you are on a Mac there is a decent search engine for your personal files built in, called <a title="Spotlight 101 at Apple" href="https://support.apple.com/kb/HT2531">Spotlight</a>. However, Spotlight is not able to search the contents of EPUB or MOBI e-book files. This is why I decided to convert my collection to plain text.</p>
+<p>Calibre offers the capability to bulk-convert a lot of books in parallel, but at least on my system it quite often froze after a couple of minutes. Calibre also lets you convert books from the command line with the <a title="ebook-convert in the Calibre user manual" href="http://manual.calibre-ebook.com/cli/ebook-convert.html">ebook-convert</a> command. Combined with a simple find and GNU Parallel it can be used to convert massive collections with a one liner:</p>
+<p><code>find $your_library_location -type f -iname "*.mobi" | parallel --timeout 120 --progress "/Applications/calibre.app/Contents/console.app/Contents/MacOS/ebook-convert {} {.}.txt"</code></p>
+<p>Parallel will try to saturate all the available CPUs on your system and can even scale out to other machines with a little more tweaking. The <code>--timeout</code> option will kill off any spawned sub-process that takes longer than the given ammount of seconds, which is nessecary, since sometimes the conversion seems to hang for no apparent reason. The option <code>--progress</code> will give you an idea how many jobs have been completed yet.</p>
+<p>Parallel can be installed via the excellent <a title="Homebrew Homepage" href="http://mxcl.github.com/homebrew/">homebrew</a> project by running <code>brew install parallel</code>. The location of the <code>ebook-convert</code> command may vary on other systems, if I remember correctly Ubuntu sets it up correctly when installing Callibre via APT, so you can omit the path.</p>
+<p>For me this works well enough and seems a little more robust than Calibres own job-scheduling mechanism. Hope this helps someone else.</p>
