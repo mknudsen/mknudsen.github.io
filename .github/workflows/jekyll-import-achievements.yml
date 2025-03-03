@@ -17,9 +17,7 @@ jobs:
           cache-version: 0
       - name: Run Import Script
         run: |
-          curl "https://www.trueachievements.com/friendfeedrss.aspx?gamerid=1108778"
-          chmod +x ./import-achievements.sh
-          ./import-achievements.sh
+          bundle exec ruby ./aggregate_achievements_feeds.rb
       - name: Commit new content
         run: |
           git config --global user.email "martin.knudsen@gmail.com"
