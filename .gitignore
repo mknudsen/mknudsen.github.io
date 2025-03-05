@@ -1,2 +1,33 @@
-_site
-vendor
+
+# Jekyll specific
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+
+# Bundler dependencies
+.bundle/
+
+# Log and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# JetBrains IDE settings (optional)
+.idea/
+
+# Mac system files
+.DS_Store
+
+# Linux swap files
+*.swo
+*.swp
+
+# Custom exclusions (add anything specific to your setup)
