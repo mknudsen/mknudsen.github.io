@@ -33,7 +33,7 @@ header_pages:
   - about.md
   - impressum.html
   - contact.md
-  - stundenrechner.html
+  - tools/stundenrechner.html
   - gaming/index.md
 
 plugins:
