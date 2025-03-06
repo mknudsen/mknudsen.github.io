@@ -1,0 +1,38 @@
+---
+layout: page
+title: new post
+---
+
+<style>
+#filename,#value {
+  width: 100%;
+}
+#value {
+  height: 500px;
+}
+</style>
+
+<form action="https://github.com/mknudsen/mknudsen.github.io/new/master/_posts" method="get">
+ <label for="filename">Filename:</label>
+ <br>
+ <input type="text" id="filename" name="filename" required>
+ <br>
+ <label for="value">Post Content:</label>
+ <br>
+ <textarea id="value" name="value">---
+layout: post
+title: new post
+---
+
+hello</textarea>
+ <br>
+ <input type="submit" value="Create Post">
+</form>
+
+<script>
+ function setDefaultFilename() {
+  let today = new Date().toISOString().split('T')[0]; // Get YYYY-MM-DD format
+  document.getElementById('filename').value = `${today}-foo-bar.md`;
+ }
+ setDefaultFilename();
+</script>

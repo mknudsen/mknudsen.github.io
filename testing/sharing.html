@@ -1,0 +1,17 @@
+---
+layout: page
+title: Sharing 
+type: page
+published: true
+status: publish
+author: martin
+redirect_from:
+ - /sharing/
+---
+
+<p>Demo for <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share">Navigator: share() method</a></p>
+
+<input type="button" value="share {'url':'https://linkhal.de/sharing?linkonly'}" onclick="navigator.share({'url':'https://linkhal.de/sharing?linkonly'})">
+<input type="button" value="share {'text':'linkhalde textonly'}" onclick="navigator.share({'text':'linkhalde textonly'})">
+<input type="button" value="share {'url':'https://linkhal.de/sharing?linkandtext', text:'linkhalde link and text'}" onclick="navigator.share({'url':'https://linkhal.de/sharing?linkandtext', text:'linkhalde link and text'})">
+<input type="button" value="share {'url':'https://linkhal.de/sharing?linkandtitle', title:'linkhalde link and title'}" onclick="navigator.share({'url':'https://linkhal.de/sharing?linkandtitle', title:'linkhalde link and title'})">
