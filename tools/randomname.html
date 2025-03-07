@@ -1,0 +1,43 @@
+---
+layout: page
+title: Random Name Picker
+---
+
+<p>Call this page with query parameter <code>name</code> to prefill values, i.e. <a href="{{url}}/tools/randomname.html?name=apples&name=oranges">{{url}}/tools/randomname.html?name=apples&name=oranges</a> .</p>
+
+<style>
+    textarea {
+        width: 300px;
+        height: 150px;
+        display: block;
+    }
+    #result {
+        font-weight: bold;
+    }
+</style>
+<textarea id="nameInput" placeholder="Enter names, one per line..."></textarea>
+<button onclick="pickRandomName()">Pick a Random Name</button>
+<div id="result"></div>
+
+<script>
+    function pickRandomName() {
+        const input = document.getElementById("nameInput").value;
+        const names = input.split("\n").map(name => name.trim()).filter(name => name);
+
+        if (names.length === 0) {
+            document.getElementById("result").textContent = "Error: Please enter at least one name.";
+            return;
+        }
+
+        const randomName = names[Math.floor(Math.random() * names.length)];
+        document.getElementById("result").textContent = "Selected Name: " + randomName;
+    }
+    function prefillNames() {
+        const params = new URLSearchParams(window.location.search);
+        const names = params.getAll("name");
+        const sanitizedNames = names.map(name => name.replace(/[^a-zA-Z0-9\s\-_]/g, ''));
+
+        document.getElementById("nameInput").value = sanitizedNames.join("\n");
+    }
+    prefillNames();
+</script>
