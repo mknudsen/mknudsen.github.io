@@ -1,0 +1,33 @@
+on:
+  workflow_dispatch:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '00 23 * * *'
+
+
+name: jekyll-import-goodreads
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.4.1'
+          bundler-cache: true
+          cache-version: 0
+      - name: Run Import Script
+        run: |
+          bundle exec jekyll-import rss --source "$GOODREADS_FEED" --tag books
+      - name: Commit new content
+        run: |
+          git config --global user.email "martin.knudsen@gmail.com"
+          git config --global user.name "Martin Knudsen"
+          git add ./_posts/*
+          git commit -am "new goodreads content" && git push || echo "Nothing to import."
