@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: '30 22 * * *'
 
-name: jekyll-achievements-import
+name: jekyll-import-achievements
 
 permissions:
   contents: write
@@ -22,9 +22,7 @@ jobs:
           cache-version: 0
       - name: Run Import Script
         run: |
-          curl -v "https://httpbin.io/headers"
           bundle exec ruby ./aggregate_achievements_feeds.rb
-          cat achievements.xml
           bundle exec jekyll-import rss --source ./achievements.xml --tag achievements
       - name: Commit new content
         run: |
