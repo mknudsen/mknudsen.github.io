@@ -23,6 +23,8 @@ jobs:
           bundler-cache: true
           cache-version: 0
       - name: Run Import Script
+        env:
+          GOODREADS_FEED: ${{ secrets.GOODREADS_FEED }}
         run: |
           bundle exec jekyll-import rss --source "$GOODREADS_FEED" --tag books
       - name: Commit new content
