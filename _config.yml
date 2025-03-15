@@ -40,6 +40,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-archives
 
 paginate: 25
 paginate_path: "/blog/page/:num/"
@@ -57,3 +58,19 @@ exclude:
    - vendor/ruby/
    - import-goodreads.sh
    - import-letterboxd.sh
+
+jekyll-archives:
+ # https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
+ enabled: ['tags', 'year']
+ layouts:
+  year: year-archive
+  #month: month-archive
+  #day: day-archive
+  #category: category-archive
+  tag: tag-archive
+ permalinks:
+  year: '/:year/'
+  tag: '/tag/:name/'
+  #month: '/:year/:month/'
+  #day: '/:year/:month/:day/'
+  #category: '/category/:name/'
