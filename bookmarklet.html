@@ -61,13 +61,15 @@ URL with your own to copy.</p>
 
             let frontMatter = \`---\\nlayout: post\\ntitle: "\${title}"\\ndate: \${today}\\n---\\n\\n\`;
 
+            let originalDomain = originalURL ? new URL(originalURL).hostname : domain;
+
             let citation = \`
 <figure>
 <blockquote>
 \${selectionHTML}
 </blockquote>
 <figcaption>
-<cite>\${domain}</cite>, in "<cite><a href="\${location.href}">\${title}</a></cite>"
+<cite>\${originalDomain}</cite>, in "<cite><a href="\${location.href}">\${title}</a></cite>"
 </figcaption>
 </figure>
 \`;
