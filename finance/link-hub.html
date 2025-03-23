@@ -32,12 +32,18 @@ layout: page
     }
 </style>
 
+<p>Quick reference for my most used finance German finance resources. The search is supports no operators but multiple
+keywords, all of which need to be present to match..</p>
+
 <input type="text" id="search" placeholder="Search...">
 <button id="copyButton">Copy Visible Items</button>
 
 <ul id="list">
     {% for article in site.data.kommer_articles %}
-        <li>{{ article.title }} - <a href="{{ article.link }}">{{ article.link }}</a></li>
+        <li>Kommer - {{ article.title }} - <a href="{{ article.link }}">{{ article.link }}</a></li>
+    {% endfor %}
+    {% for article in site.data.finanztip %}
+        <li>Finanztip - {{ article.title }} - <a href="{{ article.link }}">{{ article.link }}</a></li>
     {% endfor %}
 </ul>
 
