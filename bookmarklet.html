@@ -3,14 +3,14 @@ layout: page
 title: Bookmarklet for posting selected content to github hosted jekyll blog
 ---
 
-<a id="bookmarklet" href="#">post this</a>
+<p>drag this to the bookmark bar <a id="bookmarklet" href="#">post this</a></p>
 
 <script>
     const script = `
         (function() {
             let today = new Date().toISOString().split('T')[0];
             let title = document.title.trim();
-            let slugTitle = title.replace(/\\s+/g, '-').toLowerCase();
+            let slugTitle = title.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase();
             let filename = \`\${today}-\${slugTitle}.html\`;
 
             let selection = window.getSelection();
