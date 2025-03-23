@@ -1,0 +1,72 @@
+---
+layout: page
+title: Bookmarklet for posting selected content to github hosted jekyll blog
+---
+
+<a id="bookmarklet" href="#">📌 Save to Bookmarks</a>
+
+<script>
+    const script = `
+        (function() {
+            let today = new Date().toISOString().split('T')[0];
+            let title = document.title.trim();
+            let slugTitle = title.replace(/\\s+/g, '-').toLowerCase();
+            let filename = \`\${today}-\${slugTitle}.html\`;
+
+            let selection = window.getSelection();
+            if (selection.rangeCount === 0) {
+                alert('Please select some HTML content first.');
+                return;
+            }
+
+            let range = selection.getRangeAt(0);
+            let fragment = range.cloneContents();
+
+            function cleanNode(node) {
+                if (node.nodeType === Node.ELEMENT_NODE) {
+                    if (node.tagName === 'SCRIPT') { node.remove(); return; }
+                    for (let i = node.attributes.length - 1; i >= 0; i--) {
+                        let attr = node.attributes[i].name;
+                        if (attr !== 'href') { node.removeAttribute(attr); }
+                    }
+                }
+                node.childNodes.forEach(cleanNode);
+            }
+
+            cleanNode(fragment);
+
+            let div = document.createElement('div');
+            div.appendChild(fragment);
+            let selectionHTML = div.innerHTML.trim();
+
+            if (!selectionHTML) {
+                alert('Please select some HTML content first.');
+                return;
+            }
+
+            let domain = location.hostname;
+            let frontMatter = \`---\\nlayout: post\\ntitle: "\${title}"\\ndate: \${today}\\n---\\n\\n\`;
+
+            let citation = \`
+<figure>
+<blockquote>
+\${selectionHTML}
+</blockquote>
+<figcaption>
+<cite>\${domain}</cite>, in "<cite><a href="\${location.href}">\${title}</a></cite>"
+</figcaption>
+</figure>
+\`;
+
+            let postContent = \`\${frontMatter}\${citation}\`;
+            let url = \`https://github.com/mknudsen/mknudsen.github.io/new/master/_posts?filename=\${encodeURIComponent(filename)}&value=\${encodeURIComponent(postContent)}\`;
+
+            window.open(url, '_blank');
+        })();
+    `;
+
+    document.addEventListener("DOMContentLoaded", function() {
+        let minified = script.replace(/\s+/g, ' ').replace(/\n/g, '');
+        document.getElementById("bookmarklet").href = "javascript:" + encodeURIComponent(minified);
+    });
+</script>
