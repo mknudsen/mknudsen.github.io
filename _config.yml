@@ -35,6 +35,7 @@ header_pages:
   - contact.md
   - tools/index.md
   - gaming/index.md
+  - finance/index.md
 
 plugins:
   - jekyll-paginate

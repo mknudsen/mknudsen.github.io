@@ -1,0 +1,72 @@
+---
+title: Finance Link Hub
+layout: page
+---
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+    input {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    button {
+        display: block;
+        margin-bottom: 10px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+    }
+    .gone {
+        display: none;
+    }
+</style>
+
+<input type="text" id="search" placeholder="Search...">
+<button id="copyButton">Copy Visible Items</button>
+
+<ul id="list">
+    {% for article in site.data.kommer_articles %}
+        <li>{{ article.title }} - <a href="{{ article.link }}">{{ article.link }}</a></li>
+    {% endfor %}
+</ul>
+
+<script>
+    document.getElementById('search').addEventListener('input', function() {
+        let filter = this.value.toLowerCase().split(/\s+/).filter(term => term.length > 0);
+        let items = document.querySelectorAll('#list li');
+
+        items.forEach(item => {
+            let text = item.textContent.toLowerCase();
+            let match = filter.every(term => text.includes(term));
+
+            if (match) {
+                item.classList.remove('gone');
+            } else {
+                item.classList.add('gone');
+            }
+        });
+    });
+
+    document.getElementById('copyButton').addEventListener('click', function() {
+        let visibleItems = Array.from(document.querySelectorAll('#list li:not(.gone)'))
+            .map(item => item.textContent)
+            .join('\n');
+
+        navigator.clipboard.writeText(visibleItems).then(() => {
+            alert('Copied to clipboard!');
+        }).catch(err => {
+            console.error('Failed to copy:', err);
+        });
+    });
+</script>
