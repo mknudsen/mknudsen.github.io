@@ -3,7 +3,11 @@ layout: page
 title: Bookmarklet for posting selected content to github hosted jekyll blog
 ---
 
-<p>drag this to the bookmark bar <a id="bookmarklet" href="#">post this</a></p>
+<p>This bookmarklet can be used similar to other blog platforms bookmarklets, it parameterizes a request to GitHubs web
+UI so that most stuff is prefilled correctly for a jekyll HTML blog post. Look at the source code and replace the repo
+URL with your own to copy.</p>
+
+<p>Drag this to the bookmark bar <a id="bookmarklet" href="#">post this</a>.</p>
 
 <script>
     const script = `
@@ -45,6 +49,16 @@ title: Bookmarklet for posting selected content to github hosted jekyll blog
             }
 
             let domain = location.hostname;
+            let archiveURL = location.href;
+            let originalURL = "";
+
+            if (domain.includes("archive.is") || domain.includes("archive.today")) {
+                let inputField = document.querySelector('input[name="q"]');
+                if (inputField) {
+                    originalURL = inputField.value;
+                }
+            }
+
             let frontMatter = \`---\\nlayout: post\\ntitle: "\${title}"\\ndate: \${today}\\n---\\n\\n\`;
 
             let citation = \`
@@ -57,6 +71,10 @@ title: Bookmarklet for posting selected content to github hosted jekyll blog
 </figcaption>
 </figure>
 \`;
+
+            if (originalURL) {
+                citation += \`<p>Original Source: <a href="\${originalURL}">\${originalURL}</a></p>\`;
+            }
 
             let postContent = \`\${frontMatter}\${citation}\`;
             let url = \`https://github.com/mknudsen/mknudsen.github.io/new/master/_posts?filename=\${encodeURIComponent(filename)}&value=\${encodeURIComponent(postContent)}\`;
