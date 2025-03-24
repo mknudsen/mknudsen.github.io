@@ -3,29 +3,17 @@ title: Finance Link Hub
 layout: page
 ---
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        padding: 20px;
-    }
     input {
-        display: block;
         width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-    button {
-        display: block;
-        margin-bottom: 10px;
-        padding: 10px;
-        cursor: pointer;
     }
     ul {
         list-style: none;
-        padding: 0;
+        margin-left: 0px;
+        margin-top: 10px;
     }
     li {
-        padding: 8px;
         border-bottom: 1px solid #ddd;
+        overflow-wrap: break-word;
     }
     .gone {
         display: none;
@@ -35,7 +23,9 @@ layout: page
 <p>Quick reference for my most used German and English finance resources. The search supports no operators but multiple keywords, all of which need to be present to match.</p>
 
 <input type="text" id="search" placeholder="Search...">
-<button id="copyButton">Copy Visible Items</button>
+
+<button id="copyButton">Copy Items</button>
+<button id="copyLink">Copy Link</button>
 
 <ul id="list">
     {% for article in site.data.kommer_articles %}
@@ -50,8 +40,6 @@ layout: page
 </ul>
 
 <script>
-
-
 
     document.getElementById('search').addEventListener('input', function() {
         let filter = this.value.toLowerCase().split(/\s+/).filter(term => term.length > 0);
@@ -75,7 +63,7 @@ layout: page
             .join('\n');
 
         navigator.clipboard.writeText(visibleItems).then(() => {
-            alert('Copied to clipboard!');
+            alert('Copied items to clipboard!');
         }).catch(err => {
             console.error('Failed to copy:', err);
         });
@@ -89,15 +77,32 @@ layout: page
             let params = new URLSearchParams(fragment);
             let searchTerm = params.get('term');
             if (searchTerm) {
-                // Set the search term in the input field
-                document.getElementById('search').value = searchTerm;
+                // Sanitize the search term
+                let sanitizedSearchTerm = searchTerm.replace(/[<>]/g, "");
+                // Set the sanitized search term in the input field
+                document.getElementById('search').value = sanitizedSearchTerm;
                 // Trigger the input event to filter the list
                 document.getElementById('search').dispatchEvent(new Event('input'));
             }
         }
-    };
+    }
 
     window.addEventListener('hashchange', prefillSearch);
 
     prefillSearch();
+
+    document.getElementById('copyLink').addEventListener('click', function() {
+        let searchTerm = document.getElementById('search').value;
+        if (searchTerm) {
+            let encodedSearchTerm = encodeURIComponent(searchTerm);
+            window.location.hash = `term=${encodedSearchTerm}`;
+            navigator.clipboard.writeText(window.location.href).then(() => {
+                alert('Copied link to clipboard!');
+            }).catch(err => {
+                console.error('Failed to copy link:', err);
+            });
+        } else {
+            alert('No search term.');
+        }
+    });
 </script>
