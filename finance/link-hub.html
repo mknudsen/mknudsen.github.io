@@ -50,6 +50,9 @@ layout: page
 </ul>
 
 <script>
+
+
+
     document.getElementById('search').addEventListener('input', function() {
         let filter = this.value.toLowerCase().split(/\s+/).filter(term => term.length > 0);
         let items = document.querySelectorAll('#list li');
@@ -77,4 +80,24 @@ layout: page
             console.error('Failed to copy:', err);
         });
     });
+
+    function prefillSearch() {
+        // Get the fragment identifier from the URL
+        let fragment = window.location.hash.substring(1);
+        if (fragment) {
+            // Parse the fragment identifier as URI encoded name/value pairs
+            let params = new URLSearchParams(fragment);
+            let searchTerm = params.get('term');
+            if (searchTerm) {
+                // Set the search term in the input field
+                document.getElementById('search').value = searchTerm;
+                // Trigger the input event to filter the list
+                document.getElementById('search').dispatchEvent(new Event('input'));
+            }
+        }
+    };
+
+    window.addEventListener('hashchange', prefillSearch);
+
+    prefillSearch();
 </script>
