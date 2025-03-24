@@ -32,8 +32,7 @@ layout: page
     }
 </style>
 
-<p>Quick reference for my most used German finance resources. The search supports no operators but multiple
-keywords, all of which need to be present to match.</p>
+<p>Quick reference for my most used German and English finance resources. The search supports no operators but multiple keywords, all of which need to be present to match.</p>
 
 <input type="text" id="search" placeholder="Search...">
 <button id="copyButton">Copy Visible Items</button>
@@ -41,6 +40,9 @@ keywords, all of which need to be present to match.</p>
 <ul id="list">
     {% for article in site.data.kommer_articles %}
         <li>Kommer - {{ article.title }} - <a href="{{ article.link }}">{{ article.link }}</a></li>
+    {% endfor %}
+    {% for video in site.data.ben_felix_youtube %}
+        <li>Ben Felix - {{ video.title }} - <a href="{{ video.link }}">{{ video.link }}</a></li>
     {% endfor %}
     {% for article in site.data.finanztip %}
         <li>Finanztip - {{ article.title }} - <a href="{{ article.link }}">{{ article.link }}</a></li>
