@@ -3,4 +3,8 @@ layout: page
 title: Gaming
 ---
 
-- [List of backward-compatible games for Xbox One and Series X/S](xbox-games.html)
+{% for somePage in site.pages %}
+{% if somePage.url contains 'gaming/' and somePage.url != page.url %}
+- <a href="{{ somePage.url }}">{{ somePage.title }}</a>
+{% endif %}
+{% endfor %}

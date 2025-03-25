@@ -3,4 +3,8 @@ layout: page
 title: Finance
 ---
 
-- [Finance Link Hub](link-hub.html)
+{% for somePage in site.pages %}
+{% if somePage.url contains 'finance/' and somePage.url != page.url %}
+- <a href="{{ somePage.url }}">{{ somePage.title }}</a>
+{% endif %}
+{% endfor %}
