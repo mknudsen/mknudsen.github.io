@@ -29,7 +29,10 @@ layout: page
 
 <ul id="list">
     {% for article in site.data.kommer_articles %}
-        <li>Kommer - {{ article.title }} - <a hreflang="de" href="{{ article.link }}">{{ article.link }}</a></li>
+        <li>Gerd Kommer - {{ article.title }} - <a hreflang="de" href="{{ article.link }}">{{ article.link }}</a></li>
+    {% endfor %}
+    {% for video in site.data.kommer_youtube %}
+        <li>Gerd Kommer - {{ video.title }} - <a hreflang="en" href="{{ video.link }}">{{ video.link }}</a></li>
     {% endfor %}
     {% for video in site.data.ben_felix_youtube %}
         <li>Ben Felix - {{ video.title }} - <a hreflang="en" href="{{ video.link }}">{{ video.link }}</a></li>
