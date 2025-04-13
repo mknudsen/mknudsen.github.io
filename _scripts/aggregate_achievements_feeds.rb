@@ -12,7 +12,7 @@ calendar_days_to_items = Hash.new { |hash, key| hash[key] = [] }
 
 feed_urls.each do |url|
   begin
-    URI.open(url, "User-Agent" => "mknudsen.github.io") do |rss|
+    URI.open(url, "User-Agent" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36") do |rss|
       content = rss.read
       feed = RSS::Parser.parse(content, false)
 
