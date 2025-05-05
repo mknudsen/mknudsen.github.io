@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viewport Size Display</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    #viewport-info {
+      padding: 1rem;
+      text-align: center;
+      background-color: #f0f0f0;
+      font-size: 1.5rem;
+      flex: 1;
+    }
+
+    #input-container {
+      padding: 1rem;
+      background-color: #ddd;
+      text-align: center;
+    }
+
+    input[type="text"] {
+      padding: 0.5rem;
+      font-size: 1rem;
+      width: 80%;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div id="viewport-info">Viewport: </div>
+
+  <div id="input-container">
+    <input type="text" placeholder="Enter text here..." />
+  </div>
+
+  <script>
+    const viewportInfo = document.getElementById('viewport-info');
+
+    function updateViewportSize() {
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+      viewportInfo.textContent = `Viewport: ${width} × ${height}`;
+    }
+
+    window.addEventListener('resize', updateViewportSize);
+    window.addEventListener('DOMContentLoaded', updateViewportSize);
+  </script>
+</body>
+</html>
