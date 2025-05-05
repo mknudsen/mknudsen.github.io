@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Viewport Size Display</title>
+  <title>Viewport and Keyboard Info</title>
   <style>
     body {
       margin: 0;
@@ -19,6 +19,13 @@
       background-color: #f0f0f0;
       font-size: 1.5rem;
       flex: 1;
+    }
+
+    #keyboard-info {
+      padding: 0.5rem;
+      text-align: center;
+      background-color: #e0e0e0;
+      font-size: 1.2rem;
     }
 
     #input-container {
@@ -37,22 +44,69 @@
 </head>
 <body>
   <div id="viewport-info">Viewport: </div>
+  <div id="keyboard-info">Keyboard: Unknown</div>
 
   <div id="input-container">
-    <input type="text" placeholder="Enter text here..." />
+    <input type="text" placeholder="Enter text here..." id="textInput" />
   </div>
 
   <script>
     const viewportInfo = document.getElementById('viewport-info');
+    const keyboardInfo = document.getElementById('keyboard-info');
+    const textInput = document.getElementById('textInput');
 
-    function updateViewportSize() {
-      const width = window.innerWidth;
-      const height = window.innerHeight;
-      viewportInfo.textContent = `Viewport: ${width} × ${height}`;
+    let initialHeight = getViewportHeight();
+    let keyboardOpen = false;
+
+    function getViewportHeight() {
+      return window.visualViewport?.height || window.innerHeight;
     }
 
-    window.addEventListener('resize', updateViewportSize);
-    window.addEventListener('DOMContentLoaded', updateViewportSize);
+    function updateViewportInfo() {
+      const width = window.visualViewport?.width || window.innerWidth;
+      const height = getViewportHeight();
+
+      viewportInfo.textContent = `Viewport: ${Math.round(width)} × ${Math.round(height)}`;
+      detectKeyboard(height);
+    }
+
+    function detectKeyboard(currentHeight) {
+      const heightDiff = initialHeight - currentHeight;
+
+      // Use threshold to determine if keyboard is open
+      if (heightDiff > 100) {
+        keyboardOpen = true;
+        keyboardInfo.textContent = 'Keyboard: Open';
+      } else {
+        keyboardOpen = false;
+        keyboardInfo.textContent = 'Keyboard: Closed';
+      }
+    }
+
+    function handleResize() {
+      updateViewportInfo();
+    }
+
+    // Listen to visualViewport resize if available, fallback to window resize
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', handleResize);
+    } else {
+      window.addEventListener('resize', handleResize);
+    }
+
+    // Also check on load and input focus/blur
+    window.addEventListener('DOMContentLoaded', () => {
+      initialHeight = getViewportHeight();
+      updateViewportInfo();
+    });
+
+    textInput.addEventListener('focus', () => {
+      setTimeout(updateViewportInfo, 300);
+    });
+
+    textInput.addEventListener('blur', () => {
+      setTimeout(updateViewportInfo, 300);
+    });
   </script>
 </body>
 </html>
