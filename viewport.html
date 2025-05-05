@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Viewport and Keyboard Info</title>
   <style>
-    body {
+    html, body {
       margin: 0;
       font-family: sans-serif;
+      height: 100%;
+      overflow-x: hidden;
+    }
+
+    body {
       display: flex;
       flex-direction: column;
-      min-height: 100vh;
     }
 
     #viewport-info {
@@ -32,6 +36,11 @@
       padding: 1rem;
       background-color: #ddd;
       text-align: center;
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transition: transform 0.3s ease;
     }
 
     input[type="text"] {
@@ -54,9 +63,9 @@
     const viewportInfo = document.getElementById('viewport-info');
     const keyboardInfo = document.getElementById('keyboard-info');
     const textInput = document.getElementById('textInput');
+    const inputContainer = document.getElementById('input-container');
 
     let initialHeight = getViewportHeight();
-    let keyboardOpen = false;
 
     function getViewportHeight() {
       return window.visualViewport?.height || window.innerHeight;
@@ -73,28 +82,36 @@
     function detectKeyboard(currentHeight) {
       const heightDiff = initialHeight - currentHeight;
 
-      // Use threshold to determine if keyboard is open
       if (heightDiff > 100) {
-        keyboardOpen = true;
         keyboardInfo.textContent = 'Keyboard: Open';
+        adjustForKeyboard();
       } else {
-        keyboardOpen = false;
         keyboardInfo.textContent = 'Keyboard: Closed';
+        resetInputPosition();
       }
+    }
+
+    function adjustForKeyboard() {
+      if (window.visualViewport) {
+        const offsetBottom = window.innerHeight - (window.visualViewport.height + window.visualViewport.offsetTop);
+        inputContainer.style.transform = `translateY(-${offsetBottom}px)`;
+      }
+    }
+
+    function resetInputPosition() {
+      inputContainer.style.transform = 'translateY(0)';
     }
 
     function handleResize() {
       updateViewportInfo();
     }
 
-    // Listen to visualViewport resize if available, fallback to window resize
     if (window.visualViewport) {
       window.visualViewport.addEventListener('resize', handleResize);
     } else {
       window.addEventListener('resize', handleResize);
     }
 
-    // Also check on load and input focus/blur
     window.addEventListener('DOMContentLoaded', () => {
       initialHeight = getViewportHeight();
       updateViewportInfo();
