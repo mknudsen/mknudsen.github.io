@@ -76,26 +76,6 @@
       const height = getViewportHeight();
 
       viewportInfo.textContent = `Viewport: ${Math.round(width)} × ${Math.round(height)}`;
-      detectKeyboard(height);
-    }
-
-    function detectKeyboard(currentHeight) {
-      const heightDiff = initialHeight - currentHeight;
-
-      if (heightDiff > 100) {
-        keyboardInfo.textContent = 'Keyboard: Open';
-        adjustForKeyboard();
-      } else {
-        keyboardInfo.textContent = 'Keyboard: Closed';
-        resetInputPosition();
-      }
-    }
-
-    function adjustForKeyboard() {
-      if (window.visualViewport) {
-        const offsetBottom = window.innerHeight - (window.visualViewport.height + window.visualViewport.offsetTop);
-        inputContainer.style.transform = `translateY(-${offsetBottom}px)`;
-      }
     }
 
     function resetInputPosition() {
