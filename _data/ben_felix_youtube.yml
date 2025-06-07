@@ -12,8 +12,6 @@
   link: https://www.youtube.com/watch?v=JzoTdkfues4
 - title: Are "Good Companies" Good Investments?
   link: https://www.youtube.com/watch?v=ZY_NFQNUr_k
-- title: Are Homeowners Happier than Renters?
-  link: https://www.youtube.com/watch?v=0G_OSohLC_A
 - title: Are Index Funds Over-Diversified?
   link: https://www.youtube.com/watch?v=xfdMDGIABek
 - title: Are Structured Products Good Investments?
@@ -58,12 +56,16 @@
   link: https://www.youtube.com/watch?v=KmXOvj_kRLA
 - title: Do Most Financial Advisors Know What They're Talking About?
   link: https://www.youtube.com/watch?v=sqXh0MLCfiM
+- title: Do Stocks Return 10% on Average?
+  link: https://www.youtube.com/watch?v=Yl3NxTS_DgY
 - title: Do You Need Permanent Life Insurance?
   link: https://www.youtube.com/watch?v=Iq6Ivc7Kx9I
 - title: Does Active Management Work For Institutional Investors?
   link: https://www.youtube.com/watch?v=OLNOBdyyY7s
 - title: Does Market Timing Ever Work?
   link: https://www.youtube.com/watch?v=w_aOERmUWdA
+- title: Dollar Cost Averaging vs. Lump Sum Investing
+  link: https://www.youtube.com/watch?v=KwR3nxojS0g
 - title: Downside Protection | Common Sense Investing with Ben Felix
   link: https://www.youtube.com/watch?v=pGnW1PQDM5o
 - title: Efficient Capital Markets Explained
@@ -86,8 +88,6 @@
   link: https://www.youtube.com/watch?v=O5yId4eQ5Sc
 - title: How to Evaluate Your Investment Decisions
   link: https://www.youtube.com/watch?v=I8gH5bR3clg
-- title: 'How to Invest New Cash: Dollar Cost Averaging vs. Lump Sum Investing'
-  link: https://www.youtube.com/watch?v=KwR3nxojS0g
 - title: How to Retire Early (The 4% Rule?)
   link: https://www.youtube.com/watch?v=3BScK-QyWIo
 - title: In Search of the Ultimate Inflation Hedge
@@ -154,6 +154,10 @@
   link: https://www.youtube.com/watch?v=q9Golcxjpi8
 - title: 'Renting vs. Buying a Home: The 5% Rule'
   link: https://www.youtube.com/watch?v=Uwl3-jBNEd4
+- title: 'Renting vs. Buying a Home: What People Get Wrong'
+  link: https://www.youtube.com/watch?v=j4H9LL7A-nQ
+- title: Republican Power and Stock Returns
+  link: https://www.youtube.com/watch?v=gY225CEObO4
 - title: 'Robo Advisors: Investor Friend or Foe?'
   link: https://www.youtube.com/watch?v=PYdgqfxGcWI
 - title: Should You Be Factor Investing?
@@ -185,8 +189,6 @@
   link: https://www.youtube.com/watch?v=pMxYYYZ04nc
 - title: The Grossman - Stiglitz Paradox (feat. The Plain Bagel)
   link: https://www.youtube.com/watch?v=zoXMZxe8crI
-- title: The Hidden Risks of Private Credit
-  link: https://www.youtube.com/watch?v=DQAr1DeDIro
 - title: The Illusionary Allure of Hedge Funds
   link: https://www.youtube.com/watch?v=EvjJ6y10WEg
 - title: The Index Fund "Tipping Point"
@@ -199,6 +201,8 @@
   link: https://www.youtube.com/watch?v=f5j9v9dfinQ
 - title: The Most Controversial Paper in Finance
   link: https://www.youtube.com/watch?v=-nPon8Ad_Ug
+- title: The Most Controversial Topics in Personal Finance
+  link: https://www.youtube.com/watch?v=pGgpGP3swmE
 - title: The Most Important Lessons in Investing
   link: https://www.youtube.com/watch?v=MOjS2zuQMdo
 - title: The Myth of Outperforming Funds | Common Sense Investing with Ben Felix
@@ -207,10 +211,16 @@
   link: https://www.youtube.com/watch?v=IVJkTspjDUo
 - title: The Private Equity Pitch
   link: https://www.youtube.com/watch?v=Ik169Fd_G1E
+- title: The Problem With Index Funds
+  link: https://www.youtube.com/watch?v=mqIHa6URUPk
+- title: The Problem With Private Credit
+  link: https://www.youtube.com/watch?v=DQAr1DeDIro
 - title: The Problem With Small Cap Stocks
   link: https://www.youtube.com/watch?v=uErHwq4M6pg
 - title: The Problem with High Stock Valuations
   link: https://www.youtube.com/watch?v=EybXQmxIq6U
+- title: The Psychology of Home Ownership
+  link: https://www.youtube.com/watch?v=0G_OSohLC_A
 - title: The Relevance of Dividend Irrelevance
   link: https://www.youtube.com/watch?v=4iNOtVtNKuU
 - title: The Stock Market vs. The Economy
@@ -221,8 +231,6 @@
   link: https://www.youtube.com/watch?v=qhHOmZVAqBE
 - title: Thematic ETFs (are Terrible Investments)
   link: https://www.youtube.com/watch?v=dwPh-PAg9A8
-- title: Trump’s Win and Expected Stock Returns (The Presidential Puzzle)
-  link: https://www.youtube.com/watch?v=gY225CEObO4
 - title: US Elections vs. the Stock Market
   link: https://www.youtube.com/watch?v=HYHu9PMY_C4
 - title: Understanding the Fed's "Money Printer" (QE, the Stock Market, and Inflation)
@@ -238,10 +246,10 @@
   link: https://www.youtube.com/watch?v=TI5p8vqdjTw
 - title: Who Should NOT Invest in Total Market Index Funds?
   link: https://www.youtube.com/watch?v=4hSFzVoZkiA
-- title: Why 10% Is NOT A Realistic Expected Return For Stocks
-  link: https://www.youtube.com/watch?v=Yl3NxTS_DgY
 - title: Why Betting On “Winning” Industries Almost Never Works
   link: https://www.youtube.com/watch?v=3B9umhfv_ww
+- title: Why Canada Pension Plan Skeptics are Wrong
+  link: https://www.youtube.com/watch?v=7lAsJMqjUw0
 - title: Why Canadians Aren't Flocking to ETFs | Common Sense Investing with Ben Felix
   link: https://www.youtube.com/watch?v=uKHK5yR1YR4
 - title: Why Do Financial Advisors Still Exist?
@@ -279,7 +287,5 @@
   link: https://www.youtube.com/watch?v=TodW2LEkowI
 - title: Will ARKK Recover?
   link: https://www.youtube.com/watch?v=Bpj7L5VMRdo
-- title: Will Canada Pension Plan (CPP) Still Be There When You Retire?
-  link: https://www.youtube.com/watch?v=7lAsJMqjUw0
 - title: Will Climate Change Crash the Stock Market?
   link: https://www.youtube.com/watch?v=KpU0UJou-7Q
