@@ -1,62 +1,24 @@
 ---
 - title: 1&1-Netz
   link: https://www.finanztip.de/handynetze/1und1-netz/
-- title: '1.000€ mehr Netto: So funktioniert’s (#191)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/1000-euro-mehr-netto/
 - title: 10 Mythen über Börse & ETFs – und was wirklich dahintersteckt (#183
   link: https://www.finanztip.de/podcast/auf-geldreise/auf-geldreise-podcast-183/
-- title: '10% Inflation: Reichen 7% bei ETFs noch? (#105)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/aktien-als-inflationsschutz/
 - title: '118 Euro mehr für Dein Rentenkonto: So geht’s (#165)'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-165/
 - title: 1822direkt Depot
   link: https://www.finanztip.de/wertpapierdepot/1822direkt-depot/
-- title: '20% Sparquote nicht drin: Was jetzt? (#179)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/20-sparquote-nicht-drin-was-jetzt/
 - title: 20.000-Euro-Kredit
   link: https://www.finanztip.de/kredit/20000-euro-kredit/
-- title: 200.000€ Krankenhausrechnung aus dem Urlaub (#196)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/200tsd-krankenhausrechnung-aus-dem-urlaub/
-- title: 2024 ETF wechseln? (#176)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/2024-etf-wechseln/
-- title: 2024 Immobilie kaufen? (#164)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/2024-immobilie-kaufen/
-- title: 2024 Immobilie kaufen? (#182)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/2024-immobilie-kaufen-podcast/
-- title: '25 Jahre 21. Jahrhundert: 3 Geld-Learnings (#222)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/25-jahre-21-jahrhundert-3-geld-learnings/
-- title: 3 Eigenschaften für mehr Gehalt (#242)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/drei-eigenschaften-fuer-mehr-gehalt/
 - title: 3 Fehler, die Du bei der Geldanlage vermeiden solltest
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-67/
-- title: 3 große Geld-Fehler
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/3-grosse-fehler/
 - title: 3D-Secure-Verfahren
   link: https://www.finanztip.de/kreditkarten/3d-secure/
-- title: 4 % Dividende! Über Genossenschaftsanteile (#87)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/lohnt-sich-genossenschaft/
 - title: '4 Jahre Female Finance mit Anika: Ein neues Kapitel beginnt (#162)'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-162/
-- title: 42% Steuern sparen mit ETF? (#229)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/42-prozent-steuern-sparen-mit-etf/
-- title: 5 Eigenschaften, die Du als ETF-Anleger brauchst (#111)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/fuenf-anleger-eigenschaften/
-- title: 5 Hacks für den Immo-Kauf (#223)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/fuenf-hacks-fuer-den-immo-kauf/
-- title: 5 Karrierebremser & wie Du sie überwindest (#115)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/fuenf-karrierebremer/
-- title: '5% aufs Tagesgeld: Wo ist der Haken? (#177)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/5-prozent-aufs-tagesgeld/
 - title: 5G Netz
   link: https://www.finanztip.de/mobiles-internet/5g/
-- title: 5k, 50k oder 500k richtig anlegen (#155)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/5k50koder500k-richtig-anlegen/
 - title: 7 Alternativen zu mehr Gehalt (#141)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-141/
-- title: 7 Ausreden beim Thema Geld (#55)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/geld-ausreden/
-- title: 750€ mehr für Krankenkasse. Privat versichern? (#199)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/750-euro-mehr-fuer-krankenkasse-privat-versichern/
 - title: ADAC Autokredit
   link: https://www.finanztip.de/autokredit/adac-autokredit/
 - title: ADAC Kreditkarte
@@ -65,8 +27,6 @@
   link: https://www.finanztip.de/rechtsschutzversicherung/adac-rechtsschutz/
 - title: AWV-Meldepflicht
   link: https://www.finanztip.de/awv-meldepflicht/
-- title: 'Ab 2023: Weniger Steuern auf ETFs (#106)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/weniger-steuern-auf-etfs/
 - title: Abfindung und Arbeitslosengeld
   link: https://www.finanztip.de/aufhebungsvertrag/abfindung-arbeitslosengeld/
 - title: 'Abfindung und Einkommensteuer: Steuerermäßigung'
@@ -83,10 +43,6 @@
   link: https://www.finanztip.de/handyvertrag/drittanbietersperre/
 - title: Absetzen
   link: https://www.finanztip.de/absetzen/
-- title: Absturz bei MSCI World & Co. Und jetzt? (#201)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/absturz-bei-msci-world-co-und-jetzt/
-- title: Abzocke bei Riester? (#197)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/abzocke-bei-riester/
 - title: Abzüge bei Rente ab 63
   link: https://www.finanztip.de/gesetzliche-rentenversicherung/abzuege-rente-ab-63/
 - title: Advanzia Mastercard Gold
@@ -97,16 +53,14 @@
   link: https://www.finanztip.de/untermiete/vermietung-airbnb/
 - title: Aktien kaufen Schritt für Schritt
   link: https://www.finanztip.de/aktien/aktien-kaufen/
-- title: Aktien-ETF für Kinder zu riskant? (#195)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/aktien-etf-fuer-kinder-zu-riskant/
 - title: Aktienanleihen - Grundlagen
   link: https://www.finanztip.de/aktien/aktienanleihen/
 - title: Aktienfonds
   link: https://www.finanztip.de/investmentfonds/aktienfonds/
 - title: Aktienrückkauf
   link: https://www.finanztip.de/aktien/aktienrueckkauf/
-- title: Aktive Fonds vs. passive ETFs (#38)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/fonds-aktiv-passiv/
+- title: Aktive ETFs
+  link: https://www.finanztip.de/indexfonds-etf/aktive-etfs/
 - title: Alles Wichtige zum Börsenhandel
   link: https://www.finanztip.de/wertpapiere/boersenhandel/
 - title: Allianz, Huk-Coburg und Huk24
@@ -137,8 +91,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-19/
 - title: Altersvorsorge (Teil 2)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-20/
-- title: Altersvorsorge für Paare (#72)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/altersvorsorge-fuer-paare/
 - title: Altersvorsorgedepot
   link: https://www.finanztip.de/altersvorsorge/altersvorsorgedepot/
 - title: Amazon-Visa-Karte
@@ -147,6 +99,8 @@
   link: https://www.finanztip.de/krankenzusatzversicherung/ambulante-zusatzversicherung/
 - title: American Express
   link: https://www.finanztip.de/kreditkarten/american-express/
+- title: Amundi ETF018
+  link: https://www.finanztip.de/indexfonds-etf/lyxor-etf110/
 - title: Angst vor der Börse - nicht mit uns! (Teil zwei)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-29/
 - title: Angst vor der Börse – nicht mit uns!
@@ -159,8 +113,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-61/
 - title: 'Anlageklassen: Das gehört ins Depot – Teil zwei'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-62/
-- title: Anlegen wie Champions? (#245)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/anlegen-wie-champions/
 - title: Anleihen-ETF
   link: https://www.finanztip.de/investmentfonds/rentenfonds/anleihen-etf/
 - title: 'Anleihen: Gehören sie wirklich in jedes Depot?!'
@@ -171,8 +123,6 @@
   link: https://www.finanztip.de/baufinanzierung/annuitaetendarlehen/
 - title: Anonyme BU-Risikovoranfrage
   link: https://www.finanztip.de/berufsunfaehigkeitsversicherung/probeantrag/
-- title: 'Antizyklisches Investieren: Goldgrube? (#95)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/antizyklisches-investieren/
 - title: Anwartschaft in der PKV
   link: https://www.finanztip.de/pkv/pkv-anwartschaftsversicherung/
 - title: Apps für Versicherungen (Insuretechs)
@@ -207,28 +157,18 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/
 - title: 'Auf Geldreise - Podcast #5'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-5/
-- title: Auf geht's! Ziele für 2024 erreichen (#174)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/ziele-fuer-2024-erreichen/
 - title: Aufhebungsvertrag
   link: https://www.finanztip.de/aufhebungsvertrag/
 - title: Aufschlag für Senioren
   link: https://www.finanztip.de/kfz-versicherung/fuer-rentner/
 - title: Aufsichtspflicht
   link: https://www.finanztip.de/aufsichtspflicht/
-- title: Aus Versehen Steuern hinterzogen? (#213)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/aus-versehen-stuern-hinterzogen/
 - title: Ausbildungskosten absetzen
   link: https://www.finanztip.de/ausbildungskosten/
 - title: Ausfüllhilfe für die Grundsteuererklärung
-  link: https://www.finanztip.de/lp/grundsteuererklaerung-ausfuellhilfe-v2/
-- title: Ausfüllhilfe für die Grundsteuererklärung
   link: https://www.finanztip.de/lp/grundsteuererklaerung-ausfuellhilfe/
-- title: Ausfüllhilfe für die Grund­steu­er­er­klä­rung in Bayern
-  link: https://www.finanztip.de/lp/grundsteuer-ausfuellhilfe-bayern/
-- title: Ausfüllhilfe für die Grund­steu­er­er­klä­rung in NRW
-  link: https://www.finanztip.de/lp/grundsteuer-ausfuellhilfe-nrw/
-- title: Ausfüllhilfe für die Grund­steu­er­er­klä­rung in Niedersachsen
-  link: https://www.finanztip.de/lp/grundsteuer-ausfuellhilfe-niedersachsen/
+- title: Ausfüllhilfe für die Grund­steu­er­er­klä­rung
+  link: https://www.finanztip.de/lp/ausfuellhilfe-fuer-die-grundsteuererklaerung/
 - title: Ausgleichszahlung in der Partnerschaft – so kann es gehen (#154)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-154/
 - title: Auskunfteien im Überblick
@@ -245,16 +185,12 @@
   link: https://www.finanztip.de/betriebliche-altersvorsorge/direktversicherung-auszahlung/
 - title: Auszeichnungen
   link: https://www.finanztip.de/ueber-uns/auszeichnungen/
-- title: Auto anmelden
-  link: https://www.finanztip.de/kfz-versicherung/auto-anmelden/
 - title: Auto finanzieren
   link: https://www.finanztip.de/autokredit/auto-finanzieren/
 - title: Auto finanzieren ohne Anzahlung
   link: https://www.finanztip.de/autokredit/0-prozent-finanzierung-auto/
 - title: Auto verkaufen
   link: https://www.finanztip.de/auto-verkaufen/
-- title: Auto verkaufen und Versicherung abmelden
-  link: https://www.finanztip.de/kfz-versicherung/auto-verkaufen-abmelden/
 - title: Auto-Abo
   link: https://www.finanztip.de/auto-abo/
 - title: Autokostenrechner
@@ -307,8 +243,6 @@
   link: https://www.finanztip.de/autokredit/ballonfinanzierung/
 - title: Bank Norwegian Visa
   link: https://www.finanztip.de/kreditkarten/kostenlose-kreditkarte/bank-norwegian-visa/
-- title: Bank, ETF oder Versicherung pleite! (#68)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/bankpleite/
 - title: 'Bankberatung: Ein Insider erzählt (#120)'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-120/
 - title: Bankenvergleich
@@ -358,15 +292,13 @@
 - title: Bearbeitungsgebühr Kredit
   link: https://www.finanztip.de/kreditgebuehren/
 - title: Bearbeitungsgebühren Bausparvertrag
-  link: https://www.finanztip.de/bausparvertrag/bearbeitungsgebuehren/
-- title: Bearbeitungsgebühren Bausparvertrag
   link: https://www.finanztip.de/lp/bausparvertrag-bearbeitungsgebuehren/
+- title: Bearbeitungsgebühren Bausparvertrag
+  link: https://www.finanztip.de/bausparvertrag/bearbeitungsgebuehren/
 - title: Befristeter Arbeitsvertrag
   link: https://www.finanztip.de/befristeter-arbeitsvertrag/
 - title: Bei der Kfz-Versicherung zahlt sich Treue nicht aus
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-93/
-- title: Bei der großen Zinsjagd mitmachen? (#108)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/zinsjagd-mitmachen/
 - title: Beitragsbemessungsgrenze
   link: https://www.finanztip.de/beitragsbemessungsgrenze/
 - title: Beitragsjahre in der Rentenversicherung
@@ -381,10 +313,8 @@
   link: https://www.finanztip.de/rechtsschutzversicherung/ergo-rechtsschutz/
 - title: Beratungsprotokoll
   link: https://www.finanztip.de/geldanlage/anleger-beratungsprotokoll/
-- title: Berechnungshilfe Düsseldorfer Tabelle 2023
-  link: https://www.finanztip.de/lp/berechnungshilfe-duesseldorfer-tabelle/
-- title: Berechnungshilfe Düsseldorfer Tabelle 2023
-  link: https://www.finanztip.de/lp/berechnungshilfe-duesseldorfer-tabelle-1/
+- title: Berechnungshilfe Düsseldorfer Tabelle 2025
+  link: https://www.finanztip.de/lp/berechnungshilfe-duesseldorfer-tabelle-2025/
 - title: Bereitstellungszinsen
   link: https://www.finanztip.de/baufinanzierung/bereitstellungszinsen/
 - title: Berliner Testament
@@ -411,8 +341,6 @@
   link: https://www.finanztip.de/berufsunfaehigkeitsversicherung/berufsunfaehigkeitsversicherung-mit-vorerkrankungen/
 - title: Berufsunfähigkeitsversicherung und Steuer
   link: https://www.finanztip.de/berufsunfaehigkeitsversicherung/steuer/
-- title: Bessere Kaufentscheidungen treffen (#128)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/kaufimpuls-widerstehen/
 - title: Bestandsschutz ALG
   link: https://www.finanztip.de/bestandsschutz-arbeitslosengeld/
 - title: Bestattungskosten
@@ -439,8 +367,6 @@
   link: https://www.finanztip.de/betriebliche-altersvorsorge/betriebsrente/
 - title: Bewirtungskosten
   link: https://www.finanztip.de/bewirtungsbeleg/
-- title: Beziehungskiller Geld? (#192)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/beziehungskiller-geld/
 - title: Big direkt gesund Krankenkasse
   link: https://www.finanztip.de/gkv/big-direkt-gesund/
 - title: 'Bildung & Geld: Nur wenn es die Eltern schon haben?! (#160)'
@@ -455,8 +381,6 @@
   link: https://www.finanztip.de/billig-telefonieren/guenstig-ins-ausland-telefonieren/
 - title: Billiggas-Untersuchung
   link: https://www.finanztip.de/gaspreisvergleich/billig-gas/
-- title: Billigste Krankenkasse wird teurer. Und dann? (#240)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/billigste-krankenkasse-wird-teurer-und-dann/
 - title: Billigstrom
   link: https://www.finanztip.de/stromvergleich/billigstrom/
 - title: Biogas
@@ -479,12 +403,12 @@
   link: https://www.finanztip.de/kredit/bonitaetspruefung/
 - title: Bonuszertifikate
   link: https://www.finanztip.de/geldanlage/bonuszertifikate/
-- title: Brauchst Du den digitalen Euro? (#167)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/brauchst-du-den-digitalen-euro/
 - title: Brille von der Krankenkasse
   link: https://www.finanztip.de/gkv/zuzahlung-brille/
 - title: Broker & Wertpapierdepot
   link: https://www.finanztip.de/wertpapierdepot/
+- title: Broker & Wertpapierdepot
+  link: https://www.finanztip.de/wertpapierdepot-7/
 - title: Broker Definition
   link: https://www.finanztip.de/broker/
 - title: Brutto und Netto-Rente
@@ -493,13 +417,15 @@
   link: https://www.finanztip.de/brutto-netto-rechner/
 - title: Budgetrechner Haus
   link: https://www.finanztip.de/baufinanzierungsrechner/budgetrechner-hauskauf/
+- title: Bundesanleihen
+  link: https://www.finanztip.de/anleihen/bundesanleihen/
 - title: Buy Now, Pay Later
   link: https://www.finanztip.de/online-banking/buy-now-pay-later/
 - title: Börse
   link: https://www.finanztip.de/boerse/
 - title: Bürgergeld 2024
   link: https://www.finanztip.de/buergergeld/
-- title: Bürgergeld 2024
+- title: Bürgergeld 2025
   link: https://www.finanztip.de/lp/buergergeld-checkliste/
 - title: Bürgerversicherung
   link: https://www.finanztip.de/gkv/buergerversicherung/
@@ -525,10 +451,6 @@
   link: https://www.finanztip.de/todesfall/
 - title: Checkliste Wohnungskauf
   link: https://www.finanztip.de/lp/tipps-zum-wohnungskauf/
-- title: Checkliste für Hausbesitzer
-  link: https://www.finanztip.de/lp/checkliste-versicherungen-hausbesitzer/
-- title: 'Checkliste: Haushaltsnahe Dienstleistungen'
-  link: https://www.finanztip.de/lp/checkliste-haushaltsnahe-dienstleistungen-1/
 - title: Click to Pay
   link: https://www.finanztip.de/kreditkarten/click-to-pay/
 - title: Comdirect Depot
@@ -549,8 +471,6 @@
   link: https://www.finanztip.de/handynetze/d1-netz/
 - title: D2-Netz
   link: https://www.finanztip.de/handynetze/d2-netz/
-- title: 'DAX: Home sweet home? (#36)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/dax-einzelaktien/
 - title: DKB Broker
   link: https://www.finanztip.de/wertpapierdepot/dkb/
 - title: DKB Festgeld
@@ -567,22 +487,14 @@
   link: https://www.finanztip.de/baufinanzierungsrechner/darlehensrechner/
 - title: Das Deutschlandticket
   link: https://www.finanztip.de/deutschlandticket/
-- title: Das Ende der Girocard? (#73)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/ende-der-girocard/
 - title: Das Finanztip-Siegel
   link: https://www.finanztip.de/siegel/
-- title: Das Positive inmitten der Energiekrise (#104)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/das-positive-in-der-energiekrise/
 - title: Das Tagesgeldkonto
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-26/
-- title: Das kostet Dich Pendeln wirklich (#142)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/das-kostet-dich-pendeln-wirklich/
 - title: Das kostet der richtige Anwalt
   link: https://www.finanztip.de/anwaltskosten/
 - title: Das richtige Handynetz
   link: https://www.finanztip.de/handynetze/
-- title: Das ändert sich bei der Steuer (#205)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/das-aendert-sich-bei-der-steuer/
 - title: Dashcam Rechtslage
   link: https://www.finanztip.de/dashcam-urteil/
 - title: Daten-Roaming
@@ -597,12 +509,8 @@
   link: https://www.finanztip.de/bezugsdauer-arbeitslosengeld/
 - title: Debitkarte
   link: https://www.finanztip.de/kreditkarten/debitkarte/
-- title: Deine Finanzen mit 20/30/40/ ... (#150)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/in-jeder-phase-richtig-entscheiden/
 - title: 'Deine Finanzen: So gelingt der Einstieg'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-126/
-- title: Denkst Du zu viel an Finanzen? (#204)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/denkst-du-zu-viel-an-finanzen/
 - title: Depot eröffnen
   link: https://www.finanztip.de/wertpapierdepot/depoteroeffnung/
 - title: Depot wechseln in nur fünf Schritten (#116)
@@ -613,36 +521,18 @@
   link: https://www.finanztip.de/wertpapierdepot/depotwechsel/depotuebertrag-trade-republic/
 - title: Depotübertrag bei der ING
   link: https://www.finanztip.de/wertpapierdepot/depotwechsel/depotuebertrag-ing/
-- title: Der Anfang vom Ende der Girocard (#64)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/girocard-ende/
 - title: Der Basistarif in der PKV
   link: https://www.finanztip.de/pkv/pkv-basistarif/
-- title: Der Fehler bei der Altersvorsorge (#209)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/der-fehler-bei-der-altersvorsorge/
 - title: Der Standardtarif in der PKV
   link: https://www.finanztip.de/pkv/pkv-standardtarif/
 - title: 'Der Winter naht: Gasanbieter wechseln und sparen (#144)'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-144-1/
-- title: Der wichtigste Erfolgsfaktor beim Investieren (#52)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/investieren-erfolgsfaktor/
-- title: Deshalb werden Immo-Kredite teurer (#237)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/deshalb-werden-immo-kredite-teurer/
 - title: Deutscher Aktienindex (Dax)
   link: https://www.finanztip.de/indexfonds-etf/dax/
 - title: Diamanten als Geldanlage
   link: https://www.finanztip.de/diamanten/
-- title: Dickes Minus im Depot. Und jetzt? (#233)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/dickes-minus-im-depot-und-jetzt/
-- title: Die 3 besten Geld-Ziele für 2025 (#220)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/die-drei-besten-geld-ziele-fuer-2025/
-- title: Die 7 häufigsten Anlegerfehler (#53)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/anlagefehler/
-- title: Die Gefahr bei Anleihen-ETFs  (#140)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/die-gefahr-bei-anleihen-etfs/
 - title: Die Geschichte hinter der Geldreise
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-27/
-- title: Die Grenzen des Wachstums (#75)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/grenzen-des-wachstums/
 - title: Die Macht der Schufa - Teil eins
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-87/
 - title: Die Macht der Schufa - Teil zwei
@@ -651,18 +541,8 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-100/
 - title: Die besten Dispo- und Überziehungszinsen
   link: https://www.finanztip.de/girokonto/dispozinsen/
-- title: Die besten Girokonten 2025 (#226)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/die-besten-girokonten-2025/
 - title: Die besten Spartipps aus der Geldreise-Community (#109)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-109/
-- title: Die besten Tage nicht verpassen (#76)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/beste-boersentage/
-- title: Die größten Börsenkrisen der letzten 50 Jahre (#80)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/boersenkrisen-der-letzten-50-jahre/
-- title: Die richtige Taktik für den nächsten Crash (#92)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/taktiken-im-crash/
-- title: Die wahre Natur des Zinseszinseffekts (#77)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/natur-des-zinseszinseffekts/
 - title: Dienstfahrrad
   link: https://www.finanztip.de/dienstfahrrad/
 - title: Diensthaftpflichtversicherung
@@ -673,10 +553,6 @@
   link: https://www.finanztip.de/kredit/verbraucherschutz-kredite/
 - title: Diese Sparverträge gibt es
   link: https://www.finanztip.de/sparvertrag/
-- title: Diese Zahl solltest Du kennen (#188)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/diese-zahl-solltest-du-kennen/
-- title: Dieser ETF-Fehler ist richtig teuer (#180)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/dieser-etf-fehler-ist-richtig-teuer/
 - title: Digitale Rentenübersicht
   link: https://www.finanztip.de/gesetzliche-rentenversicherung/digitale-rentenuebersicht/
 - title: Digitaler Euro
@@ -695,8 +571,6 @@
   link: https://www.finanztip.de/girokonto/dispokredit/
 - title: Dividenden bei Aktien und ETFs
   link: https://www.finanztip.de/aktien/dividenden/
-- title: Dividenden – die neuen Zinsen? (#47)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/dividenden/
 - title: Doppelbesteuerung Rente
   link: https://www.finanztip.de/rentenbesteuerung/doppelbesteuerung-rente/
 - title: Doppelte Haushaltsführung
@@ -719,8 +593,6 @@
   link: https://www.finanztip.de/hausratversicherung/e-bike-versicherung/
 - title: E-Rezept
   link: https://www.finanztip.de/krankenversicherung/e-rezept/
-- title: E-Scooter
-  link: https://www.finanztip.de/kfz-versicherung/e-scooter/
 - title: EC-Karte
   link: https://www.finanztip.de/girokonto/ec-karte/
 - title: ELStAM
@@ -731,20 +603,14 @@
   link: https://www.finanztip.de/indexfonds-etf/etf-rendite/
 - title: ETF Sicherheit
   link: https://www.finanztip.de/indexfonds-etf/etf-sicherheit/
-- title: ETF mit Gewinn verkaufen und Haus kaufen? (#122)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/etf-verkaufen-haus-kaufen/
-- title: ETF ohne USA. Gute Idee? (#183)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/etf-ohne-usa-gute-idee/
-- title: 'ETF-Crash: Musst Du was ändern? (#238)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/etf-crash-musst-du-was-aendern/
 - title: ETF-Finder
   link: https://www.finanztip.de/indexfonds-etf/etf-finder/
+- title: ETF-Sparplan
+  link: https://www.finanztip.de/indexfonds-etf/fondssparplan-2/
 - title: ETF-Sparplan
   link: https://www.finanztip.de/indexfonds-etf/fondssparplan/
 - title: 'ETF-Sparplan vs. Einmalanlage: Was passt zu Dir? (#167)'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-167/
-- title: 'ETF-Steuer 2024: Was tun? (#166)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/etf-steuer-2024/
 - title: 'ETF-Verschmelzung: Aus zwei mach eins (#177)'
   link: https://www.finanztip.de/podcast/auf-geldreise/auf-geldreise-podcast-177/
 - title: 'ETF: So sparst Du Steuern (#48)'
@@ -783,24 +649,20 @@
   link: https://www.finanztip.de/kuendigung-wegen-eigenbedarf/
 - title: Ein Bankkonto eröffnen
   link: https://www.finanztip.de/podcast/startkapital/folge-1/
-- title: Ein Bausparvertrag ist eine Wette?! (#37)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wette-bausparvertrag/
 - title: Ein Gespräch mit der Bildungsministerin über Finanzen (#139)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-139/
 - title: Ein Kontenmodell für Deine Beziehung – Teil eins (#55)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-55/
 - title: Ein Kontenmodell für Deine Beziehung – Teil zwei (#56)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-56/
-- title: Ein gesundes Money Mindset (#118)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/gesundes-money-mindset/
 - title: Ein gutes Festgeldkonto finden
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-33/
 - title: Einbruchsichere Fenster
   link: https://www.finanztip.de/fenster-einbruchschutz/
 - title: Eine Arbeit in Deutschland finden
-  link: https://www.finanztip.de/podcast/startkapital/folge-32/
-- title: Eine Arbeit in Deutschland finden
   link: https://www.finanztip.de/podcast/startkapital/folge-3/
+- title: Eine Arbeit in Deutschland finden
+  link: https://www.finanztip.de/podcast/startkapital/folge-32/
 - title: Eine Wohnung als Altersvorsorge? – Teil drei
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-85/
 - title: Eine Wohnung als Altersvorsorge? – Teil eins
@@ -835,8 +697,6 @@
   link: https://www.finanztip.de/stromtarife/heizstrom/
 - title: Elektronische Patientenakte (ePA)
   link: https://www.finanztip.de/krankenversicherung/elektronische-patientenakte/
-- title: Elektronische Versicherungsbestätigung
-  link: https://www.finanztip.de/kfz-versicherung/evb/
 - title: Elementarversicherung
   link: https://www.finanztip.de/wohngebaeudeversicherungen/elementarschadenversicherung/
 - title: Elster
@@ -913,8 +773,6 @@
   link: https://www.finanztip.de/erbengemeinschaft/
 - title: Erbpacht
   link: https://www.finanztip.de/baufinanzierung/erbpacht/
-- title: Erbrecht
-  link: https://www.finanztip.de/erbrecht/
 - title: 'Erbrecht: Von Millionären, Katzen und Testamenten – Teil eins (#104)'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-104-1/
 - title: 'Erbrecht: Von Millionären, Katzen und Testamenten – Teil zwei (#105)'
@@ -922,9 +780,9 @@
 - title: Erbschaft & Immobilien
   link: https://www.finanztip.de/erbschaft-immobilien/
 - title: Erbschaftssteuer
-  link: https://www.finanztip.de/lp/checkliste-erbschaftssteuer/
-- title: Erbschaftssteuer
   link: https://www.finanztip.de/erbschaftssteuer/
+- title: Erbschaftssteuer
+  link: https://www.finanztip.de/lp/checkliste-erbschaftssteuer/
 - title: Erbschaftssteuer Grundbesitz
   link: https://www.finanztip.de/erbschaftssteuer/immobilien/
 - title: Erbschaftssteuer und Anzeigepflichten
@@ -949,8 +807,6 @@
   link: https://www.finanztip.de/berufsunfaehigkeitsversicherung/erwerbsunfaehigkeitsversicherung/
 - title: Ethereum
   link: https://www.finanztip.de/kryptowaehrungen/ethereum/
-- title: Eure Lieblingsthemen 2023 (#172)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/eure-lieblingsthemen-2023/
 - title: Europa Risikolebensversicherung
   link: https://www.finanztip.de/risikolebensversicherung/europa-rlv/
 - title: Europäische Aktienindizes
@@ -967,10 +823,6 @@
   link: https://www.finanztip.de/kfz-versicherung/fahrleistung/
 - title: Fahrtenbuch
   link: https://www.finanztip.de/fahrtenbuch/
-- title: Fahrzeugschein
-  link: https://www.finanztip.de/kfz-versicherung/fahrzeugschein/
-- title: Fahrzeugschein verloren
-  link: https://www.finanztip.de/fahrzeugschein-verloren/
 - title: Falsche Angaben in der Kfz-Versicherung
   link: https://www.finanztip.de/kfz-versicherung/falsche-angaben/
 - title: Falsche Schufa-Einträge
@@ -1017,8 +869,6 @@
   link: https://www.finanztip.de/krankenzusatzversicherung/zahnzusatzversicherung/festzuschuss-zahnersatz/
 - title: Feuerrohbauversicherung
   link: https://www.finanztip.de/wohngebaeudeversicherungen/feuerrohbauversicherung/
-- title: Finanz-No-Gos in Beziehungen (#232)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/finanz-no-gos-in-beziehungen/
 - title: Finanzamt-Fehler im Steuerbescheid
   link: https://www.finanztip.de/finanzamt-fehler-steuerbescheid/
 - title: Finanzcheck
@@ -1027,8 +877,6 @@
   link: https://www.finanztip.de/derivate/
 - title: Finanzen
   link: https://www.finanztip.de/finanzen/
-- title: Finanzen als Paar organisieren (#132)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/finanzen-als-paar-organisieren/
 - title: 'Finanzen einfach machen: Diese Fragen stellt sich Helena vor dem Investieren
     (#170)'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-170/
@@ -1056,8 +904,6 @@
   link: https://www.finanztip.de/musterschreiben-und-downloads/
 - title: Finanztip-Podcasts
   link: https://www.finanztip.de/podcast/
-- title: Findet Finanztip Trade Republic schlecht? (#208)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/findet-finanztip-trade-republic-schlecht/
 - title: Flatex - Online Broker
   link: https://www.finanztip.de/wertpapierdepot/flatex/
 - title: Flatrates im Überblick
@@ -1106,12 +952,12 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-69/
 - title: Förderung Dachsanierung
   link: https://www.finanztip.de/energetische-sanierung/foerderung-dachsanierung/
-- title: Förderung Wärmepumpe 2025
+- title: Förderung Energetische Sanierung
+  link: https://www.finanztip.de/energetische-sanierung/foerderung/
+- title: Förderung Wärmepumpe
   link: https://www.finanztip.de/heizen-sanieren/waermepumpe/foerderung/
 - title: Förderung mit KfW 261
   link: https://www.finanztip.de/kfw-foerderung/kfw-energieeffizient-sanieren/
-- title: Führerscheinkosten
-  link: https://www.finanztip.de/kfz-versicherung/fuehrerschein-kosten/
 - title: Fürs Kind sparen – so geht’s!
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-75/
 - title: GKV-Familienversicherung
@@ -1152,82 +998,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/auf-geldreise-podcast-178/
 - title: 'Gehalt verhandeln: Weil Du es wert bist (Teil 2) (#179)'
   link: https://www.finanztip.de/podcast/auf-geldreise/auf-geldreise-podcast-179/
-- title: 'Gehaltsverhandlung: Wie holst Du mehr raus? (#98)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/gehaltsverhandlung-mehr-rausholen/
-- title: Gehörst Du noch zur Mittelschicht? (#241)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/gehoerst-du-noch-zur-mittelschicht/
-- title: Geld ganz einfach
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/
-- title: 'Geld ganz einfach - Der Podcast mit Saidi von Finanztip #1'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/sieben-grundsaetze/
-- title: 'Geld ganz einfach - Der Podcast mit Saidi von Finanztip #2'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/4-toepfe-prinzip/
-- title: 'Geld ganz einfach - Der Podcast mit Saidi von Finanztip #3'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/effektiv-sparen/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #10'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/der-etf-verkehrsschilderwald/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #11'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/zinseszins-vs-inflation/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #12'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/geld-ganz-einfach-der-podcast-mit-saidi-von-finanztip-12/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #13'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/geld-ganz-einfach-der-podcast-mit-saidi-von-finanztip-13/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #14'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/geld-ganz-einfach-der-podcast-mit-saidi-von-finanztip-14/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #15'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/teufelchen-auf-der-schulter-die-rentenluecke/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #16'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/die-riester-luege/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #17'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/bav-bauernfaengerei/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #18'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/alte-lebensversicherung/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #19'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/ist-miete-wirklich-rausgeworfenes-geld/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #20'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wohneigentum-oder-miete/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #21'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/my-home-is-my-castle/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #22'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/lieblingshobby-steuern-sparen/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #23'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/endgegner-steuererklaerung/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #24'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/abgeltungssteuer/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #25'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/steuern-sparen-mit-etfs/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #26'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/etfs-im-alter/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #27'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/geldanlage-fuer-kinder/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #28'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/mit-etfs-durch-alle-lebenslagen/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #29'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/geldanlegen-mit-gold/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #30'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/nicht-nur-msci-world-besparen/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #31'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/das-magische-viereck-der-geldanlage/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #32'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wann-etfs-nichts-fur-dich-sind/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #33'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/bitcoin/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #34'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/inflationsschutz/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #35'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/immobilien-kredite/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #4'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/top-8-spartipps/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #5'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/8-fallstricke-bei-kreditkarten/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #6'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/das-beste-tagesgeld-finden/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #7'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/geldanlage-zum-einfachen-selbermachen/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #8'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/aktien-morgens-im-badezimmer/
-- title: 'Geld ganz einfach – Der Podcast mit Saidi von Finanztip #9'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/warum-steigen-aktien-eigentlich/
 - title: Geld leihen
   link: https://www.finanztip.de/kredit/geld-leihen/
 - title: Geld zurück bei Reisemängeln (#113)
@@ -1240,8 +1010,6 @@
   link: https://www.finanztip.de/geldanlage/sparen-fuer-kinder/
 - title: Geldanlage muss nicht perfekt sein (#98)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-98/
-- title: 'Geldmarkt-ETF: Wie viel als Notgroschen? (#218)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/geldmarkt-etf-wie-viel-als-notgroschen/
 - title: 'Geldmarkt-ETFs: Sicherer Baustein in Deinem Depot?! (#142)'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-142/
 - title: Geldmarktfonds
@@ -1254,8 +1022,6 @@
   link: https://www.finanztip.de/aktienrente/
 - title: Genussscheine
   link: https://www.finanztip.de/genussscheine/
-- title: Gerd Kommer, wie geht’s mit Immobilien weiter? (#154)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/gerd-kommer-immobilien/
 - title: Geringwertiges Wirtschaftsgut (GWG)
   link: https://www.finanztip.de/geringwertige-wirtschaftsgueter/
 - title: Geschenke als Werbungskosten
@@ -1268,6 +1034,8 @@
   link: https://www.finanztip.de/erbfolge/
 - title: Gesetzliche Krankenversicherung (GKV)
   link: https://www.finanztip.de/gkv/
+- title: Gesetzliche Krankenversicherung (GKV)
+  link: https://www.finanztip.de/gkv-1/
 - title: Gesetzliche Pflegeversicherung
   link: https://www.finanztip.de/gesetzliche-pflegeversicherung/
 - title: Gesetzliche Rentenversicherung
@@ -1291,6 +1059,8 @@
 - title: Girokonto wechseln
   link: https://www.finanztip.de/girokonto/bank-wechseln/
 - title: Girokontorechner
+  link: https://www.finanztip.de/girokonto-vergleich-1/
+- title: Girokontorechner
   link: https://www.finanztip.de/girokonto-vergleich/
 - title: Giropay Paydirekt
   link: https://www.finanztip.de/online-banking/paydirekt/
@@ -1306,8 +1076,6 @@
   link: https://www.finanztip.de/kreditkarten/goldene-kreditkarte/
 - title: Gold Steuertipps
   link: https://www.finanztip.de/gold/gold-verkaufen/
-- title: 'Gold gegen Krisen: Gute Idee? (#193)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/gold-gegen-krisen/
 - title: Gold kaufen
   link: https://www.finanztip.de/gold/gold-kaufen/
 - title: Gold und Goldpreis
@@ -1348,8 +1116,6 @@
   link: https://www.finanztip.de/grundsteuer/grundsteuermessbetrag/
 - title: Grundversorgung
   link: https://www.finanztip.de/grundversorgung/
-- title: Größeren Betrag auf einmal investieren (#45)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/etf-einmalanlage/
 - title: Günstig Handy kaufen
   link: https://www.finanztip.de/handy-kaufen/handy-ohne-vertrag/
 - title: Günstig Urlaub machen trotz Euro-Schwäche
@@ -1361,9 +1127,9 @@
 - title: HUK-Coburg Rechtsschutz
   link: https://www.finanztip.de/rechtsschutzversicherung/huk-coburg-rechtsschutz/
 - title: Haftpflichtversicherung
-  link: https://www.finanztip.de/haftpflichtversicherung/
-- title: Haftpflichtversicherung
   link: https://www.finanztip.de/haftpflichtversicherung/privathaftpflicht/
+- title: Haftpflichtversicherung
+  link: https://www.finanztip.de/haftpflichtversicherung/
 - title: Haftpflichtversicherung Test
   link: https://www.finanztip.de/haftpflichtversicherung/haftpflicht-test/
 - title: Haftpflichtversicherung der Haftpflichtkasse
@@ -1406,10 +1172,6 @@
   link: https://www.finanztip.de/risikolebensversicherung/hannoversche-rlv/
 - title: Hanseatic Bank Genialcard
   link: https://www.finanztip.de/kreditkarten/kostenlose-kreditkarte/hanseatic-bank-genialcard/
-- title: Hartz IV bedroht ETF-Depot (#42)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/alg-altersvorsorge/
-- title: Hat der US-Aktienmarkt ein Problem? (#216)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/hat-der-us-aktienmarkt-ein-problem/
 - title: Haus & Haftpflicht
   link: https://www.finanztip.de/haus-haftpflicht/
 - title: Haus verkaufen
@@ -1420,10 +1182,6 @@
   link: https://www.finanztip.de/immobilienfinanzierung/hausfinanzierung/
 - title: Haushaltsbuch
   link: https://www.finanztip.de/haushaltsbuch/
-- title: Haushaltsbuch ganz einfach (#134)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/haushaltsbuch-ganz-einfach/
-- title: Haushaltsbuch ganz einfach? Emils Bilanz (#152)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/haushaltsbuch-ganz-einfach-emils-bilanz/
 - title: Haushaltshilfe
   link: https://www.finanztip.de/haushaltshilfe/
 - title: Haushaltsnahe Dienstleistungen
@@ -1454,8 +1212,6 @@
   link: https://www.finanztip.de/grundsteuer/hebesatz-grundsteuer/
 - title: Heizen und Sanieren
   link: https://www.finanztip.de/heizen-sanieren/
-- title: Heizkosten sparen
-  link: https://www.finanztip.de/heizkosten-sparen/
 - title: Heizkostenabrechnung
   link: https://www.finanztip.de/heizkostenverordnung/
 - title: Heizungsgesetz
@@ -1500,20 +1256,8 @@
   link: https://www.finanztip.de/postident/
 - title: Ihre Rechte als Käufer
   link: https://www.finanztip.de/kaufrecht/
-- title: 'Immo als Altersvorsorge: So geht‘s (#244)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/immo-als-altersvorsorge-so-gehts/
-- title: 'Immobilie erben: 22.000€ Erbschaftssteuer? (#107)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/immobilie-erben/
-- title: 'Immobilie zur Rendite: Gute Idee? (#210)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/immobilie-zur-rendite-gute-idee/
-- title: Immobilien als Fonds kaufen? (#160)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/immobilien-als-fonds-kaufen/
 - title: Immobilien als Kapitalanlage
   link: https://www.finanztip.de/baufinanzierung/immobilie-kapitalanlage/
-- title: Immobilien als Kapitalanlage 1/2 (#49)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/immobilien-kapitalanlage-1/
-- title: Immobilien als Kapitalanlage 2/2 (#50)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/immobilien-kapitalanlage-2/
 - title: Immobilien-Teilverkauf
   link: https://www.finanztip.de/immobilienverrentung/teilverkauf/
 - title: Immobilienbewertung
@@ -1528,10 +1272,6 @@
   link: https://www.finanztip.de/baufinanzierung/immobilienpreise/
 - title: Immobilienverrentung
   link: https://www.finanztip.de/immobilienverrentung/
-- title: In Rohstoffe investieren (#48)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/etcs/
-- title: In den Dax investieren? (#133)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/in-den-dax-investieren/
 - title: Indexfonds / ETFs
   link: https://www.finanztip.de/indexfonds-etf/
 - title: Indexfonds MSCI Europe
@@ -1560,26 +1300,14 @@
   link: https://www.finanztip.de/internetanbieter/internetanbieter-wechseln/
 - title: Internetstick - unterwegs surfen
   link: https://www.finanztip.de/mobiles-internet/surfstick/
-- title: Investieren in Clean Energy, Biotech & Co.? (#44)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/themen-etfs/
 - title: Investmentsteuerreformgesetz
   link: https://www.finanztip.de/indexfonds-etf/investmentsteuerreformgesetz/
-- title: Ist Finanztip wirklich unabhängig? (#171)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/ist-finanztip-wirklich-unabhaengig/
-- title: Ist Krypto tot? (#123)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/ist-krypto-tot/
-- title: Ist dieses Produkt besser als Tagesgeld? (#143)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/geldmarktfonds-besser-als-tagesgeld/
-- title: Ist ein Eigenheim eine blöde Idee? (#84)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/rich-dad-poor-dad/
-- title: Ist nur Bares Wahres? (#83)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/bargeld-abschaffen/
-- title: 'Jahres-Check: Finanzen ordnen (#70)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/jahrescheck/
 - title: Jahresarbeitszahl Wärmepumpe
   link: https://www.finanztip.de/waermepumpe/jahresarbeitszahl-waermepumpe/
-- title: Jetzt Balkonkraftwerk kaufen? 4 Gründe (#246)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/jetzt-balkonkraftwerk-kaufen-4-gruende/
+- title: 'Jetzt neu: Das ePaper zum Thema Erben und Vererben'
+  link: https://www.finanztip.de/epaper-erben-und-vererben/
+- title: 'Jetzt neu: Das ePaper zum Thema Erben und Vererben'
+  link: https://www.finanztip.de/lp/epaper-erben-und-vererben/
 - title: 'Jetzt neu: Das ePaper zur Altersvorsorge'
   link: https://www.finanztip.de/lp/e-paper-altersvorsorge-mit-etf/
 - title: Jobs
@@ -1588,10 +1316,6 @@
   link: https://www.finanztip.de/wertpapierdepot/justtrade-depot/
 - title: Kabel- und DSL-Vergleich
   link: https://www.finanztip.de/internetanbieter/kabel-dsl-vergleich/
-- title: Kann man Trade Republic & Co. trauen? (#102)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/kann-man-neobrokern-trauen/
-- title: Kannst Du Dir ein Haus leisten? (#129)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/haus-leisten/
 - title: Kapitallebens- und Rentenversicherung
   link: https://www.finanztip.de/lebensversicherung/kapitallebensversicherung/
 - title: Kapitallebensversicherung versteuern
@@ -1602,22 +1326,10 @@
   link: https://www.finanztip.de/berufsunfaehigkeitsversicherung/karenzzeit/
 - title: Karriere bei Finanztip
   link: https://www.finanztip.de/jobs/
-- title: Karriere und Gehalt – was wirklich zählt (#57)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/karriere-gehalt/
-- title: 'Kartenchaos in D: Wie am besten bezahlen? (#113)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/kartenchaos-in-deutschland/
 - title: Kaskoversicherung Diebstahl
   link: https://www.finanztip.de/kfz-versicherung/auto-diebstahlschutz/
 - title: Kassensturz
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-1/
-- title: Kaufen oder Mieten? So findest Du’s raus (#190)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/kaufen-oder-mieten-so-findest-dus-raus/
-- title: 'Kein Geldstress: So klappt‘s (#168)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/kein-geldstress/
-- title: Kein Stress mehr mit Unterlagen (#175)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/kein-stress-mehr-mit-unterlagen/
-- title: Keine BU bekommen. Und jetzt? (#243)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/keine-bu-bekommen-und-jetzt/
 - title: Keine Kindergrundsicherung ab 2025
   link: https://www.finanztip.de/kindergrundsicherung/
 - title: Keine Krankenversicherung
@@ -1640,8 +1352,6 @@
   link: https://www.finanztip.de/kfw-foerderung/kfw-studienkredit/
 - title: KfW Umbauen
   link: https://www.finanztip.de/kfw-foerderung/kfw-umbauen/
-- title: KfW-Förderung für Heizungen
-  link: https://www.finanztip.de/heizkosten-sparen/foerderung-heizung/
 - title: Kfz-Haftpflichtversicherung
   link: https://www.finanztip.de/kfz-versicherung/kfz-haftpflichtversicherung/
 - title: Kfz-Schutzbrief
@@ -1708,14 +1418,8 @@
   link: https://www.finanztip.de/kfw-foerderung/klimafreundlicher-neubau/
 - title: Klimageld
   link: https://www.finanztip.de/klimageld/
-- title: Klumpenrisiko senken (#136)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/klumpenrisiko-senken/
 - title: Kombitarife Festnetz, Handy, TV
   link: https://www.finanztip.de/internetanbieter/festnetz-internet-handy/
-- title: Kommt das Depot zur Altersvorsorge? (#203)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/kommt-das-depot-zur-altersvorsorge/
-- title: Kommt wirklich der Doomsday an der Börse? (#100)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/kommt-der-doomsday/
 - title: Konto & Karte
   link: https://www.finanztip.de/konto-karte/
 - title: Konto kündigen
@@ -1734,6 +1438,8 @@
   link: https://www.finanztip.de/kreditkarten/kostenlose-kreditkarte/
 - title: Kostenlose Rechtsberatung & Anwaltssuche
   link: https://www.finanztip.de/kostenlose-rechtsberatung/
+- title: Kostenlose Sim-Karte
+  link: https://www.finanztip.de/handy/kostenlose-sim-karte/
 - title: Kraftfahrzeugsteuer
   link: https://www.finanztip.de/kfz-steuer/
 - title: Krank im Urlaub
@@ -1748,12 +1454,8 @@
   link: https://www.finanztip.de/krankenzusatzversicherung/krankenhaus-zusatzversicherung/
 - title: Krankenhaustagegeld-Versicherung
   link: https://www.finanztip.de/krankenzusatzversicherung/krankenhaustagegeldversicherung/
-- title: Krankenkasse optimieren (#59)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/gkv-optimieren/
 - title: Krankenkasse wechseln und sparen – so geht’s! (#176)
   link: https://www.finanztip.de/podcast/auf-geldreise/auf-geldreise-podcast-176/
-- title: Krankenkasse wird für viele teurer. Was jetzt? (#212)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/krankenkasse-wird-fuer-viele-teurer-was-jetzt/
 - title: Krankenkassenbeitrag auf Abfindung
   link: https://www.finanztip.de/gkv/krankenkassenbeitrag-auf-abfindungen/
 - title: Krankentagegeld
@@ -1777,9 +1479,9 @@
 - title: Krankenversicherung in der Elternzeit
   link: https://www.finanztip.de/krankenversicherung/krankenversicherung-elternzeit/
 - title: Krankenversicherung Überblick
-  link: https://www.finanztip.de/krankenversicherung-ueberblick/
-- title: Krankenversicherung Überblick
   link: https://www.finanztip.de/krankenversicherung/
+- title: Krankenversicherung Überblick
+  link: https://www.finanztip.de/krankenversicherung-ueberblick/
 - title: Krankenversicherungspflicht
   link: https://www.finanztip.de/gkv/krankenversicherungspflicht/
 - title: Krankenzusatzversicherungen
@@ -1836,14 +1538,10 @@
   link: https://www.finanztip.de/kreditkarten/kreditkartenzahlung-stornieren-chargeback/
 - title: Kreditrechner
   link: https://www.finanztip.de/kredit-rechner/
-- title: 'Krieg: Alles anders bei Aktien & Co.? (#78)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/alles-anders-krieg/
 - title: Kryptowährungen
   link: https://www.finanztip.de/kryptowaehrungen/
 - title: Kurzarbeit und Kurzarbeitergeld
   link: https://www.finanztip.de/kurzarbeit/
-- title: Kurzzeitkennzeichen
-  link: https://www.finanztip.de/kfz-versicherung/kurzzeitkennzeichen/
 - title: Kurzzeitkredite
   link: https://www.finanztip.de/kredit/kurzzeitkredit/
 - title: Kurzzeitpflege
@@ -1862,8 +1560,6 @@
   link: https://www.finanztip.de/rechtsschutzversicherung/rechtsschutzversicherung-kuendigung/
 - title: Kündigung und Wechsel der GKV
   link: https://www.finanztip.de/gkv/krankenkasse-kuendigen/
-- title: Kündigungsdienste
-  link: https://www.finanztip.de/kuendigungsdienste/
 - title: Kündigungsfrist - Nachmieter
   link: https://www.finanztip.de/kuendigungsfrist-nachmieter/
 - title: Kündigungsfristen im Arbeitsrecht
@@ -1911,43 +1607,23 @@
 - title: Lohnfortzahlung bei Quarantäne
   link: https://www.finanztip.de/arbeitsrecht-lohnfortzahlung-quarantaene/
 - title: Lohnpfändung
-  link: https://www.finanztip.de/pfaendungstabelle/lohnpfaendung/
-- title: Lohnpfändung
   link: https://www.finanztip.de/lp/muster-drittschuldnererklaerung/
+- title: Lohnpfändung
+  link: https://www.finanztip.de/pfaendungstabelle/lohnpfaendung/
 - title: Lohnsteuer-Ermäßigung
   link: https://www.finanztip.de/lohnsteuerermaessigung/
 - title: Lohnsteuerhilfeverein
   link: https://www.finanztip.de/lohnsteuerhilfeverein/
 - title: Lohnsteuerjahresausgleich
   link: https://www.finanztip.de/lohnsteuerjahresausgleich/
-- title: Lohnt sich die Rente mit 40? (#149)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/mit-40-in-rente/
-- title: Lohnt sich ein Bausparvertrag zur energetischen Sanierung? (#109)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/bausparer-sanieren/
 - title: Lombardkredit
   link: https://www.finanztip.de/wertpapierdepot/lombardkredit/
 - title: Los geht's
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-0/
 - title: Luft-Wärmepumpe
   link: https://www.finanztip.de/heizen-sanieren/luft-waermepumpe/
-- title: Lyxor ETF110
-  link: https://www.finanztip.de/indexfonds-etf/lyxor-etf110/
-- title: Länger arbeiten und 22.000€ extra? (#206)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/laenger-arbeiten-und-22000-euro-extra/
 - title: MSCI ACWI
   link: https://www.finanztip.de/indexfonds-etf/msci-acwi/
-- title: MSCI World noch die beste Option? (#148)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/msci-world-noch-die-beste-option/
-- title: Mach das 2025 bei Deinem ETF (#221)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/mach-das-2025-bei-deinem-etf/
-- title: Mach das noch 2023 (#165)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/mach-das-noch-2023/
-- title: Machst Du diesen Geld-Fehler? (#181)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/machst-du-diesen-geld-fehler/
-- title: Macht Geld Dich überheblich? (#56)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/geld-charakterauswirkungen/
-- title: Macht Geldstress krank? (#189)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/macht-geldstress-krank/
 - title: Maestro
   link: https://www.finanztip.de/girokonto/maestro-card/
 - title: Mahngebühren
@@ -1962,22 +1638,10 @@
   link: https://www.finanztip.de/kfz-versicherung/mallorca-police/
 - title: Mastercard
   link: https://www.finanztip.de/kreditkarten/mastercard/
-- title: 'Maximale Rente: So geht‘s (#158)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/maximale-rente-so-gehts/
-- title: Mehr Gehalt? Denk an diese Option (#194)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/mehr-gehalt-denk-an-diese-option/
 - title: Mehr Geld zurück mithilfe digitaler Steuerprogramme und Apps
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-78/
-- title: Mehr Lohn und weniger Überstunden (#159)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/mehr-lohn-und-weniger-uberstunden/
-- title: Mehr Netto ohne Gehaltserhöhung (#147)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/mehr-netto-ohne-gehaltserhoehung/
-- title: Mehr Netto vom Brutto (#58)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/mehr-netto/
 - title: Mehr Netto vom Brutto dank neuem Pflegebeitrag?! (#158)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-158/
-- title: Mehrere ETFs im Depot = mehr Risiko? (#99)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/clusterrisiken-im-portfolio/
 - title: Mehrfachversicherung
   link: https://www.finanztip.de/sinnvolle-versicherungen/doppelversicherung/
 - title: Mehrverbrauch reklamieren
@@ -2017,7 +1681,7 @@
 - title: Mietkaution
   link: https://www.finanztip.de/mietkaution/
 - title: Mietminderung
-  link: https://www.finanztip.de/lp/mietminderung-musterschreiben-v2/
+  link: https://www.finanztip.de/lp/mietminderung/
 - title: Mietminderung
   link: https://www.finanztip.de/mietminderung/
 - title: Mietpreisbremse
@@ -2036,8 +1700,6 @@
   link: https://www.finanztip.de/minijobs/
 - title: Minikredit
   link: https://www.finanztip.de/kredit/minikredit/
-- title: Mit Hebel-ETFs noch mehr Gewinn machen? (#93)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/in-hebel-etfs-investieren/
 - title: Mit bewusster Kommunikation zu mehr Geld - Teil eins (#163)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-163/
 - title: Mit bewusster Kommunikation zu mehr Geld – Teil zwei (#164)
@@ -2080,8 +1742,6 @@
   link: https://www.finanztip.de/mutterschutzgesetz/
 - title: Mythen & Irrtümer rund um den gelben Schein
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-94/
-- title: Müssen Frauen anders investieren? (#236)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/muessen-frauen-anders-investieren/
 - title: Mütterrente
   link: https://www.finanztip.de/gesetzliche-rentenversicherung/muetterrente/
 - title: NFC bei Kreditkarten und EC-Karten
@@ -2122,8 +1782,6 @@
   link: https://www.finanztip.de/negativzinsen/
 - title: Negativzinsen – so holst Du Dir Dein Geld zurück (#180)
   link: https://www.finanztip.de/podcast/auf-geldreise/auf-geldreise-podcast-179-1/
-- title: Neobroker oder Direktbank? (#217)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/neobroker-oder-direktbank/
 - title: Neues Heizungsgesetz
   link: https://www.finanztip.de/lp/heizungstausch-checkliste/
 - title: Neues Jahr, mehr Geld
@@ -2134,14 +1792,10 @@
   link: https://www.finanztip.de/baufinanzierung/nichtabnahmeentschaedigung/
 - title: Nießbrauch
   link: https://www.finanztip.de/niessbrauch/
-- title: Nix aufschwatzen lassen – so geht‘s (#141)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/nix-aufschwatzen-lassen/
 - title: Norisbank Girokonto
   link: https://www.finanztip.de/girokonto/norisbank-girokonto/
 - title: Null-Prozent-Finanzierung
   link: https://www.finanztip.de/kredit/0-prozent-finanzierung/
-- title: Nur noch 6% mit ETFs. Wieso? (#234)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/nur-noch-6-prozent-mit-etfs-wieso/
 - title: Nuri-Insolvenz
   link: https://www.finanztip.de/geldanlage/nuri-insolvenz/
 - title: Nutzungsausfallentschädigung statt Mietwagen
@@ -2152,8 +1806,6 @@
   link: https://www.finanztip.de/unfallversicherung/event-police/
 - title: Oldtimer-Steuertipps
   link: https://www.finanztip.de/oldtimer-kfz-steuer/
-- title: Oldtimer-Versicherung
-  link: https://www.finanztip.de/kfz-versicherung/oldtimer/
 - title: Online Banking
   link: https://www.finanztip.de/online-banking/
 - title: Online-Bewertungen
@@ -2193,10 +1845,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-97/
 - title: Passives Einkommen
   link: https://www.finanztip.de/passives-einkommen/
-- title: Passives Einkommen mit Dividenden? (#228)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/passives-einkommen-mit-dividenden/
-- title: Passives Einkommen – das falsche Versprechen (#110)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/passives-einkommen-falsches-versprechen/
 - title: Patientenverfügung
   link: https://www.finanztip.de/patientenverfuegung/
 - title: Pauschalreisen
@@ -2213,12 +1861,8 @@
   link: https://www.finanztip.de/pelletheizung/
 - title: Pensionszusage
   link: https://www.finanztip.de/betriebliche-altersvorsorge/pensionszusage/
-- title: Perfekt abgesichert? So klappt’s (#186)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/perfekt-abgesichert-so-klappts/
 - title: Personenbedingte Kündigung
   link: https://www.finanztip.de/ordentliche-kuendigung/personenbedingte-kuendigung/
-- title: 'Pfennigfuchsereien: Am falschen Ende gespart (#94)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/penny-wise-and-pound-foolish/
 - title: Pferde OP-Versicherung
   link: https://www.finanztip.de/tierkrankenversicherung/pferde-op-versicherung/
 - title: Pferdehaftpflicht
@@ -2263,8 +1907,6 @@
   link: https://www.finanztip.de/photovoltaik/photovoltaikversicherung/
 - title: Pinke Fonds für mehr Gleichberechtigung? (#128)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-128/
-- title: Platzt die Immobilienblase? (#74)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/platzt-die-immobilienblase/
 - title: Policen für Familien
   link: https://www.finanztip.de/sinnvolle-versicherungen/fuer-familien/
 - title: Policen für Rentner
@@ -2275,8 +1917,6 @@
   link: https://www.finanztip.de/fluggasthelfer/
 - title: Preiserhöhung Pflegeheim
   link: https://www.finanztip.de/pflege/preiserhoehung-pflegeheim/
-- title: 'Preisschock bei Strom & Gas: Was tun? (#103)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/preisschock-bei-strom-und-gas/
 - title: Preisvergleich
   link: https://www.finanztip.de/preisvergleich/
 - title: Prepaid-Kreditkarten
@@ -2285,10 +1925,6 @@
   link: https://www.finanztip.de/handytarife/prepaidtarife/
 - title: Privat besser krankenversichert?
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-73/
-- title: Privat versichern wird teurer. Und jetzt? (#230)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/privat-versichern-wird-teurer-und-jetzt/
-- title: Privat versichern? So machst Du’s richtig (#185)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/privat-versichern/
 - title: Private Altersvorsorge
   link: https://www.finanztip.de/altersvorsorge/private-altersvorsorge/
 - title: Private Krankenversicherung (PKV)
@@ -2303,8 +1939,6 @@
   link: https://www.finanztip.de/private-pflege-pflichtversicherung/
 - title: Private Rentenversicherung
   link: https://www.finanztip.de/private-rentenversicherung/
-- title: Private vs. gesetzliche Krankenversicherung (#61)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/pkv-gkv/
 - title: Privater Darlehensvertrag
   link: https://www.finanztip.de/muster-darlehensvertrag/
 - title: Privathaftpflicht für Paare
@@ -2313,8 +1947,6 @@
   link: https://www.finanztip.de/privatkredit/
 - title: Probezeit
   link: https://www.finanztip.de/probezeit-arbeitsrecht/
-- title: Probier mal diese 7 Steuertricks (#198)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/probier-mal-diese-7-steuertricks/
 - title: Progressionsvorbehalt
   link: https://www.finanztip.de/steuererklaerung/progressionsvorbehalt/
 - title: Prolongation einer Baufinanzierung
@@ -2379,10 +2011,6 @@
   link: https://www.finanztip.de/kfz-versicherung/regionalklassen/
 - title: Reha beantragen
   link: https://www.finanztip.de/gkv/reha-antrag/
-- title: Reich durch 100% Aktienquote? (#231)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/reich-durch-100-prozent-aktienquote/
-- title: Reicht ein ETF? (#145)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/reicht-ein-etf/
 - title: Reise- und Verpflegungskosten
   link: https://www.finanztip.de/reisekosten-absetzen/
 - title: Reisegepäckversicherung
@@ -2433,8 +2061,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-6/
 - title: Rentenversicherung Besteuerung
   link: https://www.finanztip.de/private-rentenversicherung/rentenversicherung-besteuerung/
-- title: Rentenversicherung vs. ETF-Sparplan (#39)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/rentenversicherung-vs-etfsparplan/
 - title: Rentner im Ausland
   link: https://www.finanztip.de/rentenbesteuerung/rente-im-ausland/
 - title: Reparaturkosten und Kfz-Versicherung
@@ -2451,8 +2077,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-14/
 - title: Rezession – die Fortsetzung
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-15/
-- title: Richtig nachhaltig investieren mit diesen Fonds? (#120)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/probleme-bei-oekofonds/
 - title: Richtig spenden
   link: https://www.finanztip.de/spenden-als-sonderausgaben/richtig-spenden/
 - title: Richtig umschichten
@@ -2493,17 +2117,13 @@
   link: https://www.finanztip.de/aktien/rohstoff-etf/
 - title: Roland Rechtsschutzversicherung
   link: https://www.finanztip.de/rechtsschutzversicherung/roland-rechtsschutz/
-- title: Rollerversicherung
-  link: https://www.finanztip.de/kfz-versicherung/rollerversicherung/
-- title: Rote Kennzeichen
-  link: https://www.finanztip.de/kfz-versicherung/rote-kennzeichen/
 - title: Rufnummer mitnehmen
   link: https://www.finanztip.de/handyvertrag/rufnummernmitnahme/
 - title: Rufumleitung
   link: https://www.finanztip.de/handyvertrag/rufumleitung/
 - title: Rundfunkbeitrag (GEZ)
   link: https://www.finanztip.de/rundfunkbeitrag/
-- title: Rundfunkbeitrag 2023 (GEZ-Gebühr)
+- title: Rundfunkbeitrag 2025 (GEZ Gebühr)
   link: https://www.finanztip.de/lp/checkliste-rundfunkbeitrag/
 - title: Rückerstattung PKV
   link: https://www.finanztip.de/pkv/pkv-rueckerstattung/
@@ -2513,16 +2133,8 @@
   link: https://www.finanztip.de/pkv/pkv-rueckkehr-gkv/
 - title: Rürup-Rente
   link: https://www.finanztip.de/ruerup-rente-basisrente/
-- title: Rürup-Rente – Steuersparmodell? (#41)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/ruerup-rente/
 - title: S Broker Test
   link: https://www.finanztip.de/wertpapierdepot/s-broker/
-- title: Saidis persönlicher Ausblick auf 2023 (#114)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/saidis-ausblick-2023/
-- title: Saidis und Emils größte Geld-Fehler (#144)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/saidis-und-emils-geld-fails/
-- title: Saisonkennzeichen
-  link: https://www.finanztip.de/kfz-versicherung/saisonkennzeichen/
 - title: Samsung Galaxy kaufen
   link: https://www.finanztip.de/handy-kaufen/guenstiges-samsung-galaxy/
 - title: Sanierungskosten absetzen
@@ -2545,10 +2157,6 @@
   link: https://www.finanztip.de/kosten-einer-scheidung/
 - title: Schenkungssteuer
   link: https://www.finanztip.de/schenkungssteuer/
-- title: 'Schiefe Sache: Altersvorsorge in Deutschland (#82)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/schiefe-sache-altersvorsorge/
-- title: Schlechte Geldanlagen loswerden (#184)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/schlechte-geldanlagen-loswerden/
 - title: Schlichtungsstellen
   link: https://www.finanztip.de/schlichtungsstelle/
 - title: Schlüsselversicherung
@@ -2557,16 +2165,12 @@
   link: https://www.finanztip.de/kredit/schnellkredit/
 - title: Schonvermögen Elternunterhalt
   link: https://www.finanztip.de/elternunterhalt/elternunterhalt-schonvermoegen/
-- title: Schreckgespenst Stagflation (#79)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/schreckgespenst-stagflation/
 - title: Schufa
   link: https://www.finanztip.de/schufa/
 - title: Schuldnerberatung
   link: https://www.finanztip.de/schuldnerberatung/
 - title: Schulgeld absetzen
   link: https://www.finanztip.de/schulgeld/
-- title: Schwachstellen nachhaltiger Geldanlage (#90)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/schwachstellen-nachhaltiger-geldanlage/
 - title: Schöne Bescherung – die Finanztip-Edition (#122)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-122/
 - title: Schönheitsreparaturen im Mietvertrag
@@ -2597,20 +2201,12 @@
   link: https://www.finanztip.de/muster-darlehensvertrag/sicherungsuebereignung/
 - title: Sim-Karte mit Auslandstarif
   link: https://www.finanztip.de/handyvertrag/roaming/sim-karte-ausland/
-- title: Simplify your money! (#71)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/simplify-your-money/
 - title: Sind Frauen die besseren Anlegerinnen?
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-86/
-- title: Sind Schulden immer schlecht? (#161)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/sind-schulden-immer-schlecht/
-- title: Sind nachhaltige ETFs Renditekiller? (#211)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/sind-nachhaltige-etfs-renditekiller/
 - title: Sinnvolle Versicherungen
   link: https://www.finanztip.de/sinnvolle-versicherungen/
 - title: Skontorechner
   link: https://www.finanztip.de/rechner/skontorechner/
-- title: Small Caps – in Nebenwerte investieren? (#91)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/small-caps-nebe/
 - title: Smart Home
   link: https://www.finanztip.de/smart-home/
 - title: Smart-Beta-ETFs
@@ -2637,16 +2233,10 @@
   link: https://www.finanztip.de/indexfonds-etf/etf-verkaufen/
 - title: So holen Sie Ihr Konto aus dem Minus
   link: https://www.finanztip.de/girokonto/dispo-ueberzogen-umschulden/
-- title: So holst Du mehr Geld aus Deinem ETF (#151)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/so-holst-du-mehr-geld-aus-deinem-etf/
-- title: So klappt der Depotwechsel (#137)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/so-klappt-der-depotwechsel/
 - title: So klappt’s mit dem Eigenheim 2024 (#148)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-148/
 - title: So sendest Du preiswert Pakete
   link: https://www.finanztip.de/paketdienste/
-- title: So sparst Du Dir Tagesgeld-Hopping  (#153)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/tagesgeld-hopping-sparen/
 - title: So versicherst Du Dein Auto günstig (#42)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-42/
 - title: So viel bringen Tarifmerkmale
@@ -2661,8 +2251,6 @@
   link: https://www.finanztip.de/photovoltaik/pv-anlage-kaufen/
 - title: Solarpflicht
   link: https://www.finanztip.de/photovoltaik/solarpflicht/
-- title: Solarthermie
-  link: https://www.finanztip.de/heizkosten-sparen/solarthermie/
 - title: Solidaritätszuschlag
   link: https://www.finanztip.de/solidaritaetszuschlag/
 - title: Sollte ich jetzt Gold kaufen? (#111)
@@ -2683,14 +2271,10 @@
   link: https://www.finanztip.de/sparbuch/
 - title: Sparen im Alltag
   link: https://www.finanztip.de/sparen-im-alltag/
-- title: Sparen wir falsch? (#163)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/sparen-wir-falsch/
 - title: Sparerpauschbetrag
   link: https://www.finanztip.de/sparerpauschbetrag/
 - title: Sparplan
   link: https://www.finanztip.de/sparplan/
-- title: Sparplan gefährlicher als Einmalanlage? (#89)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/sparplan-gefaehrlicher-als-einmalanlage/
 - title: Sparplanrechner
   link: https://www.finanztip.de/rechner/sparplanrechner/
 - title: Spekulationssteuer
@@ -2717,8 +2301,6 @@
   link: https://www.finanztip.de/kryptowaehrungen/staking/
 - title: Startkapital
   link: https://www.finanztip.de/podcast/startkapital/
-- title: Steht bei Aktien die Mauer noch? (#219)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/steht-bei-aktien-die-mauer-noch/
 - title: Sterbegeldversicherung
   link: https://www.finanztip.de/risikolebensversicherung/sterbegeldversicherung/
 - title: Steuerabzug Zweitstudium
@@ -2736,11 +2318,11 @@
 - title: Steuerbescheid ändern lassen
   link: https://www.finanztip.de/steuerbescheid-aendern/
 - title: Steuererklärung
-  link: https://www.finanztip.de/steuererklaerung-uebersicht/
-- title: Steuererklärung
   link: https://www.finanztip.de/steuererklaerung/
 - title: Steuererklärung
   link: https://www.finanztip.de/steuererklaerung/steuererklaerung-2022/
+- title: Steuererklärung
+  link: https://www.finanztip.de/steuererklaerung-uebersicht/
 - title: Steuererklärung 2018
   link: https://www.finanztip.de/steuererklaerung/steuererklaerung-2018/
 - title: Steuererklärung 2019
@@ -2759,12 +2341,12 @@
   link: https://www.finanztip.de/steuererklaerung-anlage-kap/
 - title: Steuererklärung Anlage N
   link: https://www.finanztip.de/steuererklaerung/steuererklaerung-anlage-n/
-- title: Steuererklärung Anlage R
-  link: https://www.finanztip.de/rentenbesteuerung/
 - title: Steuererklärung Anlage U
   link: https://www.finanztip.de/steuererklaerung-anlage-u/
 - title: Steuererklärung Anlage Unterhalt
   link: https://www.finanztip.de/steuererklaerung-anlage-unterhalt/
+- title: Steuererklärung Rentner
+  link: https://www.finanztip.de/rentenbesteuerung/
 - title: Steuererklärung für Paare (#140)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-140/
 - title: Steuererklärung für Verstorbene
@@ -2779,8 +2361,6 @@
   link: https://www.finanztip.de/steuerfolgen-onlineverkauf/
 - title: Steuerfreibetrag 2024
   link: https://www.finanztip.de/freibetraege-pauschbetraege/
-- title: Steuerfreie Fondsanteile verkaufen? Eure Fragen (#227)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/steuerfreie-fondsanteile-verkaufen/
 - title: Steuerfreie Sachzuwendungen
   link: https://www.finanztip.de/steuerfreie-sachzuwendungen/
 - title: Steueridentifikationsnummer
@@ -2839,8 +2419,6 @@
   link: https://www.finanztip.de/streupflicht/
 - title: Strom
   link: https://www.finanztip.de/stromversorgung/
-- title: 'Strom & Gas günstiger: Check die Preise! (#121)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/strom-gas-guenstiger/
 - title: Strom kündigen beim Umzug
   link: https://www.finanztip.de/stromanbieter-wechseln/strom-kuendigen-umzug/
 - title: Strom sparen
@@ -2971,10 +2549,10 @@
   link: https://www.finanztip.de/treppenlift/
 - title: Treppenlift Anbieter
   link: https://www.finanztip.de/treppenlift/anbieter/
-- title: Trotz Allzeithoch investieren? (#63)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/alltimehigh/
 - title: Typklassen
   link: https://www.finanztip.de/kfz-versicherung/typklassen/
+- title: US-Anleihen
+  link: https://www.finanztip.de/anleihen/us-anleihen-bonds/
 - title: Umkehrhypothek
   link: https://www.finanztip.de/immobilienverrentung/umkehrhypothek/
 - title: Umzugskosten
@@ -2997,10 +2575,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-34/
 - title: Unser Newsletter
   link: https://www.finanztip.de/lp/youtube-newsletter/
-- title: Unsere Finanz-Fails 2024 (#215)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/unsere-finanz-fails-2024/
-- title: Unsere Geld-Ziele 2024 (#169)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/kein-geldstress-1/
 - title: Unsere Highlights aus 4 Jahren Auf Geldreise (#149)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-149/
 - title: Unsere Packliste
@@ -3045,8 +2619,6 @@
   link: https://www.finanztip.de/gkv/verdienstgrenzen-familienversicherung/
 - title: Vergleich MSCI-World-ETF
   link: https://www.finanztip.de/indexfonds-etf/msci-world-etf-vergleich/
-- title: Vergleich Wohnmobilversicherungen
-  link: https://www.finanztip.de/kfz-versicherung/wohnmobil-versicherung/
 - title: Vergleichsportale
   link: https://www.finanztip.de/vergleichsportale/
 - title: Verhalten im Schadensfall
@@ -3057,26 +2629,14 @@
   link: https://www.finanztip.de/gesetzliche-pflegeversicherung/verhinderungspflege/
 - title: Verjährungsfrist nach dem BGB
   link: https://www.finanztip.de/verjaehrungsfristen-bgb/
-- title: Verkaufsmaschen erkennen (#162)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/verkaufsmaschen-erkennen/
 - title: Verkehrsrechtsschutz
   link: https://www.finanztip.de/rechtsschutzversicherung/verkehrsrechtsschutz/
 - title: Verlustausgleich und Verlustabzug
   link: https://www.finanztip.de/verlustausgleich-verlustabzug/
-- title: Verluste sparen Steuern (#69)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/die-verlustverrechnung/
-- title: Vermeide 2024 diese Geld-Fehler (#170)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/vermeide-2024-diese-geld-fehler/
-- title: Vermeide diese Tagesgeld-Fehler (#146)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/vermeide-diese-tagesgeld-fehler/
-- title: Vermeide diese Urlaubs-Fehler (#139)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/vermeide-diese-urlaubs-fehler/
 - title: Vermieterrechtsschutz
   link: https://www.finanztip.de/rechtsschutzversicherung/vermieterrechtsschutz/
 - title: Vermächtnis
   link: https://www.finanztip.de/vermaechtnis/
-- title: 'Vermögensbilanz: Wieviel Geld solltest Du haben? (#112)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/vermoegensbilanz-am-jahresende/
 - title: Vermögensschadenhaftpflicht
   link: https://www.finanztip.de/haftpflichtversicherung/vermoegensschadenhaftpflicht/
 - title: Vermögensverbratung (Teil 1)
@@ -3085,16 +2645,10 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-4/
 - title: Vermögenswirksame Leistungen
   link: https://www.finanztip.de/vermoegenswirksame-leistungen/
-- title: Vermögenswirksame Leistungen (#40)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/vl-vermoegenswirksame-leistungen/
 - title: Verpflegungsmehraufwand
   link: https://www.finanztip.de/verpflegungsmehraufwand/
-- title: Verrechnungskonto statt Tagesgeld? (#224)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/verrechnungskonto-statt-tagesgeld/
 - title: Versicherung
   link: https://www.finanztip.de/versicherung/
-- title: Versicherung E-Auto
-  link: https://www.finanztip.de/kfz-versicherung/e-autoversicherung/
 - title: Versicherung im Ehrenamt
   link: https://www.finanztip.de/sinnvolle-versicherungen/im-ehrenamt/
 - title: Versicherung kündigen
@@ -3121,8 +2675,6 @@
   link: https://www.finanztip.de/verspaetungszuschlag/
 - title: Vertrag widerrufen
   link: https://www.finanztip.de/vertrag-widerrufen/
-- title: Viele Aktien lohnen sich nicht. ETFs schon? (#214)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/viele-aktien-lohnen-sich-nicht-etfs-schon/
 - title: Virtuelle Kreditkarte
   link: https://www.finanztip.de/kreditkarten/virtuelle-prepaid/
 - title: Visa oder Mastercard
@@ -3137,8 +2689,6 @@
   link: https://www.finanztip.de/kfz-versicherung/neuwertentschaedigung/
 - title: Vollkaskoversicherung
   link: https://www.finanztip.de/kfz-versicherung/vollkaskoversicherung/
-- title: Vor dieser Kostenfalle schützt Dich Dein ETF (#178)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/vor-dieser-kostenfalle-schuetzt-dich-dein-etf/
 - title: Vorabpauschale
   link: https://www.finanztip.de/indexfonds-etf/etf-steuern/vorabpauschale/
 - title: Voraussetzungen für einen Kredit
@@ -3155,8 +2705,6 @@
   link: https://www.finanztip.de/lp/vorsorge-kalender/
 - title: Vorsorgeaufwendungen
   link: https://www.finanztip.de/vorsorgeaufwendungen/
-- title: Vorsorgen für Krankheit & Tod (#43)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/vorsorge-krankheit-tod/
 - title: Vorsorgeuntersuchungen
   link: https://www.finanztip.de/gkv/vorsorgeuntersuchung/
 - title: Vorsorgevollmacht
@@ -3173,46 +2721,24 @@
   link: https://www.finanztip.de/wallbox/wallbox-foerderung/
 - title: Wandelanleihen
   link: https://www.finanztip.de/anleihen/wandelanleihen/
-- title: Wann Du AGBs lesen solltest (#124)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wann-du-agbs-lesen-solltest/
 - title: Wann ETFs für Dich nicht sinnvoll sind (#53)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-53/
-- title: Wann Einzelaktien statt ETFs? (#135)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wann-einzelaktien-statt-etfs/
-- title: Wann Zähne versichern? (#156)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wann-zaehne-versichern/
-- title: Wann die Steuerklasse wechseln? (#86)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wann-steuerklasse-wechseln/
 - title: Wann die Unfallversicherung zahlt
   link: https://www.finanztip.de/unfallversicherung/unfallversicherung-invaliditaet/
-- title: Wann ist 'ne BU zu teuer? (#131)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/bu-zu-teuer/
-- title: Wann ist ein Zweitdepot sinnvoll? (#117)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/zweitdepot-sinnvoll/
-- title: Wann ist es zu spät für eine Immobilie? (#51)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/eigenheim-alter/
 - title: Warmwasser-Wärmepumpe
   link: https://www.finanztip.de/heizen-sanieren/warmwasser-waermepumpe/
-- title: Warum Du Dich nicht richtig versicherst (#101)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/warum-du-dich-nicht-richtig-versicherst/
 - title: Warum ist Altersarmut weiblich? (#115)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-115/
-- title: Warum kein China im MSCI World? (#202)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/warum-kein-china-im-msci-world/
 - title: Was 2024 für Deine Finanzen wichtig ist (#147)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-147/
 - title: Was Dich in diesem Podcast erwartet
   link: https://www.finanztip.de/podcast/startkapital/folge-0/
-- title: Was Du beim Autokauf checken solltest (#127)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/was-beim-autokauf-checken/
 - title: Was Du über das Studium in Deutschland wissen musst
   link: https://www.finanztip.de/podcast/startkapital/folge-8/
 - title: Was alle Frauen über Geld wissen sollten (#153)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-153/
 - title: Was bringen die Entlastungen bei Strom und Gas? (#121)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-121/
-- title: Was bringt die neue Aktienrente? (#119)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/neue-aktienrente/
 - title: Was bringt nachhaltige Geldanlage wirklich? (#130)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-130/
 - title: Was ist Inflation
@@ -3223,18 +2749,10 @@
   link: https://www.finanztip.de/girokonto/was-ist-ein-girokonto/
 - title: Was ist eine Kreditkarte?
   link: https://www.finanztip.de/kreditkarten/was-ist-eine-kreditkarte/
-- title: Was kostet eine Immobilie wirklich? (#81)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/immobilie-kosten/
-- title: Was kostet ‘ne Scheidung? (#239)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/was-kostet-ne-scheidung/
 - title: Was sind ETFs?
   link: https://www.finanztip.de/indexfonds-etf/was-sind-etfs/
-- title: Was tun mit Immo-Fonds? (#200)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/was-tun-mit-immo-fonds/
 - title: Was zahlt die Haftpflichtversicherung
   link: https://www.finanztip.de/haftpflichtversicherung/was-ist-versichert/
-- title: Was ändert sich 2023? (#116)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/was-aendert-sich-2023/
 - title: Wasserstoff-Aktien & ETFs
   link: https://www.finanztip.de/aktien/wasserstoff-aktien-etf/
 - title: Wechsel des PKV-Tarifs
@@ -3243,14 +2761,10 @@
   link: https://www.finanztip.de/arbeitsvertrag/weihnachtsgeld/
 - title: Weihnachtsspecial mit Themenausblick 2021 (#49)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-49/
-- title: Welche ETFs sind gefährlich? (#62)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/gefaehrliche-etfs/
 - title: Welche Steuern Du in Deutschland zahlen musst
   link: https://www.finanztip.de/podcast/startkapital/folge-7/
 - title: Welche Versicherungen Du brauchst
   link: https://www.finanztip.de/podcast/startkapital/folge-5/
-- title: Welcher Anlegertyp bist Du? (#54)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/anlagetypen/
 - title: Weltaktienindex MSCI World
   link: https://www.finanztip.de/indexfonds-etf/msci-world/
 - title: Wer gehört in die PKV?
@@ -3299,38 +2813,10 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-46/
 - title: Wie bringen wir unseren Kindern das Wichtigste über Geld bei? (#157)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-157/
-- title: Wie bringen wir unseren Kindern das Wichtigste über Geld bei? (#187)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wie-bringen-wir-unseren-kindern-das-wichtigste-ueber-geld-bei/
-- title: Wie funktioniert Thesaurieren? (#66)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/thesaurieren/
-- title: Wie funktioniert der Handel mit ETFs? (#67)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/etf-handel/
-- title: Wie gehst Du mit der Inflation um? (#65)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/umgehen-mit-inflation/
-- title: Wie oft das Depot checken? (#126)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wie-oft-depot-checken/
-- title: Wie teuer wird es beim Gas? (#96)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/gas-wie-teuer-wird-es/
-- title: Wie viel % Aktien sind ok? (#173)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wie-viel-aktien-sind-ok/
-- title: Wie viel Geld in Tagesgeld und ETF stecken? (#125)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/tagesgeld-und-etf/
-- title: Wie viel Geld ist genug? (#235)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wie-viel-geld-ist-genug/
-- title: Wie viel Geld macht glücklich? (#138)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wie-viel-geld-macht-gluecklich/
-- title: Wie viel Rente bekomme ich mal? (#46)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/rentenbescheid/
-- title: Wie viel sollte ich sparen? (#97)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wie-viel-sollte-ich-sparen/
 - title: Wie wir uns finanzieren
   link: https://www.finanztip.de/ueber-uns-wie-wir-uns-finanzieren/
 - title: Wiedereinstieg nach der Elternzeit (#117)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-117/
-- title: Wieso Riester zum Desaster wurde (#207)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wieso-riester-zum-desaster-wurde/
-- title: 'Winter is coming: So heizt Du günstig (#157)'
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/winter-is-coming-so-heizt-du-gunstig/
 - title: Winterdienst
   link: https://www.finanztip.de/haushaltsnahe-dienstleistungen/winterdienst/
 - title: Wir Frauen verdienen mehr - für equal pay! (#37)
@@ -3341,8 +2827,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-30/
 - title: Wir ziehen Bilanz! (Teil 2)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-31/
-- title: Wirkt sich Trump auf die Zinsen aus? (#225)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/wirkt-sich-trump-auf-die-zinsen-aus/
 - title: Witwenrente
   link: https://www.finanztip.de/witwenrente/
 - title: Wohn-Riester optimal nutzen
@@ -3356,9 +2840,9 @@
 - title: Wohngebäudeversicherung kündigen
   link: https://www.finanztip.de/wohngebaeudeversicherungen/kuendigen/
 - title: Wohngeld Checkliste
-  link: https://www.finanztip.de/lp/wohngeld-checkliste-1/
-- title: Wohngeld Checkliste
   link: https://www.finanztip.de/lp/wohngeld-checkliste/
+- title: Wohngeld Checkliste
+  link: https://www.finanztip.de/lp/wohngeld-checkliste-1/
 - title: 'Wohngeld: Antrag und Höhe'
   link: https://www.finanztip.de/wohngeld/
 - title: 'Wohngeld: So sicherst Du Dir den Mietzuschuss (#110)'
@@ -3371,8 +2855,6 @@
   link: https://www.finanztip.de/baufinanzierung/eigentumswohnung/
 - title: Wohnungsbauprämie
   link: https://www.finanztip.de/bausparvertrag/wohnungsbaupraemie/
-- title: Worauf es beim Depot wirklich ankommt (#130)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/worauf-es-beim-depot-ankommt/
 - title: Workation – Home Office im Ausland (#143)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-143/
 - title: Wunschklinik und Widerspruch
@@ -3409,8 +2891,6 @@
   link: https://www.finanztip.de/zinsentwicklung/
 - title: Zinseszinseffekt
   link: https://www.finanztip.de/zinseszins/
-- title: Zinsexplosion bei Immo-Krediten (#88)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/zinsexplosion-immokredite/
 - title: Zinsrechner
   link: https://www.finanztip.de/rechner/zinsrechner/
 - title: Zinssatzrechner
@@ -3421,8 +2901,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-166/
 - title: Zu versteuerndes Einkommen
   link: https://www.finanztip.de/zu-versteuerndes-einkommen/
-- title: Zu viel Dollar im ETF? (#85)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/waehrungsrisiko-beim-investieren/
 - title: Zugewinnausgleich
   link: https://www.finanztip.de/zugewinnausgleich/
 - title: Zugewinngemeinschaft
@@ -3431,12 +2909,8 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-77/
 - title: Zusatzbeitrag der Krankenkassen
   link: https://www.finanztip.de/gkv/gkv-zusatzbeitrag/
-- title: Zweitwagenversicherung
-  link: https://www.finanztip.de/kfz-versicherung/zweitwagen-versichern/
 - title: Zweitwohnsitzsteuer
   link: https://www.finanztip.de/zweitwohnsitzsteuer/
-- title: Zähne, Einbettzimmer, Chefarzt versichern? (#60)
-  link: https://www.finanztip.de/podcast/geld-ganz-einfach/zusatzversicherungen/
 - title: eSIM
   link: https://www.finanztip.de/handy/esim/
 - title: iPhone in den USA kaufen
@@ -3474,8 +2948,8 @@
 - title: "„Geld entscheidet nicht immer alles“ (#156)"
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-156/
 - title: "„Ist die Ehe noch zeitgemäß, Saskia Schlemmer?“ (#181)"
-  link: https://www.finanztip.de/podcast/auf-geldreise/auf-geldreise-podcast-181/
-- title: "„Ist die Ehe noch zeitgemäß, Saskia Schlemmer?“ (#181)"
   link: https://www.finanztip.de/podcast/auf-geldreise/auf-geldreise-podcast-182/
+- title: "„Ist die Ehe noch zeitgemäß, Saskia Schlemmer?“ (#181)"
+  link: https://www.finanztip.de/podcast/auf-geldreise/auf-geldreise-podcast-181/
 - title: "„Lisa Paus, verdienen Frauen genauso viel wie Männer in Deutschland?“ (#132)"
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-132/
