@@ -70,6 +70,7 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
+    jekyll-seo (0.0.2)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
@@ -170,6 +171,7 @@ DEPENDENCIES
   jekyll-import
   jekyll-paginate
   jekyll-redirect-from
+  jekyll-seo
   jekyll-sitemap
   logger
   minima
