@@ -13,6 +13,4 @@ gem "jekyll-sitemap"
 gem "jekyll-seo"
 gem "logger"
 gem "minima"
-#gem "open-uri"
-gem 'jekyll-tagging'
-
+gem "open-uri"
