@@ -7,7 +7,7 @@ CHANNEL_URL = "https://www.youtube.com/@gerdkommer/videos"
 DATA_FILE = "_data/kommer_youtube.yml"
 
 def fetch_youtube_videos(channel_url)
-  command = "yt-dlp --flat-playlist -J #{channel_url}"
+  command = "yt-dlp --extractor-args 'youtube:lang=en' --flat-playlist -J #{channel_url}"
   output = `#{command}`
   json_data = JSON.parse(output)
 
