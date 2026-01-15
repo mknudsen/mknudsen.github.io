@@ -80,9 +80,9 @@
 - title: Altersteilzeit
   link: https://www.finanztip.de/gesetzliche-rentenversicherung/altersteilzeit/
 - title: Altersvorsorge
-  link: https://www.finanztip.de/altersvorsorge-ueberblick/
-- title: Altersvorsorge
   link: https://www.finanztip.de/altersvorsorge/
+- title: Altersvorsorge
+  link: https://www.finanztip.de/altersvorsorge-ueberblick/
 - title: Altersvorsorge (Teil 1)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-19/
 - title: Altersvorsorge (Teil 2)
@@ -151,6 +151,8 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-5/
 - title: Aufhebungsvertrag
   link: https://www.finanztip.de/aufhebungsvertrag/
+- title: Auflassungsvormerkung
+  link: https://www.finanztip.de/baufinanzierung/auflassungsvormerkung/
 - title: Aufsichtspflicht
   link: https://www.finanztip.de/aufsichtspflicht/
 - title: Ausbildungskosten absetzen
@@ -161,8 +163,6 @@
   link: https://www.finanztip.de/lp/ausfuellhilfe-fuer-die-grundsteuererklaerung/
 - title: Ausgleichszahlung in der Partnerschaft – so kann es gehen (#154)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-154/
-- title: Auskunfteien im Überblick
-  link: https://www.finanztip.de/schufa/auskunfteien/
 - title: Auslandsreisekrankenversicherung
   link: https://www.finanztip.de/krankenversicherung/auslandsreisekrankenversicherung/
 - title: Auslandsüberweisungen
@@ -177,8 +177,6 @@
   link: https://www.finanztip.de/ueber-uns/auszeichnungen/
 - title: Auto finanzieren
   link: https://www.finanztip.de/autokredit/auto-finanzieren/
-- title: Auto finanzieren ohne Anzahlung
-  link: https://www.finanztip.de/autokredit/0-prozent-finanzierung-auto/
 - title: Auto verkaufen
   link: https://www.finanztip.de/auto-verkaufen/
 - title: Auto-Abo
@@ -201,8 +199,6 @@
   link: https://www.finanztip.de/fristlose-kuendigung/
 - title: BAFA Einzelmaßnahmen
   link: https://www.finanztip.de/energetische-sanierung/beg-em/
-- title: BImSchV
-  link: https://www.finanztip.de/bimschv/
 - title: BKK Firmus
   link: https://www.finanztip.de/gkv/bkk-firmus/
 - title: BKK VBU Krankenversicherung
@@ -211,6 +207,8 @@
   link: https://www.finanztip.de/bu-pflege/
 - title: BU Rente beantragen
   link: https://www.finanztip.de/berufsunfaehigkeitsversicherung/berufsunfaehigkeitsrente-beantragen/
+- title: BU mit psychischen Erkrankungen
+  link: https://www.finanztip.de/berufsunfaehigkeitsversicherung/bu-mit-psychischen-erkrankungen/
 - title: 'BU wechseln: Dein Weg zur neuen BU-Versicherung'
   link: https://www.finanztip.de/berufsunfaehigkeitsversicherung/bu-wechseln/
 - title: BU-Kosten
@@ -282,9 +280,9 @@
 - title: Bearbeitungsgebühr Kredit
   link: https://www.finanztip.de/kreditgebuehren/
 - title: Bearbeitungsgebühren Bausparvertrag
-  link: https://www.finanztip.de/lp/bausparvertrag-bearbeitungsgebuehren/
-- title: Bearbeitungsgebühren Bausparvertrag
   link: https://www.finanztip.de/bausparvertrag/bearbeitungsgebuehren/
+- title: Bearbeitungsgebühren Bausparvertrag
+  link: https://www.finanztip.de/lp/bausparvertrag-bearbeitungsgebuehren/
 - title: Befristeter Arbeitsvertrag
   link: https://www.finanztip.de/befristeter-arbeitsvertrag/
 - title: Bei der Kfz-Versicherung zahlt sich Treue nicht aus
@@ -308,9 +306,9 @@
 - title: Bereitstellungszinsen
   link: https://www.finanztip.de/baufinanzierung/bereitstellungszinsen/
 - title: Berliner Testament
-  link: https://www.finanztip.de/erbschaftssteuer/berliner-testament/
-- title: Berliner Testament
   link: https://www.finanztip.de/berliner-testament/
+- title: Berliner Testament
+  link: https://www.finanztip.de/erbschaftssteuer/berliner-testament/
 - title: Berufshaftpflichtversicherung
   link: https://www.finanztip.de/haftpflichtversicherung/berufshaftpflichtversicherung/
 - title: Berufsunfähigkeit bei Beamten
@@ -382,7 +380,7 @@
 - title: Bitcoin-ETFs
   link: https://www.finanztip.de/bitcoin/bitcoin-etf/
 - title: Black Friday
-  link: https://www.finanztip.de/deals/black-friday/
+  link: https://www.finanztip.de/black-friday/
 - title: Blockchain
   link: https://www.finanztip.de/kryptowaehrungen/blockchain/
 - title: Bonitätsprüfung
@@ -477,8 +475,6 @@
   link: https://www.finanztip.de/handynetze/
 - title: Daten-Roaming
   link: https://www.finanztip.de/handyvertrag/roaming/daten-roaming/
-- title: Datenschutz in sozialen Medien
-  link: https://www.finanztip.de/social-media-datenschutz/
 - title: Datentarife
   link: https://www.finanztip.de/handytarife/datentarife/
 - title: Datenvolumen
@@ -527,8 +523,6 @@
   link: https://www.finanztip.de/haftpflichtversicherung/diensthaftpflichtversicherung/
 - title: Dienstwagenbesteuerung
   link: https://www.finanztip.de/dienstwagen-besteuerung/
-- title: Diese Rechte haben Verbraucher bei Krediten
-  link: https://www.finanztip.de/kredit/verbraucherschutz-kredite/
 - title: Diese Sparverträge gibt es
   link: https://www.finanztip.de/sparvertrag/
 - title: Digitale Rentenübersicht
@@ -599,10 +593,10 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-44/
 - title: 'ETFs: Alles, was Ihr wissen wollt - Teil zwei (#45)'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-45/
-- title: EU-Notrufsystem E-Call
-  link: https://www.finanztip.de/kfz-versicherung/e-call/
 - title: EZB-Leitzins
   link: https://www.finanztip.de/zinsentwicklung/ezb-leitzins/
+- title: Effektiver Jahreszins
+  link: https://www.finanztip.de/baufinanzierung/effektiver-jahreszins/
 - title: Ehe & Familie
   link: https://www.finanztip.de/ehe-familie/
 - title: Ehegatten-Erbrecht
@@ -627,6 +621,8 @@
   link: https://www.finanztip.de/ehrenamtspauschale/
 - title: Eigenbedarfskündigung
   link: https://www.finanztip.de/kuendigung-wegen-eigenbedarf/
+- title: Eigentümerversammlung
+  link: https://www.finanztip.de/eigentumswohnung/eigentuemerversammlung/
 - title: Ein Bankkonto eröffnen
   link: https://www.finanztip.de/podcast/startkapital/folge-1/
 - title: Ein Gespräch mit der Bildungsministerin über Finanzen (#139)
@@ -637,8 +633,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-56/
 - title: Ein gutes Festgeldkonto finden
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-33/
-- title: Einbruchsichere Fenster
-  link: https://www.finanztip.de/fenster-einbruchschutz/
 - title: Eine Arbeit in Deutschland finden
   link: https://www.finanztip.de/podcast/startkapital/folge-3/
 - title: Eine Arbeit in Deutschland finden
@@ -671,8 +665,6 @@
   link: https://www.finanztip.de/lp/einspruch-steuerbescheid/
 - title: Einzelveranlagung
   link: https://www.finanztip.de/steuererklaerung/einzelveranlagung/
-- title: Elektrisches Garagentor
-  link: https://www.finanztip.de/elektrisches-garagentor/
 - title: Elektroheizung
   link: https://www.finanztip.de/stromtarife/heizstrom/
 - title: Elektronische Patientenakte (ePA)
@@ -837,6 +829,8 @@
   link: https://www.finanztip.de/festgeld/sparkasse-festgeld/
 - title: Festgeld der Volksbank und Raiffeisenbank
   link: https://www.finanztip.de/festgeld/volksbank-festgeld/
+- title: Festgeld versteuern
+  link: https://www.finanztip.de/festgeld/festgeld-versteuern/
 - title: Festgeldrechner
   link: https://www.finanztip.de/festgeld-vergleich/
 - title: Festgeldzinsen
@@ -1009,8 +1003,6 @@
 - title: Gesetzliche Erbfolge
   link: https://www.finanztip.de/erbfolge/
 - title: Gesetzliche Krankenversicherung (GKV)
-  link: https://www.finanztip.de/gkv-1/
-- title: Gesetzliche Krankenversicherung (GKV)
   link: https://www.finanztip.de/gkv/
 - title: Gesetzliche Pflegeversicherung
   link: https://www.finanztip.de/gesetzliche-pflegeversicherung/
@@ -1036,8 +1028,6 @@
   link: https://www.finanztip.de/girokonto/bank-wechseln/
 - title: Girokontorechner
   link: https://www.finanztip.de/girokonto-vergleich/
-- title: Girokontorechner
-  link: https://www.finanztip.de/girokonto-vergleich-1/
 - title: Giropay Paydirekt
   link: https://www.finanztip.de/online-banking/paydirekt/
 - title: Glasfaser
@@ -1092,8 +1082,6 @@
   link: https://www.finanztip.de/grundversorgung/
 - title: Günstig Handy kaufen
   link: https://www.finanztip.de/handy-kaufen/handy-ohne-vertrag/
-- title: Günstig Urlaub machen trotz Euro-Schwäche
-  link: https://www.finanztip.de/guenstiger-urlaub-dank-schwacher-waehrungen/
 - title: Günstige Bauzinsen sichern mit einem Bausparvertrag?!
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-125/
 - title: HUK-Coburg Rechtsschutz
@@ -1151,7 +1139,9 @@
 - title: Haus überschreiben
   link: https://www.finanztip.de/haus-ueberschreiben/
 - title: Hausfinanzierung
-  link: https://www.finanztip.de/immobilienfinanzierung/hausfinanzierung/
+  link: https://www.finanztip.de/baufinanzierung/hausfinanzierung/
+- title: Hausgeld
+  link: https://www.finanztip.de/eigentumswohnung/hausgeld/
 - title: Haushaltsbuch
   link: https://www.finanztip.de/haushaltsbuch/
 - title: Haushaltshilfe
@@ -1260,8 +1250,6 @@
   link: https://www.finanztip.de/fluggastrechte/fluggesellschaft-pleite/
 - title: Internet & TV
   link: https://www.finanztip.de/internet-tv/
-- title: Internet-Flat
-  link: https://www.finanztip.de/internetanbieter/internet-flat/
 - title: Internetanbieter
   link: https://www.finanztip.de/internetanbieter/
 - title: Internetanbieter wechseln
@@ -1308,6 +1296,8 @@
   link: https://www.finanztip.de/schenkungssteuer/kettenschenkung/
 - title: KfW 358
   link: https://www.finanztip.de/kfw-foerderung/kfw-358/
+- title: KfW 55
+  link: https://www.finanztip.de/kfw-foerderung/kfw-55/
 - title: KfW Baukindergeld
   link: https://www.finanztip.de/kfw-foerderung/baukindergeld/
 - title: KfW Einbruchschutz
@@ -1354,8 +1344,6 @@
   link: https://www.finanztip.de/kfz-versicherung/wgv-kfz-versicherung/
 - title: Kfz-Versicherung wechseln
   link: https://www.finanztip.de/kfz-versicherung/wechseln/
-- title: Kfz-Versicherungsrechner
-  link: https://www.finanztip.de/kfz-versicherung/kfz-versicherungsrechner/
 - title: Kinderbetreuungskosten
   link: https://www.finanztip.de/kinderbetreuungskosten/
 - title: Kinderfreibetrag
@@ -1392,10 +1380,6 @@
   link: https://www.finanztip.de/girokonto/kontomodell/
 - title: Kosten Pflegeheim
   link: https://www.finanztip.de/pflege/kosten-pflegeheim/
-- title: Kosten Treppenlift
-  link: https://www.finanztip.de/treppenlift/kosten/
-- title: Kostenfalle Handy-Video
-  link: https://www.finanztip.de/handytarife/autoplay-abschalten/
 - title: Kostenlose Kreditkarten
   link: https://www.finanztip.de/kreditkarten/kostenlose-kreditkarte/
 - title: Kostenlose Rechtsberatung & Anwaltssuche
@@ -1441,9 +1425,9 @@
 - title: Krankenversicherung in der Elternzeit
   link: https://www.finanztip.de/krankenversicherung/krankenversicherung-elternzeit/
 - title: Krankenversicherung Überblick
-  link: https://www.finanztip.de/krankenversicherung/
-- title: Krankenversicherung Überblick
   link: https://www.finanztip.de/krankenversicherung-ueberblick/
+- title: Krankenversicherung Überblick
+  link: https://www.finanztip.de/krankenversicherung/
 - title: Krankenversicherungspflicht
   link: https://www.finanztip.de/gkv/krankenversicherungspflicht/
 - title: Krankenzusatzversicherungen
@@ -1468,8 +1452,6 @@
   link: https://www.finanztip.de/kredit/kredite-fuer-selbststaendige/
 - title: 'Kredite: Wie Du Dir Geld leihst (#51)'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-51/
-- title: Kreditgebühren Targobank
-  link: https://www.finanztip.de/kreditgebuehren/targobank-erfahrungen/
 - title: Kreditkarte
   link: https://www.finanztip.de/kreditkarte/
 - title: Kreditkarte beantragen
@@ -1530,8 +1512,6 @@
   link: https://www.finanztip.de/kuendigung-mietvertrag/
 - title: Künstlersozialversicherung
   link: https://www.finanztip.de/krankenversicherung/kuenstlersozialversicherung/
-- title: LTE
-  link: https://www.finanztip.de/mobiles-internet/lte/
 - title: LTE für Zuhause
   link: https://www.finanztip.de/mobiles-internet/lte-zuhause/
 - title: LTE-Tarife
@@ -1569,9 +1549,9 @@
 - title: Lieferfrist neues Auto
   link: https://www.finanztip.de/kaufrecht/lieferverzug-auto/
 - title: Lohnpfändung
-  link: https://www.finanztip.de/pfaendungstabelle/lohnpfaendung/
-- title: Lohnpfändung
   link: https://www.finanztip.de/lp/muster-drittschuldnererklaerung/
+- title: Lohnpfändung
+  link: https://www.finanztip.de/pfaendungstabelle/lohnpfaendung/
 - title: Lohnsteuer-Ermäßigung
   link: https://www.finanztip.de/lohnsteuerermaessigung/
 - title: Lohnsteuerhilfeverein
@@ -1602,8 +1582,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-158/
 - title: Mehrfachversicherung
   link: https://www.finanztip.de/sinnvolle-versicherungen/doppelversicherung/
-- title: Mehrverbrauch reklamieren
-  link: https://www.finanztip.de/spritverbrauch-reklamieren/
 - title: Mehrwertsteuerrechner
   link: https://www.finanztip.de/rechner/mehrwertsteuerrechner/
 - title: Mein ETF - das steckt drin, das steht dahinter – Teil eins
@@ -1635,15 +1613,17 @@
 - title: Mietkaution
   link: https://www.finanztip.de/mietkaution/
 - title: Mietminderung
-  link: https://www.finanztip.de/lp/mietminderung/
-- title: Mietminderung
   link: https://www.finanztip.de/mietminderung/
+- title: Mietminderung
+  link: https://www.finanztip.de/lp/mietminderung/
 - title: Mietpreisbremse
   link: https://www.finanztip.de/mietpreisbremse/
 - title: Mietrecht & Sonstiges
   link: https://www.finanztip.de/mietrecht-sonstiges/
 - title: Mietrechtsschutz
   link: https://www.finanztip.de/rechtsschutzversicherung/mietrechtsschutz/
+- title: Mietrendite berechnen
+  link: https://www.finanztip.de/baufinanzierung/mietrendite-berechnen/
 - title: Mietvertrag
   link: https://www.finanztip.de/mietvertrag/
 - title: Mietwagen
@@ -1652,8 +1632,6 @@
   link: https://www.finanztip.de/kreditkarten/miles-more/
 - title: Minijob
   link: https://www.finanztip.de/minijobs/
-- title: Minikredit
-  link: https://www.finanztip.de/kredit/minikredit/
 - title: Mit bewusster Kommunikation zu mehr Geld - Teil eins (#163)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-163/
 - title: Mit bewusster Kommunikation zu mehr Geld – Teil zwei (#164)
@@ -1742,10 +1720,10 @@
   link: https://www.finanztip.de/niessbrauch/
 - title: Norisbank Girokonto
   link: https://www.finanztip.de/girokonto/norisbank-girokonto/
+- title: Notarkosten Haus
+  link: https://www.finanztip.de/baufinanzierung/notarkosten-haus/
 - title: Null-Prozent-Finanzierung
   link: https://www.finanztip.de/kredit/0-prozent-finanzierung/
-- title: Nuri-Insolvenz
-  link: https://www.finanztip.de/geldanlage/nuri-insolvenz/
 - title: Nutzungsausfallentschädigung statt Mietwagen
   link: https://www.finanztip.de/nutzungsausfallentschaedigung-statt-mietwagen/
 - title: O2-Netz
@@ -1754,8 +1732,6 @@
   link: https://www.finanztip.de/oldtimer-kfz-steuer/
 - title: Online Banking
   link: https://www.finanztip.de/online-banking/
-- title: Online-Bewertungen
-  link: https://www.finanztip.de/online-bewertungen/
 - title: Online-Bezahldienst Paypal
   link: https://www.finanztip.de/online-banking/paypal/
 - title: Online-Konto
@@ -1820,9 +1796,9 @@
 - title: Pflegegrad 2
   link: https://www.finanztip.de/gesetzliche-pflegeversicherung/pflegegrad/pflegegrad-2/
 - title: Pflegegrad beantragen
-  link: https://www.finanztip.de/lp/musterantrag-pflegegrad/
-- title: Pflegegrad beantragen
   link: https://www.finanztip.de/gesetzliche-pflegeversicherung/pflegegrad-beantragen/
+- title: Pflegegrad beantragen
+  link: https://www.finanztip.de/lp/musterantrag-pflegegrad/
 - title: Pflegepauschbetrag
   link: https://www.finanztip.de/pflege-pauschbetrag/
 - title: Pflegeversicherung für Rentner
@@ -2071,8 +2047,6 @@
   link: https://www.finanztip.de/ruerup-rente-basisrente/
 - title: S Broker Test
   link: https://www.finanztip.de/wertpapierdepot/s-broker/
-- title: Samsung Galaxy kaufen
-  link: https://www.finanztip.de/handy-kaufen/guenstiges-samsung-galaxy/
 - title: Sanieren & Modernisieren
   link: https://www.finanztip.de/sanieren-modernisieren/
 - title: Sanierungskosten absetzen
@@ -2091,8 +2065,6 @@
   link: https://www.finanztip.de/schlichtungsstelle/
 - title: Schlüsselversicherung
   link: https://www.finanztip.de/haftpflichtversicherung/schluesselversicherung/
-- title: Schnellkredit
-  link: https://www.finanztip.de/kredit/schnellkredit/
 - title: Schonvermögen Elternunterhalt
   link: https://www.finanztip.de/elternunterhalt/elternunterhalt-schonvermoegen/
 - title: Schufa
@@ -2121,8 +2093,6 @@
   link: https://www.finanztip.de/sichere-banken/
 - title: Sichere Geldanlage
   link: https://www.finanztip.de/geldanlage/
-- title: Sichere Passwörter
-  link: https://www.finanztip.de/online-banking/sichere-passwoerter/
 - title: Sicherungsfonds Protektor
   link: https://www.finanztip.de/sinnvolle-versicherungen/protektor-lebensversicherung/
 - title: Sim-Karte mit Auslandstarif
@@ -2133,14 +2103,12 @@
   link: https://www.finanztip.de/sinnvolle-versicherungen/
 - title: Skontorechner
   link: https://www.finanztip.de/rechner/skontorechner/
-- title: Smart Home
-  link: https://www.finanztip.de/smart-home/
+- title: Smart Meter
+  link: https://www.finanztip.de/stromzaehler/
 - title: Smart-Beta-ETFs
   link: https://www.finanztip.de/indexfonds-etf/smart-beta-etfs/
 - title: Smartbroker
   link: https://www.finanztip.de/wertpapierdepot/smartbroker/
-- title: Smartphone Backup
-  link: https://www.finanztip.de/handy-backup/
 - title: Smartphone-Banken
   link: https://www.finanztip.de/girokonto/smartphone-bank/
 - title: Smartphone-Tarife
@@ -2161,16 +2129,12 @@
   link: https://www.finanztip.de/girokonto/dispo-ueberzogen-umschulden/
 - title: So klappt’s mit dem Eigenheim 2024 (#148)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-148/
-- title: So sendest Du preiswert Pakete
-  link: https://www.finanztip.de/paketdienste/
 - title: So versicherst Du Dein Auto günstig (#42)
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-42/
 - title: So viel bringen Tarifmerkmale
   link: https://www.finanztip.de/kfz-versicherung/tarifmerkmale/
 - title: So zahlst Du Bargeld ein
   link: https://www.finanztip.de/girokonto/bargeld-einzahlen/
-- title: Sofortkredit
-  link: https://www.finanztip.de/kredit/sofortkredit/
 - title: Sofortrente
   link: https://www.finanztip.de/altersvorsorge/sofortrente/
 - title: Solaranlage kaufen
@@ -2183,10 +2147,14 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-111/
 - title: Sonderausgaben
   link: https://www.finanztip.de/sonderausgaben/
+- title: Sondereigentum
+  link: https://www.finanztip.de/eigentumswohnung/sondereigentum/
 - title: Sonderkündigungsrecht
   link: https://www.finanztip.de/stromanbieter-wechseln/sonderkuendigungsrecht-strom-gas/
 - title: Sonderkündigungsrechte
   link: https://www.finanztip.de/sonderkuendigungsrechte/
+- title: Sondernutzungsrecht
+  link: https://www.finanztip.de/eigentumswohnung/sondernutzungsrecht/
 - title: Sondertilgung
   link: https://www.finanztip.de/baufinanzierung/sondertilgung/
 - title: Sonstige Einkünfte
@@ -2205,14 +2173,14 @@
   link: https://www.finanztip.de/rechner/sparplanrechner/
 - title: Spekulationssteuer
   link: https://www.finanztip.de/spekulationssteuer/
+- title: Spenden als Sonderausgaben
+  link: https://www.finanztip.de/spenden-als-sonderausgaben/
 - title: Sperrzeit beim ALG
   link: https://www.finanztip.de/sperrzeit-arbeitslosengeld/
 - title: Spitzensteuersatz
   link: https://www.finanztip.de/spitzensteuersatz/
 - title: Spread
   link: https://www.finanztip.de/boerse/spread/
-- title: Sprit sparen
-  link: https://www.finanztip.de/auto-spartipps/
 - title: Spritrechner
   link: https://www.finanztip.de/rechner/spritrechner/
 - title: Staatsanleihen und Bundesanleihen
@@ -2242,17 +2210,19 @@
 - title: Steuerbescheid ändern lassen
   link: https://www.finanztip.de/steuerbescheid-aendern/
 - title: Steuererklärung
+  link: https://www.finanztip.de/steuererklaerung/steuererklaerung-2022/
+- title: Steuererklärung
   link: https://www.finanztip.de/steuererklaerung-uebersicht/
 - title: Steuererklärung
   link: https://www.finanztip.de/steuererklaerung/
-- title: Steuererklärung
-  link: https://www.finanztip.de/steuererklaerung/steuererklaerung-2022/
 - title: 'Steuererklärung 2020: Homeoffice absetzen'
   link: https://www.finanztip.de/lp/corona-homeoffice-checkliste/
 - title: Steuererklärung 2021
   link: https://www.finanztip.de/steuererklaerung/steuererklaerung-2021/
 - title: Steuererklärung 2023
   link: https://www.finanztip.de/steuererklaerung/steuererklaerung-2023/
+- title: Steuererklärung 2024
+  link: https://www.finanztip.de/steuererklaerung-uebersicht/steuererklaerung-2024/
 - title: Steuererklärung Anlage AUS
   link: https://www.finanztip.de/steuererklaerung-anlage-aus/
 - title: Steuererklärung Anlage KAP
@@ -2277,7 +2247,7 @@
   link: https://www.finanztip.de/lp/sonderausgaben-checkliste/
 - title: Steuerfolgen bei Ebayverkäufen
   link: https://www.finanztip.de/steuerfolgen-onlineverkauf/
-- title: Steuerfreibetrag 2024
+- title: Steuerfreibetrag 2026
   link: https://www.finanztip.de/freibetraege-pauschbetraege/
 - title: Steuerfreie Sachzuwendungen
   link: https://www.finanztip.de/steuerfreie-sachzuwendungen/
@@ -2323,8 +2293,6 @@
   link: https://www.finanztip.de/steuertipps-vermieter/
 - title: Steuertipps zum Jahresende
   link: https://www.finanztip.de/steuertipps-jahresende/
-- title: Steueränderungen 2018
-  link: https://www.finanztip.de/steueraenderungen-2018/
 - title: Streaming-Dienste
   link: https://www.finanztip.de/streaming/
 - title: Strom
@@ -2353,8 +2321,6 @@
   link: https://www.finanztip.de/waermepumpe/stromverbrauch-waermepumpe/
 - title: Stromvergleich
   link: https://www.finanztip.de/stromvergleich/
-- title: Stromzähler
-  link: https://www.finanztip.de/stromzaehler/
 - title: Stromzähler ablesen
   link: https://www.finanztip.de/stromzaehler/stromzaehler-ablesen/
 - title: Studentenjobs
@@ -2395,6 +2361,8 @@
   link: https://www.finanztip.de/tagesgeld/volkswagen-bank-tagesgeld/
 - title: Tagesgeld oder Festgeld
   link: https://www.finanztip.de/tagesgeld-oder-festgeld/
+- title: Tagesgeldkonto versteuern
+  link: https://www.finanztip.de/tagesgeld/tagesgeld-versteuern/
 - title: Tagesgeldrechner
   link: https://www.finanztip.de/tagesgeldvergleich/
 - title: Tagesgeldvergleich
@@ -2453,8 +2421,6 @@
   link: https://www.finanztip.de/trennungsunterhalt/
 - title: Treppenlift
   link: https://www.finanztip.de/treppenlift/
-- title: Treppenlift Anbieter
-  link: https://www.finanztip.de/treppenlift/anbieter/
 - title: Typklassen
   link: https://www.finanztip.de/kfz-versicherung/typklassen/
 - title: US-Anleihen
@@ -2485,8 +2451,6 @@
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-2/
 - title: Unsere Rechner
   link: https://www.finanztip.de/rechner/
-- title: Unseriöse Kredite
-  link: https://www.finanztip.de/kredit/unserioese-kredite/
 - title: Unterhaltsleistungen
   link: https://www.finanztip.de/unterhaltszahlungen-sonderausgaben/
 - title: Unterhaltsreform & Betreuungsmodelle
@@ -2501,8 +2465,6 @@
   link: https://www.finanztip.de/urlaubsrecht/
 - title: V-Pay
   link: https://www.finanztip.de/girokonto/v-pay/
-- title: VPN Vergleich
-  link: https://www.finanztip.de/internetanbieter/vpn-vergleich/
 - title: Vanguard-ETF A1JX52
   link: https://www.finanztip.de/indexfonds-etf/vanguard-a1jx52/
 - title: Variable Stromtarife
@@ -2641,6 +2603,8 @@
   link: https://www.finanztip.de/inflation/
 - title: Was ist Tagesgeld?
   link: https://www.finanztip.de/tagesgeld/was-ist-tagesgeld/
+- title: Was ist die Vorabpauschale?
+  link: https://www.finanztip.de/indexfonds-etf/etf-steuern/was-ist-die-vorabpauschale/
 - title: Was ist ein Girokonto?
   link: https://www.finanztip.de/girokonto/was-ist-ein-girokonto/
 - title: Was ist eine Kreditkarte?
@@ -2732,19 +2696,17 @@
 - title: Wohngebäudeversicherung kündigen
   link: https://www.finanztip.de/wohngebaeudeversicherungen/kuendigen/
 - title: Wohngeld Checkliste
-  link: https://www.finanztip.de/lp/wohngeld-checkliste/
-- title: Wohngeld Checkliste
   link: https://www.finanztip.de/lp/wohngeld-checkliste-1/
+- title: Wohngeld Checkliste
+  link: https://www.finanztip.de/lp/wohngeld-checkliste/
 - title: 'Wohngeld: Antrag und Höhe'
   link: https://www.finanztip.de/wohngeld/
 - title: 'Wohngeld: So sicherst Du Dir den Mietzuschuss (#110)'
   link: https://www.finanztip.de/podcast/auf-geldreise/folge-110/
-- title: Wohnmobil mieten
-  link: https://www.finanztip.de/wohnmobil-mieten/
 - title: Wohnrecht auf Lebenszeit
   link: https://www.finanztip.de/wohnrecht-auf-lebenszeit/
 - title: Wohnung kaufen was beachten
-  link: https://www.finanztip.de/baufinanzierung/eigentumswohnung/
+  link: https://www.finanztip.de/eigentumswohnung/
 - title: Wohnungsbauprämie
   link: https://www.finanztip.de/bausparvertrag/wohnungsbaupraemie/
 - title: Workation – Home Office im Ausland (#143)
@@ -2764,9 +2726,9 @@
 - title: Zahlweise Kfz-Versicherung
   link: https://www.finanztip.de/kfz-versicherung/ratenzahlung/
 - title: Zahnzusatzversicherung
-  link: https://www.finanztip.de/krankenzusatzversicherung/zahnzusatzversicherung/
-- title: Zahnzusatzversicherung
   link: https://www.finanztip.de/krankenzusatzversicherung/zahnzusatzversicherung/ohne-wartezeit/
+- title: Zahnzusatzversicherung
+  link: https://www.finanztip.de/krankenzusatzversicherung/zahnzusatzversicherung/
 - title: Zahnzusatzversicherung in der Steuererklärung
   link: https://www.finanztip.de/krankenzusatzversicherung/zahnzusatzversicherung/steuer-absetzen/
 - title: Zehn Jahre Finanztip – unsere zehn besten Spartipps (#146)
@@ -2825,6 +2787,8 @@
   link: https://www.finanztip.de/lebensversicherung/
 - title: Überblick Wertpapiere
   link: https://www.finanztip.de/wertpapiere/
+- title: Übergabeprotokoll Haus
+  link: https://www.finanztip.de/baufinanzierung/uebergabeprotokoll-haus/
 - title: Übergangsgeld
   link: https://www.finanztip.de/gkv/uebergangsgeld/
 - title: Überschussbeteiligung in der Lebensversicherung
