@@ -1,0 +1,39 @@
+# Workflow for building Jekyll site without deployment
+# This is useful for validating PRs and feature branches
+name: Build Jekyll site
+
+on:
+  # Runs on pull requests
+  pull_request:
+    branches: ["master"]
+
+  # Runs on pushes to non-master branches
+  push:
+    branches-ignore:
+      - master
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4.1'
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+      - name: Build summary
+        run: |
+          echo "✅ Jekyll site built successfully" >> $GITHUB_STEP_SUMMARY
+          echo "Site generated in _site directory" >> $GITHUB_STEP_SUMMARY
