@@ -6,6 +6,9 @@
       "echo 'Welcome to devbox!' > /dev/null"
     ],
     "scripts": {
+      "jekyll": [
+        "bundle exec jekyll build"
+      ],
       "serve": [
         "bundle exec jekyll serve --host 10.0.1.59 --incremental"
       ],
