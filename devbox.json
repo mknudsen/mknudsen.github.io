@@ -10,7 +10,10 @@
         "bundle exec jekyll build"
       ],
       "serve": [
-        "bundle exec jekyll serve --host 10.0.1.59 --incremental"
+        "bundle exec jekyll serve"
+      ],
+      "show-bundles" : [
+        "bundle show --paths"
       ],
       "kommeryoutube": [
 	"bundle exec ruby _scripts/kommeryoutube.rb"
