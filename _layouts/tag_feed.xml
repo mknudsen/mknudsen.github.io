@@ -10,7 +10,7 @@ layout: nil
  <id>{{ site.url }}{{ site.baseurl }}/tag/{{ page.tag }}.html</id>
  <author>
    <name>{{ site.title }}</name>
-   <email>{{ site.email }}</email>
+   {% if site.email %}<email>{{ site.email }}</email>{% endif %}
  </author>
  {% for post in page.posts %}
  <entry>
