@@ -1,0 +1,31 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 22 * * *'
+
+name: jekyll-import-mastodon
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Devbox
+        uses: jetify-com/devbox-install-action@v0.11.0
+        with:
+          enable-cache: true
+      - name: Install dependencies
+        run: devbox run -- bundle install
+      - name: Run Import Script
+        run: |
+          devbox run -- bundle exec jekyll-import rss --source https://nrw.social/@brainwashed/with_replies.rss --tag nrw.social
+      - name: Commit new content
+        run: |
+          git config --global user.email "martin.knudsen@gmail.com"
+          git config --global user.name "Martin Knudsen"
+          git add ./_posts/*
+          git commit -am "new mastodon content" && git push || echo "Nothing to import."
