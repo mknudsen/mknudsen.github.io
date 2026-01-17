@@ -16,17 +16,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Install Devbox
+        uses: jetify-com/devbox-install-action@v0.11.0
         with:
-          ruby-version: '3.4.1'
-          bundler-cache: true
-          cache-version: 0
+          enable-cache: true
+      - name: Install dependencies
+        run: devbox run -- bundle install
       - name: Run Import Script
         env:
           GOODREADS_FEED: ${{ secrets.GOODREADS_FEED }}
         run: |
-          bundle exec jekyll-import rss --source "$GOODREADS_FEED" --tag books
+          devbox run -- bundle exec jekyll-import rss --source "$GOODREADS_FEED" --tag books
       - name: Commit new content
         run: |
           git config --global user.email "martin.knudsen@gmail.com"
