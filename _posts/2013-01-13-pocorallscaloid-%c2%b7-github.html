@@ -1,0 +1,35 @@
+---
+layout: post
+title: pocorall/scaloid · GitHub
+date: 2013-01-13 10:40:58.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags:
+- android
+- api wrapper
+- development
+- java
+- scala
+- typesafe
+meta: {}
+author: martin
+---
+<blockquote>Scala is cool. <a href="https://github.com/pocorall/scaloid#faqs-about-scala-on-android">Writing Android applications with Scala</a> is also a cool idea. Because Android exposes Java APIs, we need some utility library to leverage full power of Scala. Scaloid is a library aimed to simplify your Android code.</p>
+<p>For example, the code block shown below:</p>
+<pre><code>val button = new Button(context)
+button.setText("Greet")
+button.setOnClickListener(new OnClickListener() {
+  def onClick(v: View) {
+    Toast.makeText(context, "Hello!", Toast.LENGTH_SHORT).show()
+  }
+})
+layout.addView(button)
+</code></pre>
+<p>is reduced to:</p>
+<pre><code>SButton("Greet", toast("Hello!"))</code></pre>
+</blockquote>
+<p><a href="https://github.com/pocorall/scaloid">pocorall/scaloid · GitHub</a>.</p>
