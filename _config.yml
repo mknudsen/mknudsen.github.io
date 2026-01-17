@@ -46,6 +46,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo
   - jekyll/tagging
+  - jekyll-include-cache
 
 paginate: 25
 paginate_path: "/blog/page/:num/"

@@ -9,6 +9,4 @@ layout: default
 {% endfor %}
 </ul>
 
-<div id="tag-cloud">
-  {{ site | tag_cloud }}
-</div>
+{%- include_cached tag-cloud.html -%}

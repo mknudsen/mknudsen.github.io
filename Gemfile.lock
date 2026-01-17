@@ -71,6 +71,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
       nokogiri (~> 1.0)
       reverse_markdown (>= 2.1, < 4.0)
+    jekyll-include-cache (0.2.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
@@ -179,6 +181,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.4.1)
   jekyll-import
+  jekyll-include-cache
   jekyll-paginate
   jekyll-redirect-from
   jekyll-seo
