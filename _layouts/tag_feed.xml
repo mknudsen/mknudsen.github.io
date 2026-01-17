@@ -1,0 +1,24 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>{{ site.title }} - {{ page.tag }}</title>
+ <link href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" rel="self"/>
+ <link href="{{ site.url }}{{ site.baseurl }}/tag/{{ page.tag }}.html"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>{{ site.url }}{{ site.baseurl }}/tag/{{ page.tag }}.html</id>
+ <author>
+   <name>{{ site.title }}</name>
+   {% if site.email %}<email>{{ site.email }}</email>{% endif %}
+ </author>
+ {% for post in page.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>{{ site.url }}{{ site.baseurl }}{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+</feed>
