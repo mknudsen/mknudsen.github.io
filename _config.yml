@@ -29,9 +29,6 @@ instagram_username: martin.kndsn
 markdown: kramdown
 theme: minima
 
-tag_page_layout: tag_page
-tag_page_dir: tag
-
 header_pages:
   - about.md
   - impressum.html
@@ -45,7 +42,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-seo
-  - jekyll/tagging
 
 paginate: 25
 paginate_path: "/blog/page/:num/"
