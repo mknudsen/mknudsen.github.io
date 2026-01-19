@@ -22,7 +22,7 @@ jobs:
         run: devbox run -- bundle install
       - name: Run Import Script
         run: |
-          devbox run -- bundle exec jekyll-import rss --source https://nrw.social/@brainwashed/with_replies.rss --tag nrw.social
+          devbox run -- bundle exec ruby _scripts/import_mastodon.rb 
       - name: Commit new content
         run: |
           git config --global user.email "martin.knudsen@gmail.com"
