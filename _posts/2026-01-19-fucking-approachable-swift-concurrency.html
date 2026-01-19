@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Fucking Approachable Swift Concurrency"
+date: 2026-01-19
+---
+
+ <figure> <blockquote> <p>Most of what apps do is wait. Fetch data from a server - wait for the response. Read a file from disk - wait for the bytes. Query a database - wait for the results.</p>
+<p>Before Swift's concurrency system, you'd express this waiting with callbacks, delegates, or <a href="https://developer.apple.com/documentation/combine">Combine</a>. They work, but nested callbacks get hard to follow, and Combine has a steep learning curve.</p>
+<p><code>async/await</code> gives Swift a new way to handle waiting. Instead of callbacks, you write code that looks sequential - it pauses, waits, and resumes. Under the hood, Swift's runtime manages these pauses efficiently. But making your app actually stay responsive while waiting depends on <em>where</em> code runs, which we'll cover later.</p> </blockquote> <figcaption> <cite>fuckingapproachableswiftconcurrency.com</cite>, in "<cite><a href="https://fuckingapproachableswiftconcurrency.com/en/">Fucking Approachable Swift Concurrency</a></cite>" </figcaption> </figure> 
