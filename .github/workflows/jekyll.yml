@@ -89,4 +89,6 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan ${{ secrets.NETCUP_HOSTNAME }} >> ~/.ssh/known_hosts
       - name: Deploy with rsync
-        run: rsync -rzv --chmod=D755,F644 _site/ ${{ secrets.NETCUP_USER }}@${{ secrets.NETCUP_HOSTNAME }}:/linkhal.de/httpdocs/
+        run: |
+          rsync -rzv _site/ ${{ secrets.NETCUP_USER }}@${{ secrets.NETCUP_HOSTNAME }}:/linkhal.de/httpdocs/
+          ssh ${{ secrets.NETCUP_USER }}@${{ secrets.NETCUP_HOSTNAME }} "chmod -R u=rwX,go=rX /linkhal.de/httpdocs/"
