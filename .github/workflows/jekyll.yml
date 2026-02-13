@@ -68,9 +68,7 @@ jobs:
           echo "${{ secrets.NETCUP_DEPLOY_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan ${{ secrets.NETCUP_HOSTNAME }} >> ~/.ssh/known_hosts
-      - name: Set permissions before deployment
-        run: |
-          chmod -R u=rwX,go=rX _site/
       - name: Deploy with rsync
         run: |
           rsync -rzv _site/ ${{ secrets.NETCUP_USER }}@${{ secrets.NETCUP_HOSTNAME }}:/linkhal.de/httpdocs/
+          ssh ${{ secrets.NETCUP_USER }}@${{ secrets.NETCUP_HOSTNAME }} "chmod -R u=rwX,go=rX /linkhal.de/httpdocs/"
