@@ -70,6 +70,7 @@ jobs:
           ssh-keyscan ${{ secrets.NETCUP_HOSTNAME }} >> ~/.ssh/known_hosts
       - name: Set permissions before deployment
         run: |
+          set -e
           ssh ${{ secrets.NETCUP_USER }}@${{ secrets.NETCUP_HOSTNAME }} "chmod -R u=rwX,go=rX /linkhal.de/httpdocs/"
       - name: Deploy with rsync
         run: |
