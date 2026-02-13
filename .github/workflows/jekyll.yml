@@ -91,4 +91,4 @@ jobs:
       - name: Deploy with rsync
         run: |
           rsync -rzv _site/ ${{ secrets.NETCUP_USER }}@${{ secrets.NETCUP_HOSTNAME }}:/linkhal.de/httpdocs/
-          ssh ${{ secrets.NETCUP_USER }}@${{ secrets.NETCUP_HOSTNAME }} "find /linkhal.de/httpdocs/ -type d -exec chmod 755 {} + && find /linkhal.de/httpdocs/ -type f -exec chmod 644 {} +"
+          ssh ${{ secrets.NETCUP_USER }}@${{ secrets.NETCUP_HOSTNAME }} "chmod -R u=rwX,go=rX /linkhal.de/httpdocs/"
