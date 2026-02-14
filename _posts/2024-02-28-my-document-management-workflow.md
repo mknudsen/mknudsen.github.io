@@ -1,3 +1,9 @@
+---
+title: my document management workflow
+date: 2024-02-28
+tags: [document management, paperless, workflow]
+layout: post
+---
 
 ## Overview
 
