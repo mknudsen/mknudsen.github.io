@@ -1,3 +1,9 @@
+---
+layout: post
+date: 2024-08-18
+title: semi automated bulk selling on eBay 
+---
+
 Here are my notes on how to efficiently sell multiple CDs on eBay with the help of Apples vision API and ChatGPT.
 
 This can be adapted to selling DVDs or Blu-Rays as well.
