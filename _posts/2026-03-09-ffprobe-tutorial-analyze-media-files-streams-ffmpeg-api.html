@@ -12,10 +12,10 @@ tags: ffmpeg ffmprobe cli video
 <ol>
 <li>
 <p><strong>Basic Stream Information:</strong> The following command prints basic information about a multimedia stream:</p>
-<div><pre><code><span><span>ffprobe</span><span> -i</span><span> input.mp4</span></span></code></pre><div><button><svg><path></path></svg></button></div></div>
+<div><pre><code><span><span>ffprobe</span><span> -i</span><span> input.mp4</span></span></code></pre></div>
 <p>In this command, <code>-i input.mp4</code> specifies the input file.</p>
 </li>
 <li>
 <p><strong>JSON Output:</strong> The following command prints the stream information in JSON format:</p>
-<div><pre><code><span><span>ffprobe</span><span> -v</span><span> quiet</span><span> -print_format</span><span> json</span><span> -show_format</span><span> -show_streams</span><span> input.mp4</span></span></code></pre><div><button><svg><path></path></svg></button></div></div>
+<div><pre><code><span><span>ffprobe</span><span> -v</span><span> quiet</span><span> -print_format</span><span> json</span><span> -show_format</span><span> -show_streams</span><span> input.mp4</span></span></code></pre></div>
 <p>In this command, <code>-v quiet</code> suppresses the logging output, <code>-print_format json</code> specifies the output format, and <code>-show_format -show_streams</code> tells FFprobe to print information about the file format and individual streams.</p></li></ol> </blockquote> <figcaption> <cite>ffmpeg-api.com</cite>, in "<cite><a href="https://ffmpeg-api.com/learn/ffprobe">FFprobe Tutorial: Analyze Media Files & Streams - FFmpeg API</a></cite>" </figcaption> </figure> 
