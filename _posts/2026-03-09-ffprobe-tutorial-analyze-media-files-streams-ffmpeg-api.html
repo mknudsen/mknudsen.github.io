@@ -1,0 +1,21 @@
+---
+layout: post
+title: "FFprobe Tutorial: Analyze Media Files & Streams - FFmpeg API"
+date: 2026-03-09
+tags: ffmpeg ffmprobe cli video
+---
+
+ <figure> <blockquote> <p>FFprobe is a command-line utility that is used to gather information from multimedia streams. It extracts and prints the in-depth information about the stream’s format and individual coded frames. It can handle a variety of formats, including but not limited to MP4, MOV, AAC, MP3, and more.</p>
+
+<h2>Example Commands<a href="#example-commands"></a></h2>
+<p>Here are some example commands that demonstrate the power of FFprobe:</p>
+<ol>
+<li>
+<p><strong>Basic Stream Information:</strong> The following command prints basic information about a multimedia stream:</p>
+<div><pre><code><span><span>ffprobe</span><span> -i</span><span> input.mp4</span></span></code></pre><div><button><svg><path></path></svg></button></div></div>
+<p>In this command, <code>-i input.mp4</code> specifies the input file.</p>
+</li>
+<li>
+<p><strong>JSON Output:</strong> The following command prints the stream information in JSON format:</p>
+<div><pre><code><span><span>ffprobe</span><span> -v</span><span> quiet</span><span> -print_format</span><span> json</span><span> -show_format</span><span> -show_streams</span><span> input.mp4</span></span></code></pre><div><button><svg><path></path></svg></button></div></div>
+<p>In this command, <code>-v quiet</code> suppresses the logging output, <code>-print_format json</code> specifies the output format, and <code>-show_format -show_streams</code> tells FFprobe to print information about the file format and individual streams.</p></li></ol> </blockquote> <figcaption> <cite>ffmpeg-api.com</cite>, in "<cite><a href="https://ffmpeg-api.com/learn/ffprobe">FFprobe Tutorial: Analyze Media Files & Streams - FFmpeg API</a></cite>" </figcaption> </figure> 
