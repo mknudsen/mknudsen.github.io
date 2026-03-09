@@ -1,0 +1,11 @@
+---
+layout: post
+title: "/dev/full - Wikipedia"
+date: 2026-03-09
+tags: unix cli til
+---
+
+ <figure> <blockquote> <p>In <a href="/wiki/Linux">Linux</a>, <a href="/wiki/FreeBSD">FreeBSD</a>, and <a href="/wiki/NetBSD">NetBSD</a>, <style>.mw-parser-output .monospaced{font-family:monospace,monospace}</style><span><b>/dev/full</b></span>, or the <b>always-full device</b>,<sup><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup><sup><a href="#cite_note-linuxman-2"><span>[</span>2<span>]</span></a></sup> is a <a href="/wiki/Special_file">special file</a> that always returns the error code <link href="mw-data:TemplateStyles:r886049734"><span><a href="/wiki/ENOSPC">ENOSPC</a></span> (meaning "No space left on device") on writing, and provides any number of zero bytes to a <a href="/wiki/Process_(computing)">process</a> that reads from it (similar to <link href="mw-data:TemplateStyles:r886049734"><span><a href="/wiki//dev/zero">/dev/zero</a></span>).<sup><a href="#cite_note-:0-3"><span>[</span>3<span>]</span></a></sup> This device is usually used when testing the behavior of a program when it encounters a "disk full" error.
+</p>
+<div><pre><span></span><span>$ </span><span>echo</span><span> </span><span>"Hello, World"</span><span> </span>&gt;<span> </span>/dev/full
+<span>bash: echo: write error: No space left on device</span></pre></div> </blockquote> <figcaption> <cite>en.wikipedia.org</cite>, in "<cite><a href="https://en.wikipedia.org/wiki//dev/full">/dev/full - Wikipedia</a></cite>" </figcaption> </figure> 
