@@ -44,20 +44,27 @@ layout: page
 
 <script>
 
+    const items = [];
+
+    document.querySelectorAll('#list li').forEach(function(li) {
+        let term = li.textContent.toLowerCase();
+        items.push({ term, el: li });
+    });
+
+    function fuzzyWords(words, str) {
+        return words.every(word => str.includes(word));
+    }
+
     document.getElementById('search').addEventListener('input', function() {
-        let filter = this.value.toLowerCase().split(/\s+/).filter(term => term.length > 0);
-        let items = document.querySelectorAll('#list li');
+        let words = this.value.toLowerCase().split(/\s+/).filter(word => word.length > 0);
 
-        items.forEach(item => {
-            let text = item.textContent.toLowerCase();
-            let match = filter.every(term => text.includes(term));
-
-            if (match) {
-                item.classList.remove('gone');
+        for (const { term, el } of items) {
+            if (fuzzyWords(words, term)) {
+                el.classList.remove('gone');
             } else {
-                item.classList.add('gone');
+                el.classList.add('gone');
             }
-        });
+        }
     });
 
     document.getElementById('copyButton').addEventListener('click', function() {
