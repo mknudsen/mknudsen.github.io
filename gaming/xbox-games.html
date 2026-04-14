@@ -48,13 +48,16 @@ author: martin
         games.set(term, td.parentElement);
     });
 
+    function fuzzyWords(query, str) {
+        return query.toLowerCase().split(/\s+/).every(word => str.toLowerCase().includes(word));
+    }
+
     function updateTable(){
         let term = document.querySelector("#titleSearch").value;
-        let lower = term.toLowerCase();
 
         for(const key of games.keys()){
             let row = games.get(key);
-            if (key.includes(lower)){
+            if (fuzzyWords(term, key)){
                 row.style.display = 'table-row';
             } else {
                 row.style.display = 'none';
