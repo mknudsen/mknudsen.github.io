@@ -41,11 +41,11 @@ author: martin
     - add rebuy
     */
 
-    const games = new Map();
+    const games = [];
 
     document.querySelectorAll("table.games tr .game-title").forEach(function(td){
         let term = td.textContent.toLowerCase();
-        games.set(term, td.parentElement);
+        games.push({ term, row: td.parentElement });
     });
 
     function fuzzyWords(words, str) {
@@ -55,9 +55,8 @@ author: martin
     function updateTable(){
         let words = document.querySelector("#titleSearch").value.toLowerCase().split(/\s+/);
 
-        for(const key of games.keys()){
-            let row = games.get(key);
-            if (fuzzyWords(words, key)){
+        for(const { term, row } of games){
+            if (fuzzyWords(words, term)){
                 row.style.display = 'table-row';
             } else {
                 row.style.display = 'none';
