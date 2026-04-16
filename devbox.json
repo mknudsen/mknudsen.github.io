@@ -17,6 +17,12 @@
       ],
       "kommeryoutube": [
 	"bundle exec ruby _scripts/kommeryoutube.rb"
+      ],
+      "uncomitted": [
+        "git status -s|grep \"??\"|cut -d \" \" -f 2|grep ^_posts"
+      ],
+      "untagged": [
+	"bundle exec ruby _scripts/list_posts_without_tags.rb"
       ]
     }
   }
