@@ -9,6 +9,9 @@
       "jekyll": [
         "bundle exec jekyll build"
       ],
+      "doctor": [
+        "bundle exec jekyll doctor"
+      ],
       "serve": [
         "bundle exec jekyll serve"
       ],
