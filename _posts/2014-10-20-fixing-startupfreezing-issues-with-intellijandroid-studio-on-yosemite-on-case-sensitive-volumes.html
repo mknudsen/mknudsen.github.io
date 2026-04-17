@@ -1,0 +1,112 @@
+---
+layout: post
+title: Fixing startup/freezing issues with IntelliJ/Android-Studio on Yosemite on
+  case-sensitive volumes
+date: 2014-10-20 20:49:24.000000000 +02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags:
+- android studio
+- case-sensitive
+- intellij
+- jetbrains
+- steam
+- yosemite
+meta:
+  _edit_last: '1'
+  _cws_is_markdown_gmt: '2014-10-20 18:52:30'
+  _cws_is_markdown: '2'
+author: martin
+---
+<p>I spent the better part of this morning wrestling with IntelliJ and Android Studio after upgrading to OS X Yosemite on Friday. Maybe this can save someone some headaches.</p>
+<p>For some reason I was unable to start both IDEs. Each time they started it took little time until they froze. Curiousely the programs did not migrate to the "app not responding"-state for quite some time. Instead they just burned up CPU-time on one of my cores.</p>
+<h2>Futile Attempts</h2>
+<p>I tried everything that came to my mind (and the minds of others whose unrelated bugreports i found), including:</p>
+<ul>
+<li>Removing JDK 7, only using JDK 8 instead</li>
+<li>Removing JDK 8, only using JDK 7 instead</li>
+<li>Deleting all kinds of Caches for Grails, the IDE</li>
+<li>Reinstalling the JDK, Android Studio and Intellij, the Android SDK</li>
+<li>Re-signing the app-bundles to work with the OS-Sandboxing (which I also turned off)</li>
+</ul>
+<h2>Problem</h2>
+<p>It did not seem to be a general issue since my colleagues installation on Yosemite worked just fine. At last I created a new user on my MacBook who could run Android Studio without problems. This helped me to exclude the installed applications, the OS as well as the JDK as likely causes.</p>
+<p>The final hint came from the Android Studio logfile under <code>~/Library/Logs/AndroidStudioBeta/idea.log</code> which told me exactly what its problem was:</p>
+<pre><code>2014-10-20 20:09:01,232 [  74085]  ERROR - wvfs.impl.VirtualDirectoryImpl - PersistentFS returned duplicate file names(Steam,steam) ignoreCase: true SystemInfo.isFileSystemCaseSensitive: false SystemInfo.OS: Mac OS X 10.10 wasChildrenLoaded: false in the dir: file:///Users/Martin/Desktop/old_homedir/library/Application Support; children: [AAV (827723), [...a bunch of other files and their inode numbers in that dir...]], SyncServices (827817)] 
+java.lang.Throwable
+    at com.intellij.openapi.diagnostic.Logger.error(Logger.java:113)
+    at com.intellij.openapi.vfs.newvfs.impl.VirtualDirectoryImpl$5.compare(VirtualDirectoryImpl.java:555)
+    at com.intellij.openapi.vfs.newvfs.impl.VirtualDirectoryImpl$5.compare(VirtualDirectoryImpl.java:548)
+    at java.util.TimSort.binarySort(TimSort.java:292)
+    at java.util.TimSort.sort(TimSort.java:235)
+    at java.util.Arrays.sort(Arrays.java:1438)
+    at com.intellij.openapi.vfs.newvfs.impl.VirtualDirectoryImpl.getChildren(VirtualDirectoryImpl.java:548)
+    at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:254)
+    at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:275)
+    at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:275)
+    at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:275)
+    at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:275)
+    at com.intellij.compiler.impl.TranslatingCompilerFilesMonitor$MyVfsListener.propertyChanged(TranslatingCompilerFilesMonitor.java:1448)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:483)
+    at com.intellij.util.EventDispatcher.dispatch(EventDispatcher.java:90)
+    at com.intellij.util.EventDispatcher.access$100(EventDispatcher.java:34)
+    at com.intellij.util.EventDispatcher$1.invoke(EventDispatcher.java:67)
+    at com.sun.proxy.$Proxy13.propertyChanged(Unknown Source)
+    at com.intellij.openapi.vfs.impl.BulkVirtualFileListenerAdapter.fireAfter(BulkVirtualFileListenerAdapter.java:93)
+    at com.intellij.openapi.vfs.impl.BulkVirtualFileListenerAdapter.after(BulkVirtualFileListenerAdapter.java:56)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:483)
+    at com.intellij.util.messages.impl.MessageBusConnectionImpl.deliverMessage(MessageBusConnectionImpl.java:114)
+    at com.intellij.util.messages.impl.MessageBusImpl.doPumpMessages(MessageBusImpl.java:228)
+    at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:219)
+    at com.intellij.util.messages.impl.MessageBusImpl.sendMessage(MessageBusImpl.java:209)
+    at com.intellij.util.messages.impl.MessageBusImpl.access$000(MessageBusImpl.java:43)
+    at com.intellij.util.messages.impl.MessageBusImpl$1.invoke(MessageBusImpl.java:131)
+    at com.sun.proxy.$Proxy48.after(Unknown Source)
+    at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.processEvents(PersistentFSImpl.java:786)
+    at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.fireEventsInWriteAction(RefreshSessionImpl.java:189)
+    at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl$1.run(RefreshSessionImpl.java:173)
+    at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:984)
+    at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.fireEvents(RefreshSessionImpl.java:170)
+    at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl$1$1.run(RefreshQueueImpl.java:90)
+    at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:319)
+    at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+    at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:744)
+    at java.awt.EventQueue.access$400(EventQueue.java:97)
+    at java.awt.EventQueue$3.run(EventQueue.java:697)
+    at java.awt.EventQueue$3.run(EventQueue.java:691)
+    at java.security.AccessController.doPrivileged(Native Method)
+    at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+    at java.awt.EventQueue.dispatchEvent(EventQueue.java:714)
+    at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:697)
+    at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:524)
+    at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:335)
+    at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+    at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+    at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+    at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+    at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+    at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+</code></pre>
+<p>The reason for Android Studio not starting was that I created a not-really duplicate file then I created a Symlink from the directory <code>~/Application\ Support/steam</code> to the directory <code>~/Application\ Support/Steam</code> in my <em>old</em> homedirectory (some old backup). This is a workaround for <a href="https://support.steampowered.com/kb_article.php?ref=8601-RYPX-5789">Valve being unable</a> to provide a version of Steam working on case-sensitive volumes.</p>
+<h2>Solution</h2>
+<p>Now I have absolutely <em>no</em> idea why Android Studio would be reading anything at all from this seemingly arbitrary directory at all nor why this became a problem just now, after updating to Yosemite. Somehow to explaining Android Studio that it was running on a case-sensitive volume by editing <code>IDE_INSTALL_DIR\bin\idea.properties</code> to include an entry <code>idea.case.sensitive.fs=true</code> <em>finally</em> did the trick.</p>
+<h2>Lessons learned</h2>
+<p>What I could have done to save me some trouble:</p>
+<ul>
+<li>separate accounts for work and play (of course not an option ;))</li>
+<li>throw away months old backups</li>
+<li>don't try to fix proprietary software (Steam) that won't run on your OS</li>
+<li>read the f*in logfiles earlier (I've looked at the open files of the process a dozen times, prompting me to remove all those caches)</li>
+</ul>
+<p>I still would love to know why all this happened today, why Android Studio cannot determine case-sensitivity by itself and what in the heck it is doing scanning my home-directory but for now I am done with this s..special problem.</p>
+<p><em>Edit</em>: There seems to be a <a href="https://code.google.com/p/android/issues/detail?id=77340#makechanges">related bug report</a>.</p>
