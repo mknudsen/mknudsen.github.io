@@ -1,0 +1,15 @@
+---
+layout: default
+title: Search
+permalink: /search/
+---
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+
+<div id="search" data-pagefind-ignore></div>
+
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    new PagefindUI({ element: "#search", showSubResults: true });
+  });
+</script>

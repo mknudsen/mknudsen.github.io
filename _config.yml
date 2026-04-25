@@ -33,6 +33,7 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 
 header_pages:
+  - search.html
   - about.md
   - impressum.html
   - contact.md
@@ -54,6 +55,9 @@ paginate_path: "/blog/page/:num/"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
+keep_files:
+  - pagefind
+
 exclude:
    - Gemfile
    - Gemfile.lock

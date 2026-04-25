@@ -1,7 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
   "packages": [
-    "ruby@3.4.8"
+    "ruby@3.4.8",
+    "pagefind@latest"
   ],
   "shell": {
     "init_hook": [
@@ -39,13 +40,19 @@
         "bundle exec ruby _scripts/list_posts_without_tags.rb"
       ],
       "top-domains": [
-        "rg -o 'http.+' $(git status|grep _posts|cut -f2)|grep http|awk -F \"://\" '{print $2}'|cut -d / -f 1|sort|uniq -c|sort -n"
+        "rg -o 'http.+' $(git status|grep _posts|cut -f2)|grep http|awk -F \\\"://\\\" '{print $2}'|cut -d / -f 1|sort|uniq -c|sort -n"
       ],
       "minima-path": [
         "echo $(bundle show minima)"
       ],
       "gamelist": [
         "rg \"achievement in\" _posts/*achievement*|tr '<' '\\n'|awk -F'achievement in ' '{print $2}'|sort|uniq"
+      ],
+      "pagefind": [
+        "pagefind --site _site"
+      ],
+      "build-search": [
+        "bundle exec jekyll build && devbox run pagefind"
       ]
     }
   }

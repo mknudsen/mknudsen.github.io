@@ -46,6 +46,8 @@ jobs:
         run: devbox run -- bundle exec jekyll build && ls ./_site
         env:
           JEKYLL_ENV: production
+      - name: Search Index
+        run: devbox run pagefind
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
