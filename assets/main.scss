@@ -17,6 +17,10 @@ $grey-color-dark: #cdcdcd;
 
 @import "minima";
 
+.site-header {
+  z-index: 10;
+}
+
 
 /*
 see _sass/minima/_base.scss «
