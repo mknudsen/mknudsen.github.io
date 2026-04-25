@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-
-<!-- This loops through the paginated posts -->
+<div data-pagefind-ignore>
 {% for post in paginator.posts %}
 
 <h1 class="post-title p-name" itemprop="name headline"><a href="{{ post.url }}">{{ post.title | escape }}</a></h1>
@@ -38,4 +37,5 @@ layout: default
     {% else %}
     <span class="next ">Next</span>
     {% endif %}
+</div>
 </div>
