@@ -3,11 +3,11 @@
 require 'json'
 require 'yaml'
 
-CHANNEL_URL = "https://www.youtube.com/@gerdkommer/videos"
+CHANNEL_URL = "https://www.youtube.de/@gerdkommer/videos"
 DATA_FILE = "_data/kommer_youtube.yml"
 
 def fetch_youtube_videos(channel_url)
-  command = "yt-dlp --extractor-args 'youtube:lang=en' --flat-playlist -J #{channel_url}"
+  command = "yt-dlp --extractor-args 'youtube:lang=de' --flat-playlist -J #{channel_url}"
   output = `#{command}`
   json_data = JSON.parse(output)
 
