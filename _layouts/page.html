@@ -11,4 +11,11 @@ layout: default
     {{ content }}
   </div>
 
+  <!-- Edit link section -->
+  <div class="edit-link-container">
+    <a href="https://github.com/{{ site.github_username }}/{{ site.repository_name | default: site.title | replace: ' ', '-' }}/edit/master/{{ page.path }}" target="_blank" rel="noopener noreferrer">
+      Edit this page on GitHub
+    </a>
+  </div>
+
 </article>

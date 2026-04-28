@@ -28,6 +28,8 @@ instagram_username: martin.kndsn
 # Build settings
 markdown: kramdown
 theme: minima
+repository_name: mknudsen.github.io
+
 
 tag_page_layout: tag_page
 tag_page_dir: tag
