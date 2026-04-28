@@ -108,6 +108,6 @@ code {
 }
 
 /* Show edit links when admin cookie is set */
-.admin-visible .edit-link-container {
+.admin-visible.edit-link-container {
   display: block;
 }
