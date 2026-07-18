@@ -1,0 +1,23 @@
+---
+layout: post
+title: Swift has tail call optimization
+date: 2014-09-28 20:00:37.000000000 +02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags:
+- functional-programming
+- programming
+- swift
+- tail call optimization
+meta:
+  _edit_last: '1'
+  _cws_is_markdown_gmt: '2014-09-28 18:00:37'
+  _cws_is_markdown: '2'
+author: martin
+---
+<p>The other day I asked myself how I would build <a href="https://en.wikipedia.org/wiki/Trampoline_(computing)#High-level_programming">trampoline</a> in Swift. I tried to implement a <a href="https://gist.github.com/mknudsen/aefab6ed575eb72c003c">simple recursive function</a> that summed up all numbers in a list.</p>
+<p>I was unable to provoke a stack overflow error. The answer came from the <a href="https://stackoverflow.com/questions/24023580/does-swift-implement-tail-call-optimization-and-in-mutual-recursion-case">errors namesake page</a>. Swift indeed seems to implement <a href="https://en.wikipedia.org/wiki/Tail_call">tail call optimization</a>, although I could not find anything word on that from Apple.</p>
