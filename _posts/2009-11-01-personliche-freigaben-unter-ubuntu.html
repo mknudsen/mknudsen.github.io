@@ -1,0 +1,24 @@
+---
+layout: post
+title: persönliche Freigaben unter Ubuntu
+date: 2009-11-01 19:32:40.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags:
+- freigabe
+- karmic
+- koala
+- oss
+- samba
+- ubuntu
+meta:
+  _edit_last: '1'
+author: martin
+---
+<p>Habe soeben das Phänomen gehabt das die Nautilus/Gnome Freigabeansicht eines Ordners behauptet hat dieser wäre nicht freigegeben, der Ordner es aber eindeutig war. Solche Phantomfreigaben lassen sich durch löschen der jeweiligen Datei unter <strong>/var/lib/samba/usershares</strong> beseitigen.</p>
+<blockquote><p>Für persönliche Freigaben gibt es keinen Eintrag in der allgemeinen Konfigurationsdatei <strong>/etc/samba/smb.conf</strong>. Statt dessen wird für jede dieser Freigaben im Ordner <strong>/var/lib/samba/usershares/</strong> eine eigene kleine Textdatei mit den nötigen Angaben angelegt. Diese ist Besitz des jeweiligen Benutzers; nur dieser kann sie verändern oder löschen.</p></blockquote>
+<p>via <a href="https://wiki.ubuntuusers.de/Samba_Server_GNOME">Samba Server GNOME › Wiki › ubuntuusers.de</a>.</p>
