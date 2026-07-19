@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Finance
+description: "An index of finance-related pages and tools on linkhalde, including a personal finance link hub."
 ---
 
 {% for somePage in site.pages %}
