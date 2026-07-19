@@ -102,6 +102,22 @@ code {
     .il    { color: invert(#099) } // Literal.Number.Integer.Long
   }
 
+/*
+see _sass/minima/_layout.scss « .footer-col-2 is only 20% wide above the
+on-laptop breakpoint, which isn't enough room for the longer social
+usernames (e.g. linkedin_username) to fit on one line next to their icon.
+Borrow some width from footer-col-3 so they don't wrap.
+*/
+@media screen and (min-width: 801px) {
+  .footer-col-2 {
+    width: calc(30% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-3 {
+    width: calc(35% - (#{$spacing-unit} / 2));
+  }
+}
+
 .edit-link-container {
   display: none;
   margin-top: 2rem;
