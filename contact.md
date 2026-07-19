@@ -13,6 +13,7 @@ meta:
   _edit_last: '1'
   _wp_page_template: default
 author: martin
+description: "Contact details for Martin Knudsen, including social profiles, email, and a GPG public key."
 ---
 
 - XING [https://www.xing.com/profile/Martin_Knudsen2](https://www.xing.com/profile/Martin_Knudsen2)
